@@ -1,4 +1,5 @@
-## OpenDataBookClub (*promoting Open Data on Prince Edward Island*)
+## OpenDataBookClub
+*promoting Open Data on Prince Edward Island*
 
 ## What is it?
 

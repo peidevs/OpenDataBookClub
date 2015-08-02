@@ -9,7 +9,7 @@ More to follow, but aim is to include government actors (the [blue shirts!](http
 
 ## Why PEI?
 
-Inspired by a [lightning talk](http://kittmcg.github.io/ODO-CODS15/#/5) at [CODS15](http://opendatasummit.ca/en/), some members of [PEI Developers](http://peidevs.github.io) would like to join [Ottawa, Montreal, and Toronto](http://opendatabook.club/#list-of-active-open-data-book-clubs) with a similar venture.
+Inspired by a [lightning talk](http://kittmcg.github.io/ODO-CODS15/#/) at [CODS15](http://opendatasummit.ca/en/), some members of [PEI Developers](http://peidevs.github.io) would like to join [Ottawa, Montreal, and Toronto](http://opendatabook.club/#list-of-active-open-data-book-clubs) with a similar venture.
 
 ## When?
 

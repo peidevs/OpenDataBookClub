@@ -10,9 +10,9 @@ Inspired by a [lightning talk](http://kittmcg.github.io/ODO-CODS15/#/) at [CODS1
 
 Our [first meeting](http://bit.ly/1JOrsr9) is September 22, 2015, featuring:
 
-Peter Rukavina,
-Visiting Scholar (Hacker in Residence), 
-Robertson Library, University of Prince Edward Island
+Peter Rukavina,   
+Visiting Scholar (Hacker in Residence),   
+Robertson Library, University of Prince Edward Island   
 
 Everyone welcome: the audience is *not* just software developers!  
 

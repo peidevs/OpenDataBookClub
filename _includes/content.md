@@ -1,7 +1,7 @@
 
 ## Quick RSVP
 
-To RSVP for our [next meeting](http://bit.ly/1JOrsr9) on Oct. 27, use [our MeetUp site](http://bit.ly/1LXqpHT) or send an email to peidevs@gmail.com
+To RSVP for our [next meeting](http://bit.ly/1LXqpHT) on Oct. 27, use [our MeetUp site](http://bit.ly/1LXqpHT) or send an email to peidevs@gmail.com
 
 ## What is it?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.

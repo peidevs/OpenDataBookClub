@@ -1,7 +1,7 @@
 
 ## Quick RSVP
 
-To RSVP for our [first meeting](http://bit.ly/1JOrsr9) on Sept. 22, use [our MeetUp site](http://bit.ly/1JOrsr9) or send an email to peidevs@gmail.com
+To RSVP for our [next meeting](http://bit.ly/1JOrsr9) on Oct. 27, use [our MeetUp site](http://bit.ly/1LXqpHT) or send an email to peidevs@gmail.com
 
 ## What is it?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.
@@ -15,13 +15,12 @@ As with PEI Developers, this is a volunteer, non-partisan initiative. We're open
 
 ## When
 
-Our [first meeting](http://bit.ly/1JOrsr9) is September 22, 2015, featuring:
+Our [October meeting](http://bit.ly/1JOrsr9) is 10/27, featuring:
 
-Peter Rukavina,   
-Visiting Scholar (Hacker in Residence),   
-Robertson Library, University of Prince Edward Island   
+Robert Hughes,
+CAO, Town of Stratford
 
 Everyone welcome: the audience is *not* just software developers!  
 
-Just [RSVP via MeetUp](http://bit.ly/1JOrsr9) or send an email to peidevs@gmail.com
+Just [RSVP via MeetUp](http://bit.ly/1LXqpHT) or send an email to peidevs@gmail.com
 

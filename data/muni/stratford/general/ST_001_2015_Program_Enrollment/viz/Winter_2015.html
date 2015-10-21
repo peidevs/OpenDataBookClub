@@ -1,0 +1,81 @@
+
+<html>
+<head>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+    google.load('visualization', '1.1', {packages: ['line']});
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Program');
+      data.addColumn('number', 'Revenue');
+
+      data.addRows([
+['* Art Studio - Daytime Drop In',0],
+['Co-Ed Adult Soccer',0],
+['Learn to Run 5Km',0],
+['Men`s Recreational Basketball',0],
+['Co-ed Adult Volleyball',0],
+['* The Basics of Making Healthier food choices',0],
+['Preschool Story, Arts and Crafts',0],
+['* Tiny Tot Gym',0],
+['Art Class 3 Ages 9-12 years',0],
+['Come Try Baseball',0],
+['PD Day Camp April 17',0],
+['PD Day Camp April 24',0],
+['* PD Day Camp February 6',0],
+['* PD Day Camp January 30',0],
+['PD Day Camp March 06',0],
+['Stratford Youth Centre Drop In',0],
+['Art Club Regular Drop In',5],
+['Art Club Drop In January 8',10],
+['Family Egg Decorating',35],
+['Ukrainian Egg Dying',140],
+['Co-ed Adult Badminton',150],
+['Crochet for Beginners',240],
+['Men`s Ball Hockey',360],
+['Pickleball',440],
+['Art Club',450],
+['Kinder Art Class- Ages 2-5 years',540],
+['March Break Art Camp',543],
+['March Break Camp 2015',550],
+['Afterschool Arts & Crafts',605],
+['Youth Art Class-Ages 6-8 years',760],
+['Instructional Ice Hockey',1025],
+['Youth Art Class-Ages 9-12 years',1375],
+['Stratford Playschool M&W',2525.25],
+
+      ]);
+
+      var options = {
+        chart: {
+          title: 'Program',
+          subtitle: 'in $',
+        },
+        axes: {
+            y: {
+                all: {
+                    range: {
+                        max: 3000,
+                        min: 00
+                    }
+                }
+            }
+        },
+        width: 1300,
+        height: 700
+      };
+
+      var chart = new google.charts.Line(document.getElementById('linechart_material'));
+
+      chart.draw(data, options);
+    }
+  </script>
+</head>
+<body>
+  <div id="linechart_material"></div>
+</body>
+</html>
+

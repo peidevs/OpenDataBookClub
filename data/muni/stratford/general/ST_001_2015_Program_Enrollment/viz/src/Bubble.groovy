@@ -132,7 +132,7 @@ ${rows}
     </script>
   </head>
   <body>
-    <div id="series_chart_div" style="width: 1400px; height: 900px;"></div>
+    <div id="series_chart_div" style="width: 1450px; height: 700px;"></div>
   </body>
 </html>
 """

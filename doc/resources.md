@@ -12,7 +12,7 @@ This is a list of useful resources regarding Open Data, for both interested citi
 
 ### Beyond Canada 
 
-* [Open Data Institute](https://theodi.org)
+* [ODI: Open Data Institute](https://theodi.org)
 * [Code for America](http://www.codeforamerica.org)
 * [Data gov USA](https://www.data.gov)
 * [Data gov UK](https://www.data.gov.uk)

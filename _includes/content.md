@@ -17,8 +17,7 @@ As with PEI Developers, this is a volunteer, non-partisan initiative. We're open
 
 Our [October meeting](http://bit.ly/1JOrsr9) is 10/27, featuring:
 
-Robert Hughes,
-CAO, Town of Stratford
+an open forum / Q&A session (Note: our original speaker requested to postpone, for family reasons, which we entirely understand.)
 
 Everyone welcome: the audience is *not* just software developers!  
 

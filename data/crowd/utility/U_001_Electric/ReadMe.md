@@ -5,7 +5,7 @@ TODO
 ### Field Spec
 
 Field  | Mandatory? | Notes |
-------------- | ------------- |
+------------- | ------------- | ------------- |
 bill date  | Y  | from Maritime E. bill |
 kwh  | Y  | from Maritime E. bill | |
 # of days  | Y  | from Maritime E. bill | 

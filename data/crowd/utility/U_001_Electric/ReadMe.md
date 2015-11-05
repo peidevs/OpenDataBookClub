@@ -11,10 +11,10 @@ TODO
 
 | Field  | Mandatory? | Notes |
 | ------------- | ------------- | ------------- |
-| bill date  | Yes  | from Maritime E. bill |
-| kwh  | Yes  | from Maritime E. bill | |
-| # of days  | Yes  | from Maritime E. bill | 
-| rate  | Yes  | from Maritime E. bill | 
+| bill date  | Yes  | from Maritime E. bill "Consumption Period To" |
+| kwh  | Yes  | from Maritime E. bill "kwh-used" |
+| # of days  | Yes  | from Maritime E. bill "days use" | 
+| rate  | Yes  | from Maritime E. bill "Energy Charge" | 
 | # of adults  | No  | for comparison reporting | 
 | # of children  | No  | for comparison reporting | 
 | building type  | No  | for comparison reporting, see Building_Types.csv | 

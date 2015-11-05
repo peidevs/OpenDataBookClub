@@ -24,4 +24,5 @@ TODO
 | city  | No  | rural addresses may not have a town | 
 | street  | Yes  |  | 
 | number  | No  |  per privacy choice | 
+| is specific address? | Yes | "true" if user provided specific address | 
 

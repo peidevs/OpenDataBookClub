@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["map"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Lat', 'Long', 'Name', 'Marker'],
+
+LANDMARK_DATA_ROWS
+
+          ]);
+
+        var url = 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/';
+
+        var options = {
+            useMapTypeControl: true,
+            enableScrollWheel: true,
+            showTip: true,
+            mapType: 'normal',
+            zoomLevel: 9,
+            icons: {
+                      blue: {
+                        normal:   url + 'Map-Marker-Ball-Azure-icon.png',
+                        selected: url + 'Map-Marker-Ball-Right-Azure-icon.png'
+                      },
+                      green: {
+                        normal:   url + 'Map-Marker-Push-Pin-1-Chartreuse-icon.png',
+                        selected: url + 'Map-Marker-Push-Pin-1-Right-Chartreuse-icon.png'
+                      },
+                      pink: {
+                        normal:   url + 'Map-Marker-Ball-Pink-icon.png',
+                        selected: url + 'Map-Marker-Ball-Right-Pink-icon.png'
+                      }
+                    }
+        };
+
+        var map = new google.visualization.Map(document.getElementById('map_div'));
+        map.draw(data, options);
+      }
+
+    </script>
+  </head>
+
+  <body>
+    <h3>An experimental project by Open Data Book Club</h3>
+    <p>This is a rudimentary visualization of PEI landmarks as listed <a href="https://github.com/peidevs/OpenDataBookClub/blob/master/data/sandbox/landmarks/landmarks.csv">here</a>. Data will be licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+    <p>Click <a href="http://bit.ly/1LzxzDy">here</a> for more on the Open Data Book Club</p>
+    <hr/>
+    <div id="map_div" style="width: 1400px; height: 600px"></div>
+  </body>
+</html>

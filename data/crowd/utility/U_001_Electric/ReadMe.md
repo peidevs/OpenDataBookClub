@@ -23,6 +23,6 @@ TODO
 | county  | Yes  |  | 
 | city  | No  | rural addresses may not have a town | 
 | street  | Yes  |  | 
-| number  | No  |  per privacy choice | 
+| number  | No  |  per privacy choice; could be in a range e.g. 100-200 block | 
 | is specific address? | Yes | "true" if user provided specific address | 
 

@@ -73,7 +73,7 @@ def buildChartRows = { def landmarks, def types ->
         if ((type != "004_N") && (type != "005_M")) {
             existsDesc = (landmark.exists) ? "current " : "former " 
         }
-        chartRow.name = "${landmark.name} (${existsDesc} ${typeDesc})"
+        chartRow.name = "${landmark.name} (${existsDesc}${typeDesc})"
 
         def marker = 'blue'
         if (type == "003_C") { marker = 'pink' }

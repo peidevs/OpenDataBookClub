@@ -1,3 +1,4 @@
 "bill date","kwh","# of days","rate","# adults","# children","building type","postal code","province","county","city","street","number","specific address"
 01-OCT-2015,191,30,13.16,1,0,B1N,"C1A 5A3",PE,Queens,Charlottetown,Longworth Ave,"#22 - 17","Y"
 15-OCT-2015,507,29,13.16,2,0,B2N,"C0A 1H8",PE,Queens,Cornwall,York Point Rd,"1 - 100","N"
+15-OCT-2015,404,29,13.16,2,2,B2N,"C0A 1H0",PE,Queens,Cornwall,Nevin Lane,"1 - 100","N"

@@ -58,6 +58,8 @@ def parseFile = { def file, def builder ->
     return results
 }
 
+def markerMap = ['001_B': 'blue',  '002_S': 'purple', '003_W': 'white', '004_N': 'green', '005_M': 'purple']
+
 def buildChartRows = { def landmarks, def types ->
     def chartRows = []
 
@@ -75,11 +77,7 @@ def buildChartRows = { def landmarks, def types ->
         }
         chartRow.name = "${landmark.name} (${existsDesc}${typeDesc})"
 
-        def marker = 'blue'
-        if (type == "003_C") { marker = 'pink' }
-        if (type == "004_N") { marker = 'green' }
-
-        chartRow.marker = marker
+        chartRow.marker = markerMap[type]
 
         chartRows << chartRow
     }

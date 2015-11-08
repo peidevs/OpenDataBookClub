@@ -10,7 +10,7 @@ As with all of our projects, the data set will be:
 
 * published on the web, for free
 * explicitly licensed for non-commercial or commercial use
-* not a PDF (!) (that is, **machine-readable**, so we can use it)
+* not a PDF (!) (that is, *machine-readable*, so we can use it)
 
 #### Benefits
 
@@ -27,7 +27,7 @@ If you'd rather not provide your specific address, that's fine. We hope that you
 
 If you'd rather not provide # of people in your dwelling, that's fine too. Entirely optional.
 
-This project is not about shaming individuals. If you provide a specific address and your usage goes up, we understand. It happens to all of us, just as sometimes we have more waste in our black bins. We are interested in broad trends in the data. 
+This project is **not** about shaming individuals. If you provide a specific address and your usage goes up, we understand. It happens to all of us, just as sometimes we have more waste in our black bins. We are interested in a **large data set**, not individual usage.
 
 ### Intro for planning
 

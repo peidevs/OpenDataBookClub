@@ -1,4 +1,5 @@
 "bill date","kwh","# of days","rate","# adults","# children","building type","postal code","province","county","city","street","number","specific address"
+02-NOV-2015,166,32,13.16,1,0,B1N,"C1A 5A3",PE,Queens,Charlottetown,Longworth Ave,"#22 - 17","Y"
 01-OCT-2015,191,30,13.16,1,0,B1N,"C1A 5A3",PE,Queens,Charlottetown,Longworth Ave,"#22 - 17","Y"
 01-SEP-2015,257,29,13.16,1,0,B1N,"C1A 5A3",PE,Queens,Charlottetown,Longworth Ave,"#22 - 17","Y"
 03-AUG-2015,232,32,13.16,1,0,B1N,"C1A 5A3",PE,Queens,Charlottetown,Longworth Ave,"#22 - 17","Y"

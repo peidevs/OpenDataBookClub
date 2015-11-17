@@ -72,7 +72,7 @@ def buildChartRows = { def landmarks, def types ->
         def type = t.type
         def typeDesc = t.description
         def existsDesc = ""
-        if ((type != "004_N") && (type != "005_M")) {
+        if ((type != "004_N") && (type != "005_M") && (type != "006_R")) {
             existsDesc = (landmark.exists) ? "current " : "former " 
         }
         chartRow.name = "${landmark.name} (${existsDesc}${typeDesc})"

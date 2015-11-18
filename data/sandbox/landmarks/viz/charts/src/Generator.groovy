@@ -11,12 +11,16 @@ class Landmark {
     def description
 }
 
+def handleSingleQuotes = { def s ->
+    s.replaceAll(/'/,/\\'/)
+}
+
 def buildLandmark = { def line -> 
     def landmark = new Landmark()
 
     landmark.lat = line.getAt(0) as double
     landmark.lon = line.getAt(1) as double
-    landmark.name = line.getAt 2
+    landmark.name = handleSingleQuotes(line.getAt(2))
     landmark.exists = true
     if (line.getAt(3) == "N") { landmark.exists = false } 
     landmark.type = line.getAt 4

@@ -10,6 +10,65 @@
 <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css" media="screen">
 <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen">
 <link rel="stylesheet" type="text/css" href="../stylesheets/github-light.css" media="screen">
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["map"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Lat', 'Long', 'Name', 'Marker'],
+
+[46.188494,-62.932969,'Busters Garage (current Business)','blue'],
+[46.265678,-63.158511,'Skate Country (former Business)','blue'],
+[46.274535,-63.106944,'Purple House (former Structure)','purple'],
+[46.286329,-63.276443,'Red Roof Church (former Worship)','white'],
+[46.509245,-63.992138,'Irving Service Station (former Business)','blue'],
+[46.405732,-62.256311,'Artesian Well (Nature)','green'],
+[46.164344,-62.64859,'Montague Dairy (former Business)','blue'],
+[46.222967,-63.305076,'Fairyland (former Business)','blue'],
+[46.23369,-63.126961,'Sir John A Statue (Monument)','purple'],
+[46.266062,-63.144553,'Towers (former Business)','blue'],
+[46.409386,-63.485383,'Devil\'s Punchbowl (Nature)','green'],
+[46.204313,-63.087862,'Beacon Hill Sign (current Structure)','purple'],
+[46.164893,-62.634058,'Jimmy\'s Rec Park (former Business)','blue'],
+[46.163551,-62.645245,'Clark\'s Store (former Business)','blue'],
+[46.236591,-63.127391,'Myron\'s (former Business)','blue'],
+[46.213311,-62.609361,'Bell\'s Hill (Road)','brown'],
+[46.28926,-63.288924,'Bobby Clow\'s (current Business)','blue'],
+[46.255789,-63.192669,'Sam\'s Corner (Road)','brown'],
+[46.221588,-62.971936,'Pippy\'s (former Business)','blue'],
+[46.217783,-63.098172,'Blue Church (current Worship)','white'],
+[46.240566,-63.125309,'Ken\'s Korner (former Business)','blue'],
+[46.33066,-63.419847,'Highest point (Nature)','green'],
+
+
+          ]);
+
+        var url = 'http://labs.google.com/ridefinder/images/';
+
+        var options = {
+            useMapTypeControl: true,
+            enableScrollWheel: true,
+            showTip: true,
+            mapType: 'normal',
+            zoomLevel: 8,
+            icons: {
+                      blue:   { normal: url + 'mm_20_blue.png' },
+                      brown:   { normal: url + 'mm_20_brown.png' },
+                      green:  { normal: url + 'mm_20_green.png' },
+                      purple: { normal: url + 'mm_20_purple.png' },
+                      white:  { normal: url + 'mm_20_white.png', },
+                      yellow: { normal: url + 'mm_20_yellow.png' },
+                   }
+        };
+
+        var map = new google.visualization.Map(document.getElementById('map_div'));
+        map.draw(data, options);
+      }
+
+    </script>
 </head>
 
 <body>
@@ -21,7 +80,21 @@
 <div class="main-content">
     <div class="wrapper">
 
-    <h3>Landmarks Go Here</h3>
+    <h2>An experimental project by Open Data Book Club</h2>
+    <p>Add your favourite landmarks <a href="bit.ly/1GPZ9uz">here!</a> (and we'll add them to the map)</p>
+    <p>This is a simple visualization of PEI landmarks as listed <a href="https://github.com/peidevs/OpenDataBookClub/blob/master/data/sandbox/landmarks/landmarks.csv">here</a>. (Future maps will be much better.) Data will be licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+    <p>Click <a href="http://bit.ly/1LzxzDy">here</a> for more on the Open Data Book Club</p>
+    <hr/>
+    <div id="map_div" style="height: 70%"></div>
+
+    <hr/>
+        <img src="http://labs.google.com/ridefinder/images/mm_20_blue.png"></img> : Business 
+        <img src="http://labs.google.com/ridefinder/images/mm_20_yellow.png"></img</p> : Monument
+        <img src="http://labs.google.com/ridefinder/images/mm_20_green.png"> : Nature  
+        <img src="http://labs.google.com/ridefinder/images/mm_20_brown.png"></img> : Road 
+        <img src="http://labs.google.com/ridefinder/images/mm_20_purple.png"></img> : Structure 
+        <img src="http://labs.google.com/ridefinder/images/mm_20_white.png"></img</p> : Worship 
+    <hr/>
 
     </div>
 </div>

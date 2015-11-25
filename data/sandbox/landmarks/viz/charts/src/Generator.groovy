@@ -81,6 +81,18 @@ def buildChartRows = { def landmarks, def types ->
         }
         chartRow.name = "${landmark.name} (${existsDesc}${typeDesc})"
 
+        if (landmark.name ==~ /.*Purple.*/) {
+            chartRow.name = "You found where the ${chartRow.name} used to be!\\n\\nA dandy landmark:\\n- used in everyday conversation\\n- not on a typical map" 
+        }
+        if (    (landmark.name ==~ /.*Ken.*/) 
+             || (landmark.name ==~ /.*Rogers.*/)
+             || (landmark.name ==~ /.*Rainbow.*/)) {
+            chartRow.name += "\\n\\nHistorians: yes, we hope to link\\nto external archives!" 
+        }
+        if (landmark.name ==~ /.*Highest.*/) {
+            chartRow.name += "\\n\\nNous espérons à traduire dans\\n de nombreuses langues!"
+        }
+
         chartRow.marker = markerMap[type]
 
         chartRows << chartRow

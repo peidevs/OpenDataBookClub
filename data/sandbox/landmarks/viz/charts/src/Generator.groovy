@@ -92,6 +92,14 @@ def buildChartRows = { def landmarks, def types ->
         if (landmark.name ==~ /.*Highest.*/) {
             chartRow.name += "\\n\\nNous espérons à traduire dans\\n de nombreuses langues!"
         }
+        if (    (landmark.name ==~ /.*Dairy.*/) 
+             || (landmark.name ==~ /.*Mix.*/)
+             || (landmark.name ==~ /.*Seabreeze.*/)) {
+            chartRow.name += "\\n\\nWork-in-progress: we hope to link to\\nhistorical archives and sites\\nfor current businesses." 
+        }
+        if (landmark.name ==~ /.*Up.West.*/) {
+            chartRow.name = "Hey, Up West: we need your help!\\nNous avons besoin de votre aide!\\nPlease share some landmarks."
+        }
 
         chartRow.marker = markerMap[type]
 

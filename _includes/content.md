@@ -1,7 +1,9 @@
 
 ## Quick News
 
-Here is a link to the [PEI Landmarks project](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html). Thanks to everyone for their support, including [CBC Island Morning](http://www.cbc.ca/islandmorning/) and all contributors. You rock!
+Here is a link to the [PEI Landmarks project](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html). 
+
+Thanks to everyone for their support, including [CBC Island Morning](http://www.cbc.ca/islandmorning/) and all contributors. You rock! Please note that we are working our way through the list.
 
 ## What is it?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.
@@ -15,11 +17,12 @@ As with PEI Developers, this is a volunteer, non-partisan initiative. We're open
 
 ## When
 
-Our [November meeting](http://www.meetup.com/PEI-Developers/events/226591858/) is 11/23, featuring:
+Our next meeting will be in late January 2016. Happy Holidays!
 
-[The PEI Landmarks project](http://bit.ly/1XWakpO)
-
+{% comment %} 
 Everyone welcome: the audience is *not* just software developers!  
-
 Just [RSVP via MeetUp](http://bit.ly/20CxXG6) or send an email to peidevs@gmail.com
+{% endcomment %}
+
+To reach us, please send an email to peidevs@gmail.com . It is checked regularly but not necessarily every day.
 

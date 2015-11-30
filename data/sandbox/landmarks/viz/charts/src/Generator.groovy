@@ -56,7 +56,11 @@ def parseFile = { def file, def builder ->
     def data = parseCsv text
 
     data.each { def line ->
-        results << builder(line)
+        try {
+            results << builder(line)
+        } catch (Exception ex) {
+            System.err.println "caught exception on line >>> " + line
+        }
     }
 
     return results
@@ -73,6 +77,7 @@ def buildChartRows = { def landmarks, def types ->
         chartRow.lat = landmark.lat
         chartRow.lon = landmark.lon
         def t = types.find { def t -> t.type == landmark.type }
+        if (t == null) { System.err.println "illegal type for ${landmark.name}" }
         def type = t.type
         def typeDesc = t.description
         def existsDesc = ""

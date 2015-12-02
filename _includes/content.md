@@ -17,7 +17,7 @@ As with PEI Developers, this is a volunteer, non-partisan initiative. We're open
 
 ## When
 
-Our next meeting will be in late January 2016. Happy Holidays!
+We meet on the 4th week of the month (usually Tuesday). Our next meeting will be in late January 2016. Happy Holidays!
 
 {% comment %} 
 Everyone welcome: the audience is *not* just software developers!  

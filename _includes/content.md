@@ -3,7 +3,7 @@
 
 Here is a link to the [PEI Landmarks project](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html). 
 
-Thanks to everyone for their support, including [CBC Island Morning](http://www.cbc.ca/islandmorning/) and all contributors. You rock! Please note that we are working our way through the list.
+Thanks to everyone for their support, including [CBC Island Morning](http://www.cbc.ca/islandmorning/), [City of Summerside](http://www.city.summerside.pe.ca/), and all contributors. You rock! Please note that we are working our way through the list.
 
 ## What is it?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.

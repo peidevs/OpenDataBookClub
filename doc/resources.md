@@ -37,6 +37,7 @@ This is a list of useful resources regarding Open Data, for both interested citi
 * [Fredericton](http://www.fredericton.ca/en/citygovernment/Catalogue.asp)
 * [Halifax](http://www.halifax.ca/opendata)
 * [Lethbridge](http://opendata.lethbridge.ca/)
+* [London](http://www.london.ca/city-hall/open-data/pages/open-data-data-catalogue.aspx)
 * [Moncton](https://www.moncton.ca/Government/Terms_of_use/Open_Data_Purpose.htm)
 * [Montréal](http://donnees.ville.montreal.qc.ca)
 * [Ottawa](http://data.ottawa.ca)
@@ -48,3 +49,8 @@ This is a list of useful resources regarding Open Data, for both interested citi
 * [Vancouver](http://vancouver.ca/your-government/open-data-catalogue.aspx)
 * [Victoria](http://www.victoria.ca/EN/main/city/open-data-catalogue.html)
 * [Waterloo](http://opendata.city-of-waterloo.opendata.arcgis.com/)
+
+### Open Data Directives
+
+* [Federal Gov't](http://pm.gc.ca/eng/news/2015/11/27/open-and-accountable-government) - see section C.1.
+* [Ontario](http://www.ontario.ca/page/ontarios-open-data-directive)

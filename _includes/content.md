@@ -24,5 +24,5 @@ Everyone welcome: the audience is *not* just software developers!
 Just [RSVP via MeetUp](http://bit.ly/20CxXG6) or send an email to peidevs@gmail.com
 {% endcomment %}
 
-To reach us, please send an email to peidevs@gmail.com . It is checked regularly but not necessarily every day.
+To reach us, please send an email to opendatapei@gmail.com . It is checked regularly but not necessarily every day.
 

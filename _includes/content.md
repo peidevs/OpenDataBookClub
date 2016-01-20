@@ -3,9 +3,9 @@
 
 Here is a link to the [PEI Landmarks project](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html). 
 
-Thanks to everyone for their support, including [CBC Island Morning](http://www.cbc.ca/islandmorning/), [City of Summerside](http://www.city.summerside.pe.ca/), and all contributors. You rock! Please note that we are working our way through the list.
+Thanks to everyone for their support, including [CBC Island Morning](http://www.cbc.ca/islandmorning/), [City of Summerside](http://www.city.summerside.pe.ca/), [CBC Maritime Noon](http://www.cbc.ca/maritimenoon/2016/01/13/a-parking-warning-your-immigration-feedback-maritime-directions/) and all contributors. You rock! Please note that we are working our way through the list.
 
-## What is it?
+## What is this about?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.
 
 We aim to include engaged citizens, government actors ([the blue shirts!](http://ruk.ca/content/man-blue-shirt)), map geeks, librarians, software nerds, statisticans -- anyone who is interested in [Open Data](http://thirtyforsixty.blogspot.ca/2015/02/what-is-open-data-part-1.html) and its potential on PEI.
@@ -17,11 +17,11 @@ As with PEI Developers, this is a volunteer, non-partisan initiative. We're open
 
 ## When
 
-We meet on the 4th week of the month (usually Tuesday). Our next meeting will be in late January 2016. Happy Holidays!
+We meet on the 4th week of the month (usually Tuesday). Our next meeting will be [Tuesday, Jan 26, 2016](http://www.meetup.com/Open-Data-PEI/events/227801712/).
 
 {% comment %} 
 Everyone welcome: the audience is *not* just software developers!  
-Just [RSVP via MeetUp](http://bit.ly/20CxXG6) or send an email to peidevs@gmail.com
+Just [RSVP via MeetUp](http://www.meetup.com/Open-Data-PEI) or send an email to peidevs@gmail.com
 {% endcomment %}
 
 To reach us, please send an email to opendatapei@gmail.com . It is checked regularly but not necessarily every day.

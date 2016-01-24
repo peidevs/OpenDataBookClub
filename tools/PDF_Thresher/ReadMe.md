@@ -1,11 +1,15 @@
 
+### Thresher 
+
+* Thresher is a simple wrapper around (PDF Box)[http://pdfbox.apache.org/] to serve as an example.
+
 ### SetUp
 
 * This tool requires java: open a terminal window and ensure that 'java -version' works.
 * In a command window, run either setvars.sh or setvar.bat as appropriate
 
 ### Usage: Basic Thresher
-* 'runBasicThesher' script takes 5 arguments
+* 'runBasicThesher' script takes 1 argument
 * arg 1 - folder containing PDF files
 *
 * see eg_1_Basic_Education as an example

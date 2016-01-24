@@ -1,7 +1,7 @@
 
 ### Thresher 
 
-* Thresher is a simple wrapper around (PDF Box)[http://pdfbox.apache.org/] to serve as an example.
+* Thresher is a simple wrapper around [PDF Box](http://pdfbox.apache.org) to serve as an example.
 
 ### SetUp
 

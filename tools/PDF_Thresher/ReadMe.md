@@ -6,21 +6,23 @@
 ### SetUp
 
 * This tool requires java: open a terminal window and ensure that 'java -version' works.
-* In a command window, run either setvars.sh or setvar.bat as appropriate
+* For examples, unzip data.zip in this folder.
+* On Unix, in terminal window: <pre>. ./setvars.sh</pre> 
+* On Windows, in cmd window: <pre>setvars.bat</pre> 
 
 ### Usage: Basic Thresher
 * Basic Thresher extracts text from multiple PDF files in a folder, writing parallel TXT files
-* 'runBasicThesher' script takes 1 argument:
+* <pre>runBasicThesher</pre> script takes 1 argument:
   * arg 1 - folder containing PDF files
-* see eg_1_Basic_Education as an example
+* see <pre>eg_1_Basic_Education</pre> as an example
 
 ### Usage: Area Thresher
 * Area Thresher builds on Basic Thresher by using a specified area region of the PDF
-* 'runAreaThesher' script takes 5 arguments:
+* <pre>runAreaThesher</pre>' script takes 5 arguments:
   * arg 1 - folder containing PDF files
   * arg 2 - x co-ordinate of area region
   * arg 3 - y co-ordinate of area region
   * arg 4 - width of area region
   * arg 5 - height of area region 
-* see eg_2_Area_Agri as an example
+* see <pre>eg_2_Area_Agri</pre> as an example
 

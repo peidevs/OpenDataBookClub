@@ -7,7 +7,7 @@
 
 * This tool requires java: open a terminal window and ensure this states the version correctly:
 * <pre>java -version</pre>
-* Download the [OpenDataBookClub](https://github.com/peidevs/OpenDataBookClub/archive/master.zip) zip file and expand on your computer.
+* Download the [OpenDataBookClub zip file](https://github.com/peidevs/OpenDataBookClub/archive/master.zip) and expand on your computer.
 * Open a terminal/command window and cd into the <pre>OpenDataBookClub/tools/PDF_Thresher</pre> directory.
 * For examples, unzip data.zip in this folder.
 * On Unix, in terminal window: <pre>. ./setvars.sh</pre> 

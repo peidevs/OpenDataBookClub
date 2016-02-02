@@ -74,13 +74,16 @@ def buildXML = { def landmarks ->
                  ExternalLinks() {
                      def notes = landmark.notes
                      if (notes == null || notes.trim().isEmpty()) {
-                         externalLink()
+                         ExternalLink()
                      } else {
-                         externalLink(notes)
+                         ExternalLink() {
+                             description(lang: "en_CA", "External link")
+                             URL(notes)
+                         }
                      } 
                  }
                  AliasLinks()
-                 nowKnownAsLink()
+                 NowKnownAsLink()
              }
              counter++
         }

@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type=" content="text/html; charset=UTF-8" />
-    <title>Test1</title>
+    <title>PEI Landmarks (V 2.0)</title>
 
     <link rel="stylesheet" href="dist/ImageSelect.css">
     <link rel="stylesheet" href="js/chosen/chosen.min.css">
@@ -48,6 +48,15 @@ var WORSHIP_QUALIFIER = "Worship";
 var EXISTS_QUALIFIER = "Exists";
 var DOES_NOT_EXIST_QUALIFIER = "Does Not Exist";
 var TEXT_QUALIFIER = "text";
+ 
+var STYLES = [ 
+                { where: 'Type = ' + BUSINESS_ID, markerOptions: { iconName: "small_blue" } }, 
+                { where: 'Type = ' + STRUCTURE_ID, markerOptions: { iconName: "small_purple" } }, 
+                { where: 'Type = ' + WORSHIP_ID, markerOptions: { iconName: "small_white" } }, 
+                { where: 'Type = ' + NATURE_ID, markerOptions: { iconName: "small_green" } }, 
+                { where: 'Type = ' + MONUMENT_ID, markerOptions: { iconName: "small_yellow" } }, 
+                { where: 'Type = ' + ROAD_ID, markerOptions: { iconName: "small_orange" } }
+            ];
 
 function paren(s) {
     return "(" + s + ")";
@@ -69,13 +78,18 @@ function clause(field, operator, value) {
     return q(field) + ' ' + operator + ' ' + q(value); 
 }
 
+
 function newLayer(whereClauseStr) {
+    console.log("TRACER where : " + whereClauseStr);
+    var docId = '1zxjQHYdfkMsXIE5AreSe2H11TcsdoNc1-HvEEAip';
     var layer = new google.maps.FusionTablesLayer({
                     query: {
-                    select: '\'Geocodable address\'',
-                    from: '1foErhrn2pVTO449KEceyR-JjiJ9upfsF3VNXJT3w',
-                    where: whereClauseStr
-                   } });
+                        select: '\'Geocodable address\'',
+                        from: docId,
+                        where: whereClauseStr
+                           }, 
+                    styles: STYLES
+                    });
     return layer;
 }
 
@@ -89,6 +103,15 @@ function initialize() {
  
     layers[LAYER_ALL] = newLayer("");
     layers[LAYER_ALL].setMap(map);
+    addInfoWindowHandler(layers[LAYER_ALL]);
+}
+
+function addInfoWindowHandler (layer) {
+    google.maps.event.addListener(layer, 'click', setInfoWindowContent);
+}
+
+function setInfoWindowContent(e) {
+    e.infoWindowHtml = e.row['InfoWindowContent'].value;
 }
 
 function showLayer (key, doShow) {
@@ -184,20 +207,25 @@ function buildWhereClause(qualifiers) {
     var whereClauseStr = addOperatorAsNeeded(existsWhereClause, AND, typeWhereClause);
     whereClauseStr = addOperatorAsNeeded(textWhereClause, AND, whereClauseStr);
 
-    whereClauseSte = dq(whereClauseStr);
+    whereClauseStr = dq(whereClauseStr);
 
     return whereClauseStr;
 }
 
 function queryHandler(qualifiers) {
-    var whereClauseStr = buildWhereClause(qualifiers);
+    try {
+        var whereClauseStr = buildWhereClause(qualifiers);
 
-    showLayer(LAYER_ALL, false);
-    showLayer(LAYER_DYNAMIC_QUERY, false);
+        showLayer(LAYER_ALL, false);
+        showLayer(LAYER_DYNAMIC_QUERY, false);
 
-    layers[LAYER_DYNAMIC_QUERY] = null;
-    layers[LAYER_DYNAMIC_QUERY] = newLayer(whereClauseStr);
-    layers[LAYER_DYNAMIC_QUERY].setMap(map);
+        layers[LAYER_DYNAMIC_QUERY] = null;
+        layers[LAYER_DYNAMIC_QUERY] = newLayer(whereClauseStr);
+        layers[LAYER_DYNAMIC_QUERY].setMap(map);
+        addInfoWindowHandler(layers[LAYER_DYNAMIC_QUERY]);
+    } catch(err) {
+        console.log("TRACER caught an error! " + err);
+    }
 }
 
 </script>
@@ -240,7 +268,7 @@ function queryHandler(qualifiers) {
 
     <button onclick="searchButtonHandler()">Search<button>
 
-    <script src="js/jquery/dist/jquery-2.1.4.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
     <script src="js/chosen/chosen.jquery.min.js" type="text/javascript"></script>
     <script src="dist/ImageSelect.jquery.js" type="text/javascript"></script>
 

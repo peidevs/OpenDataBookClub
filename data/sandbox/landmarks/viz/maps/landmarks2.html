@@ -15,69 +15,30 @@
           rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
+    <script type="text/javascript" src="./js/opendatapei/StringUtils.js"></script>
+    <script type="text/javascript" src="./js/opendatapei/Constants.js"></script>
+    <script type="text/javascript" src="./js/opendatapei/SQLUtils.js"></script>
+
 <script type="text/javascript" >
 
+var C = new odbc_Constants();
+var sqlUtils = new odbc_SQLUtils();
+
 var map;
-
-
-var EXISTS_ID = q('Y');
-var DOES_NOT_EXIST_ID = q('N');
-var BUSINESS_ID = q('001_B');
-var STRUCTURE_ID = q('002_S');
-var WORSHIP_ID = q('003_W');
-var NATURE_ID = q('004_N');
-var MONUMENT_ID = q('005_M');
-var ROAD_ID = q('006_R');
-
-var AND = " AND ";
-var OR = " OR ";
-var IN = " IN ";
-var COMMA = ",";
 
 var LAYER_ALL = "all";
 var LAYER_DYNAMIC_QUERY = "dynamicquery";
 
 var layers = {};
 
-var BUSINESS_QUALIFIER = "Business";
-var NATURE_QUALIFIER = "Nature";
-var MONUMENT_QUALIFIER = "Monument";
-var ROAD_QUALIFIER = "Road";
-var STRUCTURE_QUALIFIER = "Structure";
-var WORSHIP_QUALIFIER = "Worship";
-var EXISTS_QUALIFIER = "Exists";
-var DOES_NOT_EXIST_QUALIFIER = "Does Not Exist";
-var TEXT_QUALIFIER = "text";
- 
 var STYLES = [ 
-                { where: 'Type = ' + BUSINESS_ID, markerOptions: { iconName: "small_blue" } }, 
-                { where: 'Type = ' + STRUCTURE_ID, markerOptions: { iconName: "small_purple" } }, 
-                { where: 'Type = ' + WORSHIP_ID, markerOptions: { iconName: "small_white" } }, 
-                { where: 'Type = ' + NATURE_ID, markerOptions: { iconName: "small_green" } }, 
-                { where: 'Type = ' + MONUMENT_ID, markerOptions: { iconName: "small_yellow" } }, 
-                { where: 'Type = ' + ROAD_ID, markerOptions: { iconName: "small_orange" } }
+                { where: 'Type = ' + C.BUSINESS_ID, markerOptions: { iconName: "small_blue" } }, 
+                { where: 'Type = ' + C.STRUCTURE_ID, markerOptions: { iconName: "small_purple" } }, 
+                { where: 'Type = ' + C.WORSHIP_ID, markerOptions: { iconName: "small_white" } }, 
+                { where: 'Type = ' + C.NATURE_ID, markerOptions: { iconName: "small_green" } }, 
+                { where: 'Type = ' + C.MONUMENT_ID, markerOptions: { iconName: "small_yellow" } }, 
+                { where: 'Type = ' + C.ROAD_ID, markerOptions: { iconName: "small_orange" } }
             ];
-
-function paren(s) {
-    return "(" + s + ")";
-}
-
-function q(s) {
-    return "'" + s + "'";
-}
-
-function dq(s) {
-    return '"' + s + '"';
-}
-
-function whereClause(field, operator, value) {
-    return '"' + q(field) + ' ' + operator + ' ' + q(value) + '"'; 
-}
-
-function clause(field, operator, value) {
-    return q(field) + ' ' + operator + ' ' + q(value); 
-}
-
 
 function newLayer(whereClauseStr) {
     console.log("TRACER where : " + whereClauseStr);
@@ -131,90 +92,9 @@ function resetHandler() {
     showLayer(LAYER_DYNAMIC_QUERY, false);
 }
 
-function buildTextWhereClause(qualifiers) {
-    var whereClause = "";
-    
-    if (qualifiers[TEXT_QUALIFIER]) {
-        whereClause = clause('Name','LIKE','%' + qualifiers[TEXT_QUALIFIER].trim() + '%'); 
-    };
-
-    return whereClause;
-}
-
-function buildExistsWhereClause(qualifiers) {
-    var whereClause = "";
-    var values = "";
-
-    if (qualifiers[EXISTS_QUALIFIER]) {
-        values = EXISTS_ID;
-    } 
-    if (qualifiers[DOES_NOT_EXIST_QUALIFIER]) {
-        values = addOperatorAsNeeded(values, COMMA, DOES_NOT_EXIST_ID);
-    } 
-
-    if (values) {
-        whereClause = q('Exists') + IN + paren(values);
-    }
-
-    return whereClause;
-}
-
-function addOperatorAsNeeded(a, operator, b) {
-    var result = b;
-
-    if (a != "") {
-        result = a + operator + b;
-    }
-
-    return result;
-}
-
-function buildTypeWhereClause(qualifiers) {
-    var whereClause = "";
-    var values = "";
- 
-    if (qualifiers[BUSINESS_QUALIFIER]) {
-        values = BUSINESS_ID;
-    } 
-    if (qualifiers[NATURE_QUALIFIER]) {
-        values = addOperatorAsNeeded(values, COMMA, NATURE_ID);
-    } 
-    if (qualifiers[MONUMENT_QUALIFIER]) {
-        values = addOperatorAsNeeded(values, COMMA, MONUMENT_ID);
-    } 
-    if (qualifiers[ROAD_QUALIFIER]) {
-        values = addOperatorAsNeeded(values, COMMA, ROAD_ID);
-    } 
-    if (qualifiers[STRUCTURE_QUALIFIER]) {
-        values = addOperatorAsNeeded(values, COMMA, STRUCTURE_ID);
-    } 
-    if (qualifiers[WORSHIP_QUALIFIER]) {
-        values = addOperatorAsNeeded(values, COMMA, WORSHIP_ID);
-    }
-    
-    if (values) {
-        whereClause = q('Type') + IN + paren(values);
-    }
-
-    return whereClause;
-}
-
-function buildWhereClause(qualifiers) {
-    var existsWhereClause = buildExistsWhereClause(qualifiers);
-    var typeWhereClause = buildTypeWhereClause(qualifiers);
-    var textWhereClause = buildTextWhereClause(qualifiers);
-
-    var whereClauseStr = addOperatorAsNeeded(existsWhereClause, AND, typeWhereClause);
-    whereClauseStr = addOperatorAsNeeded(textWhereClause, AND, whereClauseStr);
-
-    whereClauseStr = dq(whereClauseStr);
-
-    return whereClauseStr;
-}
-
 function queryHandler(qualifiers) {
     try {
-        var whereClauseStr = buildWhereClause(qualifiers);
+        var whereClauseStr = sqlUtils.buildWhereClause(qualifiers);
 
         showLayer(LAYER_ALL, false);
         showLayer(LAYER_DYNAMIC_QUERY, false);
@@ -289,7 +169,7 @@ function queryHandler(qualifiers) {
                 qualifiers[key] = this.selected;
             });
 
-            qualifiers[TEXT_QUALIFIER] = $('#textBox').val();
+            qualifiers[C.TEXT_QUALIFIER] = $('#textBox').val();
 
             queryHandler(qualifiers);
         }
@@ -297,4 +177,3 @@ function queryHandler(qualifiers) {
 
 </body>
 </html>
-

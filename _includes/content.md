@@ -1,9 +1,7 @@
 
 ## Quick News
 
-Here is a link to the [PEI Landmarks project](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html). 
-
-Thanks to everyone for their support, including [CBC Island Morning](http://www.cbc.ca/islandmorning/), [City of Summerside](http://www.city.summerside.pe.ca/), [CBC Maritime Noon](http://www.cbc.ca/maritimenoon/2016/01/13/a-parking-warning-your-immigration-feedback-maritime-directions/) and all contributors. You rock! Please note that we are working our way through the list.
+Our [February meeting](http://www.meetup.com/Open-Data-PEI/events/228548487/) features [Robert Hughes](https://twitter.com/rg_hughes), CAO with the [Town of Stratford](http://www.townofstratford.ca/). Robert will introduce us to Town services and discuss opportunities for Open Data and Open Government.
 
 ## What is this about?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.
@@ -17,7 +15,7 @@ As with PEI Developers, this is a volunteer, non-partisan initiative. We're open
 
 ## When
 
-We meet on the 4th week of the month (usually Tuesday). Our next meeting will be [Tuesday, Jan 26, 2016](http://www.meetup.com/Open-Data-PEI/events/227801712/).
+We meet on the 4th week of the month (usually Tuesday). Our next meeting will be [Tuesday, February 23, 2016](http://www.meetup.com/Open-Data-PEI/events/228548487/).
 
 {% comment %} 
 Everyone welcome: the audience is *not* just software developers!  
@@ -26,3 +24,6 @@ Just [RSVP via MeetUp](http://www.meetup.com/Open-Data-PEI) or send an email to 
 
 To reach us, please send an email to opendatapei@gmail.com . It is checked regularly but not necessarily every day.
 
+## Popular Projects
+
+Here is a link to the [PEI Landmarks project](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html). 

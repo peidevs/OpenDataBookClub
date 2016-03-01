@@ -12,6 +12,7 @@ If you'd like to join us, [register here](http://bit.ly/1RwhOPf). Note that this
 
 ## Sponsors
 Our sincere thanks to the following sponsors for this event:
+
 * [The Government of Prince Edward Island](http://www.gov.pe.ca/) (for food sponsorship)
 * Start Up Zone (for venue sponsorship)
 * [Binary Star](http://binarystar.ca) (everything else!)

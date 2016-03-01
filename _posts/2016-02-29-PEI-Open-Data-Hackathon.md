@@ -4,7 +4,7 @@ title: PEI Open Data Hackathon, March 5
 ---
 
 ## What is it?
-March 5, 2016 is [Open Data Day](http://opendataday.org/). There will be many hackathons held across the world, including in Charlottetown, PEI! 
+March 5, 2016 is [Open Data Day](http://opendataday.org/). There will be many hackathons held across the world, including in Charlottetown, PEI. (A joint venture by [PEI Devs](http://peidevs.github.io) and the [PEI Open Data Book Club](http://peidevs.github.io/OpenDataBookClub), in partnership with the [Government of Prince Edward Island](http://gov.pe.ca/)).
 
 The theme of the hackathon is, naturally, Open Data and we're working to provide some PEI datasets at the event. (That said, using Open Data is not an absolute requirement!)
 

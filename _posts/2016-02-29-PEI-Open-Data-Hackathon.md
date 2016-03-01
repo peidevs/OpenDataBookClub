@@ -21,7 +21,8 @@ Our sincere thanks to the following sponsors for this event:
 * Enter through Fitzroy doors, we'll be on the top floor in the board room.
 
 ## Schedule 
-Note 2: If stormy weather threatens, we make a call the night before. We will notify via eventbrite, and announce a make-up date.
+Note: If stormy weather threatens, we make a call the night before. We will notify via eventbrite, and announce a make-up date.
+
 * 7:00 am : Doors open (Breakfast, coffee provided)
 * 7:30 am : Event opens with brief remarks by the Government of Prince Edward Island and Start Up Zone
 

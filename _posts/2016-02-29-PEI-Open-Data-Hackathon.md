@@ -8,7 +8,7 @@ March 5, 2016 is [Open Data Day](http://opendataday.org/). There will be many ha
 
 The theme of the hackathon is, naturally, Open Data and we're working to provide some PEI datasets at the event. (That said, using Open Data is not an absolute requirement!)
 
-If you'd like to join us, [register here](http://bit.ly/1RwhOPf). Note that this event is open to both *Builders* and *Attendees*. Builders will work on a team throughout the day; Attendees are welcome to observe the action. You don't have to be a coder: web designers, open data enthusiasts [are welcome](http://bit.ly/1RwhOPf)!
+If you'd like to join us, [register here](http://bit.ly/1RwhOPf). Note that this event is open to both *Builders* and *Attendees*. Builders will work on a team throughout the day; Attendees are welcome to observe the action. You don't have to be a coder: web designers, engaged citizens, & open data enthusiasts [are welcome](http://bit.ly/1RwhOPf)!
 
 ## Sponsors
 Our sincere thanks to the following sponsors for this event:

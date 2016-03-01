@@ -26,11 +26,13 @@ Note: If stormy weather threatens, we make a call the night before. We will noti
 
 * **7:00 am** : Doors open (Breakfast, coffee provided)
 * **7:30 (sharp)** : Event opens with brief remarks by the Government of Prince Edward Island and Start Up Zone
-* **7:30 - 8:00** : Kickoff, explanation of how the day will work
+* **7:30 - 8:00** 
+  * Kickoff, explanation of how the day will work
   * Anyone with an idea puts it up on the wall. 
   * After the ideas are up, each person gives a short (2 minute) description/pitch. 
   * After all the pitches, builders put their names up on the idea they want to work and teams are formed.
-* **8:00 - 8:30** : Forming the teams and scoping projects.
+* **8:00 - 8:30** 
+  * Forming teams and scoping projects.
   * Get to know your team and your project.
   * Scope your project down to something that can be demoed after 10 hours of heads down hacking. 
   * If the group determines they don't have the right mix of skills or that the project is too big for a hack, they can pivot or join other teams.

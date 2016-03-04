@@ -52,8 +52,8 @@ Note: If stormy weather threatens, we make a call the night before. We will noti
 * A palpable sense of citizen engagement
 
 ## Resources
-* https://github.com/peidevs/OpenDataBookClub/blob/master/data/province/sources.md
-* https://github.com/peidevs/OpenDataBookClub/blob/master/doc/resources.md
+* [Provincial Links](https://github.com/peidevs/OpenDataBookClub/blob/master/data/province/sources.md)
+* [National Links](https://github.com/peidevs/OpenDataBookClub/blob/master/doc/resources.md)
 
 ## Who can answer questions?
 * [Dustin Sparks](http://twitter.com/dustin_sparks)

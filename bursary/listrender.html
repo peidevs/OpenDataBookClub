@@ -1,50 +1,61 @@
 <html>
 <head>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
-<link rel="stylesheet" type="text/css" href="listrender.css">
+<link rel="stylesheet" type="text/css" href="http://peidevs.github.io/OpenDataBookClub/stylesheets/normalize.css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="http://peidevs.github.io/OpenDataBookClub/stylesheets/stylesheet.css" media="screen">
+<link rel="stylesheet" type="text/css" href="http://peidevs.github.io/OpenDataBookClub/stylesheets/github-light.css" media="screen">
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+
 
 <script  type="text/javascript">
-var options = {
-  valueNames: [ 'name', 'born' ],
-  item: '<li><h3 class="name"></h3><p class="born"></p></li>'
-};
 
-var values = [{
-    name: 'Jonny Strömberg',
-    born: 1986
-  },
-  {
-    name: 'Jonas Arnklint',
-    born: 1985
-  },
-  {
-    name: 'Martina Elm',
-    born: 1986
-}];
+var dataSet = [
+    //"Name","Level","Keywords","Description","URL","due date"
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ]
+];
+ 
+$(document).ready(function() {
+    $('#example').DataTable( {
+        data: dataSet,
+        columns: [
+            { title: "Name" },
+            { title: "Level" },
+            { title: "Keywords" },
+            { title: "Description." },
+            { title: "URL" },
+            { title: "Due date" }
+        ]
+    } );
+} );
 
-var userList = new List('users', options, values);
-
-/*
-userList.add({
-  name: "Gustaf Lindqvist",
-  born: 1983
-});
-*/
+// make urls into links
+for (var i=0; i<dataSet.length; ++i)
+{
+    var url = dataSet[i][4];
+    dataSet[i][4] = "<a href='"+url+"' target='_blank'>"+url+"</a>";    
+}
+    
 </script>
 
 </head>
 <body>
+    
+<section class="page-header">
+  <h1 class="project-name">THE BURGREGATOR</h1>
+  <h2 class="project-tagline">Open Data Hackathon 2016</h2>
+  <h4 class="project-tagline">Bursary Aggregator</h4>
+</section>
 
-<div id="users">
-  <input class="search" placeholder="Search" />
-  <button class="sort" data-sort="name">
-    Sort by name
-  </button>
+<br/>
+    
+<table id="example" class="display" width="100%"></table>
 
-  <ul class="list"></ul>
-
-</div>
-
-</body>
 </html>

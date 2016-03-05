@@ -8,6 +8,8 @@
 <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
 <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 
 <script  type="text/javascript">
@@ -19,7 +21,8 @@ var dataSet = [
     [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
     [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
     [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
-    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ]
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "Burgtron 2000 Purse", "tertiary, part time", "burg, fries", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ]
 ];
  
 $(document).ready(function() {
@@ -31,16 +34,27 @@ $(document).ready(function() {
             { title: "Keywords" },
             { title: "Description." },
             { title: "URL" },
-            { title: "Due date" }
+            { title: "Due date" },
+            { title: "Request reminder"}
         ]
     } );
 } );
 
+    
+var buttontemplate = '<button class="btn btn-default" onclick="setReminder(\'%tag%\')">set</button>';
 // make urls into links
+// and insert button data 
 for (var i=0; i<dataSet.length; ++i)
 {
     var url = dataSet[i][4];
-    dataSet[i][4] = "<a href='"+url+"' target='_blank'>"+url+"</a>";    
+    dataSet[i][4] = "<a href='"+url+"' target='_blank'>"+url+"</a>"; 
+    dataSet[i][6] = buttontemplate.replace("%tag%", dataSet[i][0]);
+    console.log(dataSet[i][6]);
+}
+    
+function setReminder(bname)
+{
+    alert("This page could set up a reminder for you to apply for the "+bname+" before the application deadline, so you don't miss your chance to apply.");
 }
     
 </script>

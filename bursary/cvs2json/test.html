@@ -3,19 +3,28 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
 <head>
-<title>API Examples</title>
+<title>Test Cvs2Jsoan </title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <script type="text/javascript" 
     src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
     
     </script>
+    
+    <script type="text/javascript" src="jquery.csv.js"></script>
+    
 </head>
 <body>
     <h1>test</h1>
-    <ul id="examples">
-    </ul>
-    <div id="result"></div>
-    <script type="text/javascript" src="cvs2json.js"></script>
+    
+    var input = "https://github.com/peidevs/OpenDataBookClub/blob/master/data/sandbox/bursary/bursary_test.csv
+    var result = $.csv.toArrays(input);
+    
+    
+    <div class="result">
+        <table id="result2" border="1"></table>
+      </div>
+      
 </body>
 </html>
+
     

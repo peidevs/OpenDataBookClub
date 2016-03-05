@@ -15,9 +15,12 @@
 </head>
 <body>
     <h1>test</h1>
-    
+
+<p id="demo"></p>
    <script>
     var input = "https://github.com/peidevs/OpenDataBookClub/blob/master/data/sandbox/bursary/bursary_test.csv";
+document.getElementById("demo").innerHTML = input;
+    
     var result = $.csv.toArrays(input);
     
     </script> 

@@ -41,6 +41,7 @@ This is a list of useful resources regarding Open Data, for both interested citi
 * [London](http://www.london.ca/city-hall/open-data/pages/open-data-data-catalogue.aspx)
 * [Moncton](https://www.moncton.ca/Government/Terms_of_use/Open_Data_Purpose.htm)
 * [Montréal](http://donnees.ville.montreal.qc.ca)
+* [Niagara Region](https://niagaraopendata.ca/)
 * [Ottawa](http://data.ottawa.ca)
 * [Saint John](http://www.saintjohn.ca/en/home/cityhall/strategicservices/informationtechnology/opendata/default.aspx)
 * [Sherbrooke](http://donnees.ville.sherbrooke.qc.ca/en/)

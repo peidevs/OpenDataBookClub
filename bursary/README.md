@@ -10,3 +10,5 @@ Some other solutions looked not implemented .. (but worth looking into )
 
 A jQuery CSV parser plugin. Battle Tested | Optimized | 100% IETF RFC 4180 Complete
 https://github.com/evanplaice/jquery-csv
+
+http://stackoverflow.com/questions/1293147/javascript-code-to-parse-csv-data

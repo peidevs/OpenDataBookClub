@@ -5,10 +5,11 @@
  
  Info on how to  use it, can be found here https://github.com/okfn/dataproxy
 
-
-Some other solutions looked into  ( presently implemented, but worth looking into )
+<p>
+<hr> 
+Some other solutions looked into  ( presently not implemented, but worth looking into )
 
 A jQuery CSV parser plugin. Battle Tested | Optimized | 100% IETF RFC 4180 Complete
 https://github.com/evanplaice/jquery-csv
 
-http://stackoverflow.com/questions/1293147/javascript-code-to-parse-csv-data
+ http://stackoverflow.com/questions/1293147/javascript-code-to-parse-csv-data

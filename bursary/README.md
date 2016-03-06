@@ -6,7 +6,7 @@
  Info on how to  use it, can be found here https://github.com/okfn/dataproxy
 
 
-Some other solutions looked not implemented .. (but worth looking into )
+Some other solutions looked into  ( presently implemented, but worth looking into )
 
 A jQuery CSV parser plugin. Battle Tested | Optimized | 100% IETF RFC 4180 Complete
 https://github.com/evanplaice/jquery-csv

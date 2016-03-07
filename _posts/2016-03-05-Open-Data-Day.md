@@ -59,5 +59,5 @@
 * Great use of open data. You never know what it will be used for
 
 ## Closing Remarks
- * Thank you again to our sponsers: Government of PEI, Starup Zone and Binary Star
+ * Thank you again to our sponsers: Government of PEI, Startup Zone and Binary Star
 

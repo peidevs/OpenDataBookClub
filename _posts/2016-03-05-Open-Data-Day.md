@@ -18,7 +18,7 @@ title: PEI Open Data Hackathon
 
 #### Bursary
 * Michael Easter, Evan Porter, Christian Southgate, Ifo Ikede
-* Goal - aggergate infomation about Bursaries and Scholarships
+* Goal - aggregate infomation about Bursaries and Scholarships
 * Lots of public info, but it is scattered
 * Data is not easy to get
 * Initial idea was automated scraping of PDFs and other data
@@ -28,7 +28,7 @@ title: PEI Open Data Hackathon
 * Challenge, data is too spread out. On the pei government site alone, there were a few departments hosting bursary data
     * Department of Workforce and Advanced Learning
     * Advisorie Council for the status of Women 
-* Holland College offers similar service, but the information is closed and needs to be scrapped
+* Holland College offers similar service, but the information is closed and needs to be scraped
 
 #### Airplane
 * Nathan Murnaghan, Nitheen Rao
@@ -64,5 +64,5 @@ title: PEI Open Data Hackathon
 * Great use of open data. You never know what it will be used for
 
 ## Closing Remarks
- * Thank you again to our sponsers: Government of PEI, Startup Zone and Binary Star
+ * Thank you again to our sponsors: Government of PEI, Startup Zone and Binary Star
 

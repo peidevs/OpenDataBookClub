@@ -7,7 +7,7 @@ title: PEI Open Data Hackathon
 
 #### Address Liberation 
 * Mark Wright, Mike Berger, Chris Stewart
-* Leberate the Address Lookup currently available on the pei government website
+* Liberate the Address Lookup currently available on the pei government website
 * Currently a service on a webpage, but needs to be opened for more information
 * Built a database from GIS SHP files
 * Create a restful API of the data, to get information that is easier for applications to consume

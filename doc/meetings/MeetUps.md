@@ -18,11 +18,79 @@ at the top of the file, and keep old stuff.
 * [Michael Easter](http://twitter.com/30_for_60) 
 
 ###### Sponsors
-* venue sponsored by [Michael Easter](http://twitter.com/30_for_60)
-* food sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* venue & food sponsored by [Michael Easter](http://twitter.com/30_for_60)
 * video equipment loaned by [ScreenScape](http://www.screenscape.com)
 * ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 * door prize sponsored by [ScreenScape](http://www.screenscape.com)
 
 -----
+
+#### January 2016
+
+###### Topics
+* [Michael Easter](https://twitter.com/30_for_60) on [PDF Box](https://pdfbox.apache.org/)
+
+###### Announcements
+* [News for January](http://peidevs.github.io/OpenDataBookClub/2016/01/21/news-for-JAN-2016)
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* venue & food sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* video equipment loaned by [ScreenScape](http://www.screenscape.com)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+* door prize sponsored by [ScreenScape](http://www.screenscape.com)
+
+-----
+
+#### November 2015
+
+###### Topics
+* [Michael Easter](https://twitter.com/30_for_60) on [PEI Landmarks](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html)
+
+###### Announcements
+* [CBC Island Morning](http://www.cbc.ca/news/canada/prince-edward-island/landmarks-open-data-map-1.3332428) interview
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* venue & food sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* video equipment loaned by [ScreenScape](http://www.screenscape.com)
+* ongoing MeetUp subscription by [Binary Star](http://binarystar.ca)
+* door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
+
+-----
+
+#### October 2015
+
+###### Topics
+* [Michael Easter](https://twitter.com/30_for_60) facilitates Open Forum
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* venue & food sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* video equipment loaned by [ScreenScape](http://www.screenscape.com)
+* ongoing MeetUp subscription by [Binary Star](http://binarystar.ca)
+* door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
+
+-----
+
+#### September 2015
+
+###### Topics
+* [Peter Rukavina](https://twitter.com/ruk) : [A Cook's Tour of Open Data from a User's Perspective](https://speakerdeck.com/reinvented/open-data-book-club-presentation)
+* [video](https://vimeo.com/140220223) of presentation
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* venue & food sponsored by [Binary Star](http://binarystar.ca)
+* video equipment loaned by [ScreenScape](http://www.screenscape.com)
+* ongoing MeetUp subscription by [Binary Star](http://binarystar.ca)
+* door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
 

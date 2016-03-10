@@ -4,8 +4,12 @@ title: PEI Open Data Hackathon
 ---
 
 ## Team Presentations
+* [event photos](https://www.flickr.com/photos/100794919@N05/albums/72157663224471673)
+* [CBC article](http://www.cbc.ca/news/canada/prince-edward-island/data-computer-apps-open-government-1.3478962)
+* [Caravaggio](https://twitter.com/30_for_60/status/706992363185577985)
 
 #### Address Liberation 
+* [presentation photo](https://www.flickr.com/photos/100794919@N05/24938363134/in/album-72157663224471673/)
 * Mark Wright, Mike Berger, Chris Stewart
 * Liberate the Address Lookup currently available on the Government of Prince Edward Island website
 * Currently a service on a webpage, but needs to be opened for more information
@@ -16,6 +20,7 @@ title: PEI Open Data Hackathon
 * Search for police coverage in a given area
 
 #### Bursary
+* [presentation photo](https://www.flickr.com/photos/100794919@N05/25542728046/in/album-72157663224471673/)
 * Michael Easter, Evan Porter, Christian Southgate, Ifo Ikede
 * Goal - aggregate infomation about Bursaries and Scholarships
 * Lots of public info, but it is scattered
@@ -30,6 +35,7 @@ title: PEI Open Data Hackathon
 * Holland College offers similar service, but the information is closed and needs to be scraped
 
 #### Airplane
+* [presentation photo](https://www.flickr.com/photos/100794919@N05/25273254090/in/album-72157663224471673/)
 * Nathan Murnaghan, Nitheen Rao
 * Working with Civil Aircraft Register Database
 * Comments on current site indicate data is unfriendly.
@@ -43,6 +49,7 @@ title: PEI Open Data Hackathon
 * First time doing web app for the team. Learned AngularJS for the project
 
 #### Apple TV Street Condition
+* [presentation photo](https://www.flickr.com/photos/100794919@N05/25450302532/in/album-72157663224471673/)
 * Nolan Phillips, Bob Shand, Kelvin Susam, Calista Tan, Ben Sinnamon
 * Use Province 511 Data to create an IOS/Apple TV application.
 * Trying to Enhance the existing weather reports and traffic conditions
@@ -50,6 +57,8 @@ title: PEI Open Data Hackathon
 * Existing 511 used images instead of spatial data to draw 
 
 #### MapRiddlr
+* [presentation photo](https://www.flickr.com/photos/100794919@N05/25273253320/in/album-72157663224471673/)
+* [Ron Myers](https://www.flickr.com/photos/100794919@N05/25450295822/in/album-72157663224471673/)
 * Sarah Thompson, Patrick Williams, Jullian Keller, Matt White, Nikita Volodin, Celito Felipetto
 * Created a game where you had to find a person hidden on the map
 * Provided user a hint, and the user had to find the user on the map

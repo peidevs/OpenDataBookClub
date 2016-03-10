@@ -7,14 +7,13 @@ title: PEI Open Data Hackathon
 
 #### Address Liberation 
 * Mark Wright, Mike Berger, Chris Stewart
-* Liberate the Address Lookup currently available on the pei government website
+* Liberate the Address Lookup currently available on the Government of Prince Edward Island website
 * Currently a service on a webpage, but needs to be opened for more information
 * Built a database from GIS SHP files
-* Create a restful API of the data, to get information that is easier for applications to consume
+* Create a RESTful API of the data, to get information that is easier for applications to consume
 * In DB, the data was easier to write queries to do things like Search for all properties in Stratford
 * Still contains GIS data, so you can search for all properties in a given area or range
 * Search for police coverage in a given area
-
 
 #### Bursary
 * Michael Easter, Evan Porter, Christian Southgate, Ifo Ikede
@@ -33,14 +32,14 @@ title: PEI Open Data Hackathon
 #### Airplane
 * Nathan Murnaghan, Nitheen Rao
 * Working with Civil Aircraft Register Database
-* Comments on current site indicate data is undfriendly.
+* Comments on current site indicate data is unfriendly.
 * Team wanted to clean up data to make it much more usable. 
 * Current site is 2 CSV files, hard to link together
 * Civil Private Aircrafts.
-* Pilots/Owners loooking for their own planes and were having trouble findiing their aircraft
+* Pilots/Owners loooking for their own planes and were having trouble finding their aircraft
 * Team created application which simplified the data and allowed the users to find/search aircrafts
 * Data was national
-* There was some data which needs cleanup. Showing data in this way it was easier to find bad data. Ex, licence expiry dates of 1900
+* There was some data which needs cleanup. Showing data in this way it was easier to find bad data. e.g. license expiry dates of 1900
 * First time doing web app for the team. Learned AngularJS for the project
 
 #### Apple TV Street Condition
@@ -64,5 +63,5 @@ title: PEI Open Data Hackathon
 * Great use of open data. You never know what it will be used for
 
 ## Closing Remarks
- * Thank you again to our sponsors: Government of PEI, Startup Zone and Binary Star
+ * Thank you again to our sponsors: Government of PEI, StartUp Zone, and Binary Star
 

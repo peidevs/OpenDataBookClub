@@ -1,0 +1,37 @@
+<!DOCTYPE html 
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+<head>
+<title>Test Cvs2Jsoan </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" 
+    src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
+    
+    </script>
+    
+    <script type="text/javascript" src="jquery.csv.js"></script>
+    
+</head>
+<body>
+    <h1>test</h1>
+
+<p id="demo"></p>
+   <script>
+    var input = "https://raw.githubusercontent.com/peidevs/OpenDataBookClub/master/data/sandbox/bursary/bursary_test.csv";
+
+    var result = $.csv.toArrays('input');
+    
+    document.getElementById("demo").innerHTML = result;
+    
+    
+    </script> 
+    
+    <div class="result">
+        <table id="result2" border="1"></table>
+      </div>
+      
+</body>
+</html>
+
+    

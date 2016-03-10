@@ -1,0 +1,145 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="http://peidevs.github.io/OpenDataBookClub/stylesheets/normalize.css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="http://peidevs.github.io/OpenDataBookClub/stylesheets/stylesheet.css" media="screen">
+<link rel="stylesheet" type="text/css" href="http://peidevs.github.io/OpenDataBookClub/stylesheets/github-light.css" media="screen">
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<script  type="text/javascript">
+/*
+var dataSet = [
+    //"Name","Level","Keywords","Description","URL","due date"
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "John Q. Leverage Scholarship", "post secondary", "leverage, synergy", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ],
+    [ "Burgtron 2000 Purse", "tertiary, part time", "burg, fries", "blah blah", "http://www.internetcashcowgold.com", "2016-08-31" ]
+];
+*/  
+
+var bursaries = 
+{"url": "https://raw.githubusercontent.com/peidevs/OpenDataBookClub/master/data/sandbox/bursary/bursary.csv", "fields": ["Id", "Name", "Level", "Keywords", "Description", "URL"], "data": [["0001", "George Coles Bursary", "3003", "first time first year student residents of Prince Edward Island, do not have any previous post-secondary education", "", "http://www.studentloan.pe.ca/index.php3?number=1039551&lang=E"], ["0002", "Island Student Award", "3001", "Eligible Island students registered in a full-time program in both semesters at UPEI or Maritime Christian College will receive an Island Student Award in their second, third and fourth year of study", "", "http://www.gov.pe.ca/forms/pdf/2069.pdf"], ["0003", "Island Skills Award", "3001", "Eligible Island students registered in a full-time program for 24 continuous weeks at Holland College or College Acadie I.-P.-E. will receive a $1,000 Island Skills Award in their first and second year of study.", "", "http://www.gov.pe.ca/forms/pdf/2070.pdf"], ["0004", "Community Service Bursary", "3003", "offer Island students in Grades 11 and 12, who plan to attend any post-secondary institution, a bursary in recognition of volunteer work performed in their communities", "", "http://www.studentloan.pe.ca/index.php3?number=1041103&lang=E"], ["0005", "George Coles Graduate Scholarship", "3001", "The George Coles Graduate Scholarship is a scholarship for Island residents graduating from UPEI or Maritime Christian College in their first undergraduate degree", "", "http://www.studentloan.pe.ca/index.php3?number=1041556&lang=E"], ["0006", "Medical Residency Interest Relief Program", "3004", "The Government of Prince Edward Island has established a Medical Residency Interest Relief Program which provides financial assistance to students completing a residency program", "", "http://www.studentloan.pe.ca/index.php3?number=1039556&lang=E"], ["0007", "Marine Atlantic Bursary", "3001", "Marine Atlantic Bursary is to provide on-going recognition of the service provided by the employees of Marine Atlantic", "", "http://studentloan.pe.ca/index.php3?number=1053775&lang=E"], ["0008", "Diane Kays Memorial Bursary", "3001", "available to a woman-identifying student who is a resident of PEI and registered full-time at the University of Prince Edward Island, Holland College, or Collge Acadie", "", "http://www.gov.pe.ca/acsw/index.php3?number=1015125&lang=E"], ["0009", "Inge Blackett Memorial Bursary", "3001", "For a woman-identifying PEI resident who entered Canada as a refugee and is pursuing further education", "", "http://www.gov.pe.ca/acsw/index.php3?number=1015125&lang=E"], ["0010", "PEIACSW Engineering Bursary for Women", "3001", "awarded to a woman entering third year engineering at UPEI in recognition and support of women pursuing non-traditional field", "", "http://www.gov.pe.ca/acsw/index.php3?number=1015125&lang=E"], ["0011", "Johnson Inc. Scholarship", "3003", "With a Johnson scholarship behind you, you have everything in front of you. Since 1998, the Johnson scholarship program has awarded over $1,000,000 in scholarships and academic grants to students across Canada.", "", "https://www1.johnson.ca/article/2013-02-27/scholarship"], ["0012", "Joan Auld Scholarship", "3001", "available to a student undertaking full-time studies in a craft- related field at a recognized institution of applied art, craft and design. In order to be eligible for this scholarship, the student must demonstrate high school graduation or equivalence", "", "http://www.cfpei.ca/apps/joan-auld.pdf"], ["0013", "Loran Award", "3001", "Loran Scholars are chosen for their character, service and leadership potential and they deeply value integrity and honesty, are curious by nature and are interested in a wide range of subjects", "", "http://loranscholar.ca/apply/"], ["0014", "TD Scholarships for Community Leadership", "3001", "Were interested in hearing from students who have demonstrated consistent and outstanding dedication to solving a community problem or making their community a better place.", "", "https://www.tdcanadatrust.com/products-services/banking/student-life/scholarship-for-community-leadership/index.jsp"], ["0015", "Burger King Scholars", "3001", "intended to help students offset the cost of attending college or post-secondary vocational/technical school", "", "http://bkmclamorefoundation.org/who-we-are/burger-king-scholars-program/"], ["0016", "Senate Page Program", "3001", "linguistic duality, bilingual, The Senate of Canada is committed to having a skilled, diversified workforce reflective of Canadian society, and to ensuring the equitable representation of women, Aboriginal peoples, persons with a disability, and members of a visible minority group", "", "http://www.parl.gc.ca/Employment/Senate/PageProgram/selection-e.htm"], ["0017", "Shad Valley Program", "3000", "SHAD is a registered Canadian charity that empowers exceptional high school students  at a pivotal point in their education  to recognize their own capabilities and envision their extraordinary potential as tomorrows leaders and change makers", "", "http://www.shad.ca/apply"], ["0018", "Canadian Association of Principals Student Leadership Award", "3001", "The purpose of this award is to afford principals the opportunity to recognize one of their student leaders and to enter that student as a nominee for a national scholarship. Nationally, the Canadian Association of Principals will administer the scholarship program.", "", "http://cdnprincipals.org/cap-student-leadership-award/"], ["0019", "Terry Fox Humanitarian Award", "3001", "Terry Fox Humanitarian Awards are open to students of all abilities. Must be Involved in voluntary humanitarian activities", "", "http://terryfoxawards.ca/applicant-information/"], ["0020", "Hal Rogers Endowment Fund", "3001", "Awarded based on community and school involvement, knowledge of Kin Canada and financial need", "", "http://www.kincanada.ca/bursaries"], ["0021", "RBC Aboriginal Student Award", "3001", "The RBC Aboriginal Student Awards Program was launched in 1992 to assist Aboriginal students to complete post-secondary education, and provide an opportunity for RBC to strengthen its relationship with the Aboriginal community", "", "http://www.rbc.com/careers/aboriginal_student_awards.html"], ["0022", "Dorothy Corrigan Entrance Bursary", "3003", "Awarded to a student entering full time studies (five courses per semester)at the University of Prince Edward Island for the first time, and who has demonstrated financial need", "", "http://www.upei.ca/studentlife/scholarshipsandawards/539"], ["0023", "McEwen Scholarship", "3001", "Co-op Atlantic is proud to support Atlantic Canadians studying to forward their understanding of agriculture in our region.", "", "http://www.coopatlantic.ca/htm.aspx?id=135"]], "metadata": {"fields": [{"id": "Id"}, {"id": "Name"}, {"id": "Level"}, {"id": "Keywords"}, {"id": "Description"}, {"id": "URL"}]}};
+    
+var levels = {"url": "https://raw.githubusercontent.com/peidevs/OpenDataBookClub/master/data/sandbox/bursary/level.csv", "fields": ["Id", "Type", "Subtype"], "data": [["3000", "post-secondary", ""], ["3001", "post-secondary", "full time"], ["3002", "post-secondary", "part time"], ["3003", "post-secondary", "full time, first year"], ["3004", "post-graduate", ""]], "metadata": {"fields": [{"id": "Id"}, {"id": "Type"}, {"id": "Subtype"}]}};
+    
+var expiration = 
+    {"url": "https://raw.githubusercontent.com/peidevs/OpenDataBookClub/master/data/sandbox/bursary/2016_expiration.csv", "fields": ["Id", "Deadline"], "data": [["0001", "2016-08-31"], ["0002", "2016-08-31"], ["0003", "2016-08-31"], ["0004", "2016-09-31"], ["0008", "2016-10-15"], ["0009", "2016-10-15"], ["0010", "2016-10-01"], ["0011", "2016-08-31"], ["0013", "2016-10-31"], ["0020", "2016-02-01"], ["0021", "2016-02-28"], ["0022", "2016-03-01"], ["0023", "2016-09-20"], ["5150", "2016-07-03"], ["5151", "2016-01-01"], ["5152", "2016-02-01"], ["5153", "2016-03-01"], ["5154", "2016-04-01"], ["5155", "2016-05-01"], ["5156", "2016-06-01"], ["5157", "2016-07-01"], ["5158", "2016-08-01"], ["5159", "2016-09-01"], ["5160", "2016-07-03"], ["5161", "2016-01-01"], ["5162", "2016-02-01"], ["5163", "2016-03-01"], ["5164", "2016-04-01"], ["5165", "2016-05-01"], ["5166", "2016-06-01"], ["5167", "2016-07-01"], ["5168", "2016-08-01"], ["5169", "2016-09-01"], ["5170", "2016-09-01"], ["5171", "2016-11-01"], ["5172", "2016-12-01"]], "metadata": {"fields": [{"id": "Id"}, {"id": "Deadline"}]}};
+    
+ 
+$(document).ready(function() {
+    $('#example').DataTable( {
+        data: dataSet,
+        columns: [
+            { title: "Name" },
+            { title: "Level" },
+            { title: "Keywords" },
+            { title: "Description." },
+            { title: "URL" },
+            { title: "Due date" },
+            { title: "Request reminder"}
+        ]
+    } );
+} );
+    
+    
+var buttontemplate = '<button class="btn btn-default" onclick="setReminder(\'%tag%\')">set</button>';
+// make urls into links
+// and insert button data
+    /*
+for (var i=0; i<dataSet.length; ++i)
+{
+    var url = dataSet[i][4];
+    dataSet[i][4] = "<a href='"+url+"' target='_blank'>"+url+"</a>"; 
+    dataSet[i][6] = buttontemplate.replace("%tag%", dataSet[i][0]);
+    console.log(dataSet[i][6]);
+}
+*/
+
+// kluge the data into display format
+var bursarydata = bursaries.data;
+var dataSet = new Array();
+for (var i=0; i<bursarydata.length; ++i)
+{
+    //console.log(i + " " + bursarydata[i]);
+    sourcedata = bursarydata[i];
+    dataSet[i] = new Array();
+    dataSet[i][0] = sourcedata[1];
+    
+    dataSet[i][1] = getLevelFromCode(sourcedata[2]);
+    
+    dataSet[i][2] = sourcedata[3];
+    dataSet[i][3] = sourcedata[4];
+    
+    // make urls into links
+    var url = sourcedata[5];
+    dataSet[i][4] = "<a href='"+url+"' target='_blank'>"+url+"</a>";
+    
+    dataSet[i][5] = getExpiryFromID(sourcedata[0])
+    
+    // insert reminder button
+    dataSet[i][6] = buttontemplate.replace("%tag%", sourcedata[1]);
+}
+
+    
+function getLevelFromCode(code)
+{
+    //console.log(JSON.stringify(levels.data));
+    for(d in levels.data)
+    {
+        
+        console.log("DERF "+JSON.stringify(levels.data[d]));
+        if (levels.data[d][0] == code)
+        {
+            return levels.data[d][1]+","+levels.data[d][2];
+        }
+    }
+    return "no idea";
+}
+
+    
+function getExpiryFromID(id)
+{
+    for (d in expiration.data)
+    {
+        if (expiration.data[d][0] == id)
+        {
+            return expiration.data[d][1];
+        }
+    }
+    
+    return "no idea";
+}
+    
+    
+function setReminder(bname)
+{
+    alert("This page could set up a reminder for you to apply for the "+bname+" before the application deadline, so you don't miss your chance to apply.");
+}
+    
+</script>
+
+    <!--script src="http://jsonpdataproxy.appspot.com/?url=https://github.com/peidevs/OpenDataBookClub/blob/master/data/sandbox/bursary/bursary_test.csv&format=json"></script-->
+
+    
+</head>
+<body>
+    
+<section class="page-header">
+  <h1 class="project-name">THE BURGREGATOR</h1>
+  <h2 class="project-tagline">Open Data Hackathon 2016</h2>
+  <h4 class="project-tagline">Bursary Aggregator</h4>
+</section>
+
+<br/>
+    
+<table id="example" class="display" width="100%"></table>
+
+</html>

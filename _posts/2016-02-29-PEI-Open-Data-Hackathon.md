@@ -51,6 +51,10 @@ Note: If stormy weather threatens, we make a call the night before. We will noti
 * Door prizes
 * A palpable sense of citizen engagement
 
+## Resources
+* [Provincial Links](https://github.com/peidevs/OpenDataBookClub/blob/master/data/province/sources.md)
+* [National Links](https://github.com/peidevs/OpenDataBookClub/blob/master/doc/resources.md)
+
 ## Who can answer questions?
 * [Dustin Sparks](http://twitter.com/dustin_sparks)
 * [Michael Easter](http://twitter.com/30_for_60)

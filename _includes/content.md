@@ -1,3 +1,5 @@
+## Announcement
+Open Data day is March 5, 2016. Please see the following link for details, [Event Details]({{ site.url }}{% post_url 2016-02-29-PEI-Open-Data-Hackathon %}). This is a free event and all are welcome to come.
 
 ## Quick News
 

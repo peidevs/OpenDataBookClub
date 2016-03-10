@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css" media="screen">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/github-light.css" media="screen">
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["map"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Lat', 'Long', 'Name', 'Marker'],
+
+LANDMARK_DATA_ROWS
+
+          ]);
+
+        var url = 'http://labs.google.com/ridefinder/images/';
+
+        var options = {
+            useMapTypeControl: true,
+            enableScrollWheel: true,
+            showTip: true,
+            mapType: 'normal',
+            zoomLevel: 8,
+            icons: {
+                      blue:   { normal: url + 'mm_20_blue.png' },
+                      brown:   { normal: url + 'mm_20_brown.png' },
+                      green:  { normal: url + 'mm_20_green.png' },
+                      purple: { normal: url + 'mm_20_purple.png' },
+                      white:  { normal: url + 'mm_20_white.png', },
+                      yellow: { normal: url + 'mm_20_yellow.png' },
+                   }
+        };
+
+        var map = new google.visualization.Map(document.getElementById('map_div'));
+        map.draw(data, options);
+      }
+
+    </script>
+  </head>
+
+  <body>
+    <div style="margin: 15px">
+    <h3>An experimental project by Open Data Book Club</h3>
+
+    <p>PEI, share your quirky landmarks!</p>
+<p>Open Data is best explained by an example. Our first example is a list of PEI Landmarks: places we use in everyday conversation. They might exist (Sir John A statue on Queen St, Ch'town, Devil's Punchbowl, near Granville), or might not (the Purple House in East Royalty, the Dairy in Montague)</p>
+
+<p><b>Add your favourite landmarks</b> <a href="http://bit.ly/1GPZ9uz">to this doc</a> (or on our <a href="https://t.co/1t7rtJhiGW">Facebook page</a>). We'll add them to our <a href="https://github.com/peidevs/OpenDataBookClub/blob/master/data/sandbox/landmarks/landmarks.csv">list</a> which will be freely available, licensed for re-use, and <i>not a PDF</i> (!)</p>
+
+<p>Thanks so much, PEI ! We're working on adding your suggestions to the map! (from the <a href="http://bit.ly/1LzxzDy">Open Data Book Club</a>) </p>
+
+    <hr/>
+    <div id="map_div" style="height: 60%"></div>
+
+    <hr/>
+        <img src="http://labs.google.com/ridefinder/images/mm_20_blue.png"></img> : Business 
+        <img src="http://labs.google.com/ridefinder/images/mm_20_yellow.png"></img</p> : Monument
+        <img src="http://labs.google.com/ridefinder/images/mm_20_green.png"> : Nature  
+        <img src="http://labs.google.com/ridefinder/images/mm_20_brown.png"></img> : Road 
+        <img src="http://labs.google.com/ridefinder/images/mm_20_purple.png"></img> : Structure 
+        <img src="http://labs.google.com/ridefinder/images/mm_20_white.png"></img</p> : Worship 
+    <hr/>
+    </div>
+  </body>
+</html>
+

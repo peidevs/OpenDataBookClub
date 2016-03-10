@@ -1,0 +1,42 @@
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+    google.setOnLoadCallback(drawSeriesChart);
+
+    function drawSeriesChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['ID', 'Income', 'Max', 'Domain', 'Enroll %'],
+['Stratford Playschool M&W',2525.25,8,'Winter',100],
+['Under 4 Soccer',3795.0,72,'Summer',95.8333333300],
+['Summer Camp week 1 June 29 - July 03',10525.0,25,'Summer',64.00],
+['Summer Camp week 4 July 20 - 24',1875.0,26,'Summer',100],
+['Under 6 soccer',12510.0,140,'Summer',99.2857142900],
+['T-Ball',1870.0,34,'Baseball',100],
+['Jr. Mosquito',3630.0,100,'Baseball',33.00],
+['Mosquito',10250.0,100,'Baseball',82.00],
+['Peewee',4375.0,42,'Baseball',97.6190476200],
+['Youth',2250.0,19,'Baseball',94.7368421100],
+
+      ]);
+
+      var options = {
+        title: 'Income x Max x Domain x Enroll % (2015)',
+        hAxis: {title: 'Income (for programs > $1800)'},
+        vAxis: {title: 'Max Enrollment Capacity'},
+        bubble: {textStyle: {fontSize: 11}}
+      };
+
+      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
+      chart.draw(data, options);
+    }
+    </script>
+  </head>
+  <body>
+    <div id="series_chart_div" style="width: 1450px; height: 700px;"></div>
+  </body>
+</html>
+

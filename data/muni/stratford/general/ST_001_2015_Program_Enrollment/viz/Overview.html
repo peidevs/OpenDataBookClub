@@ -1,0 +1,120 @@
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1.1", {packages:["table"]});
+      google.setOnLoadCallback(drawTable);
+
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Domain');
+        data.addColumn('string', 'Heading');
+        data.addColumn('string', 'Code');
+        data.addColumn('string', 'Name');
+        data.addColumn('number', 'Min');
+        data.addColumn('number', 'Max');
+        data.addColumn('number', 'Enroll');
+        data.addColumn('number', 'Web Enroll');
+        data.addColumn('number', 'Waits');
+        data.addColumn('number', 'Open');
+        data.addColumn('number', 'Income');
+        data.addRows([
+['Winter','Adult','ArtClubJan8-15','Art Club Drop In January 8',1,15,1,0,0,14,10.00],
+['Winter','Adult','ARTClubRegDropi','Art Club Regular Drop In',1,5,1,0,0,4,5.00],
+['Winter','Adult','ArtClubW2015','Art Club',2,18,15,3,0,3,450.00],
+['Winter','Adult','ArtCrochet2015','Crochet for Beginners',5,15,8,4,0,7,240.00],
+['Winter','Adult','ARTEggDye2015','Ukrainian Egg Dying',6,12,7,4,0,5,140.00],
+['Winter','Adult','* ArtStudioW2015','* Art Studio - Daytime Drop In',1,12,0,0,0,12,0.00],
+['Winter','Adult','ASW2015','Co-Ed Adult Soccer',4,50,0,0,0,50,0.00],
+['Winter','Adult','badmintonW2015','Co-ed Adult Badminton',8,40,17,3,0,23,150.00],
+['Winter','Adult','L2R2015W','Learn to Run 5Km',4,100,14,14,0,86,0.00],
+['Winter','Adult','MBBALL2015winte','Men`s Recreational Basketball',10,25,11,0,0,14,0.00],
+['Winter','Adult','MBHW2015','Men`s Ball Hockey',12,30,24,0,0,6,360.00],
+['Winter','Adult','PBfullyear2015','Pickleball',4,120,22,0,0,98,440.00],
+['Winter','Adult','vballW2015','Co-ed Adult Volleyball',10,50,32,0,0,18,0.00],
+['Winter','Family','ARTFamEgg2015','Family Egg Decorating',1,15,7,2,0,8,35.00],
+['Winter','Family','* Healthgo2015','* The Basics of Making Healthier food choices',4,40,0,0,0,40,0.00],
+['Winter','Preschool','ArtClass2-5yrs','Kinder Art Class- Ages 2-5 years',5,11,6,4,0,5,540.00],
+['Winter','Preschool','ArtStory2015','Preschool Story, Arts and Crafts',2,15,0,0,0,15,0.00],
+['Winter','Preschool','playMW2015','Stratford Playschool M&W',6,8,8,0,0,0,2525.25],
+['Winter','Preschool','* TTG2015Winter','* Tiny Tot Gym',7,15,0,0,0,15,0.00],
+['Winter','Youth','ArtClass3-9-12','Art Class 3 Ages 9-12 years',5,11,0,0,0,11,0.00],
+['Winter','Youth','Artclass6-8yrs','Youth Art Class-Ages 6-8 years',5,11,8,6,0,3,760.00],
+['Winter','Youth','ArtClass9-12yrs','Youth Art Class-Ages 9-12 years',5,11,11,6,0,0,1375.00],
+['Winter','Youth','ASAC2015','Afterschool Arts & Crafts',7,15,11,5,0,4,605.00],
+['Winter','Youth','CTB2015','Come Try Baseball',6,24,7,5,0,17,0.00],
+['Winter','Youth','MarBrArt2015','March Break Art Camp',5,27,23,5,0,4,543.00],
+['Winter','Youth','MBC2015','March Break Camp 2015',6,20,16,1,0,4,550.00],
+['Winter','Youth','PDCampA17','PD Day Camp April 17',6,20,0,0,0,20,0.00],
+['Winter','Youth','PDCampA24','PD Day Camp April 24',6,20,0,0,0,20,0.00],
+['Winter','Youth','* PDCampF6','* PD Day Camp February 6',6,20,0,0,0,20,0.00],
+['Winter','Youth','* PDCampJ30','* PD Day Camp January 30',6,20,0,0,0,20,0.00],
+['Winter','Youth','PDCampM6','PD Day Camp March 06',6,20,0,0,0,20,0.00],
+['Winter','Youth','Skills&drills','Instructional Ice Hockey',10,41,41,0,1,0,1025.00],
+['Winter','Youth','YouthCentre2015','Stratford Youth Centre Drop In',1,30,0,0,0,30,0.00],
+['Spring','Adult','ARTClubS2015','Art Club - Spring Session Apr 2-June 4',2,18,16,3,0,2,395.00],
+['Spring','Adult','ARTCroCafe2015','Crochet Cafe',6,12,6,1,0,6,210.00],
+['Spring','Adult','ARTDaytimeS2015','ART Club Daytime Studio Drop In',1,15,0,0,0,15,0.00],
+['Spring','Adult','C2R10K','Continue to Run 10Km',4,100,5,5,0,95,0.00],
+['Spring','Family','GoWalk2015','GO PEI Walking Club',4,100,0,0,0,100,0.00],
+['Spring','Preschool','ArtStoryS2015','Story, Arts and Crafts - Preschool Program',1,12,0,0,0,12,0.00],
+['Spring','Preschool','* playFT2015s','* Stratford Playschool T&T spring',6,8,0,0,0,8,0.00],
+['Spring','Preschool','playMW2015s','Stratford Playschool M&W spring',6,8,8,0,0,0,1400.00],
+['Spring','Preschool','REC-KinderArtS','REC-Kinder Art- Spring Session April 11-June 6',5,11,9,4,0,2,810.00],
+['Spring','Youth','AACSpring','Afterschool Arts & Crafts',7,15,9,4,0,6,495.00],
+['Spring','Youth','ART-FacePaint-Y','Face Painting & Balloon Twisting Workshop',2,15,2,2,0,13,10.00],
+['Spring','Youth','AST2015','After School Tennis Gr. 1-3',6,20,20,9,2,0,626.00],
+['Spring','Youth','* ASTK2015','* After School Tennis Kindergarten',5,12,1,0,0,11,25.00],
+['Spring','Youth','FF102015','Flag Football 10 & under',10,40,10,4,0,30,500.00],
+['Spring','Youth','FF122015','Flag Football 12 & under',10,40,12,4,0,28,600.00],
+['Spring','Youth','PDCampM1','PD Day Camp May 01',6,20,0,0,0,20,0.00],
+['Spring','Youth','REC-ART1S6-8','REC-Art Class 1- Ages 6-8 years-Apr 11-June 6',5,12,12,10,4,0,1200.00],
+['Spring','Youth','REC-ART2S9-12','REC-Art Class 2 Ages 9-12 years Apr 11-June 6',5,11,7,7,0,4,875.00],
+['Spring','Youth','RECClass2-6-8yr','Art Class 4 Ages 6-8 years',5,11,8,2,0,3,800.00],
+['Summer','Adult','ASF2015','Co-Ed Adult Soccer',4,50,30,0,0,20,420.00],
+['Summer','Adult','* ATJ2015','* Adult Tennis July',4,20,0,0,0,20,0.00],
+['Summer','Adult','L2R','Learn to Run 5K with your dog',4,100,0,0,0,100,0.00],
+['Summer','Adult','MBHS2015','Men`s Ball Hockey',12,30,26,0,0,4,390.00],
+['Summer','Adult','vballFs2015','Co-ed Adult Volleyball',10,50,12,1,0,38,180.00],
+['Summer','Preschool','PTA2015','Preschool Tennis August',4,12,0,0,0,12,0.00],
+['Summer','Preschool','PTJ2015','Preschool Tennis July',4,12,3,3,0,9,90.00],
+['Summer','Preschool','S I Sport 3','Intro to Sports - 3 yrs',10,21,21,9,1,0,525.00],
+['Summer','Preschool','S I Sport 4-5','Intro to Sports',10,21,21,10,2,0,525.00],
+['Summer','Preschool','U4S2015','Under 4 Soccer',10,72,69,24,0,3,3795.00],
+['Summer','Youth','SC102015','Summer Camp week 10 August 31 - September 04',10,25,22,2,0,3,1325.00],
+['Summer','Youth','SC12015','Summer Camp week 1 June 29 - July 03',10,25,16,0,0,9,10525.00],
+['Summer','Youth','SC22015','Summer Camp week 2 July 06 - 10',10,25,25,2,1,0,1750.00],
+['Summer','Youth','SC32015','Summer Camp week 3 July 13 - 17',10,25,24,5,0,1,1625.00],
+['Summer','Youth','SC42015','Summer Camp week 4 July 20 - 24',10,26,26,6,0,0,1875.00],
+['Summer','Youth','SC52015','Summer Camp week 5 July 27 - 31',10,25,25,1,0,0,1750.00],
+['Summer','Youth','SC62015','Summer Camp week 6 August 03 - 07',10,25,16,1,0,9,625.00],
+['Summer','Youth','SC72015','Summer Camp week 7 August 10 - 14',10,25,22,1,0,3,1375.00],
+['Summer','Youth','SC82015','Summer Camp week 8 August 17 - 21',10,25,22,1,0,3,1375.00],
+['Summer','Youth','SC92015','Summer Camp week 9 August 24 - 28',10,25,21,1,0,4,1250.00],
+['Summer','Youth','U6S2015','Under 6 soccer',10,140,139,29,0,1,12510.00],
+['Summer','Youth','YT2015','Youth Tennis August',4,30,5,1,0,25,270.00],
+['Summer','Youth','YT2015J','Youth Tennis July',4,30,12,8,0,18,648.00],
+['Summer','Youth','YTT2015','Youth Tennis 11-18 yrs.',4,20,12,5,0,8,648.00],
+['Summer','Youth','YTT2015A','Youth Tennis August 11-18 yrs.',4,20,5,3,0,15,270.00],
+['Baseball','Preschool','TB2015','T-Ball',10,34,34,11,0,0,1870.00],
+['Baseball','Youth','B2015','Bantam',10,24,13,1,0,11,1625.00],
+['Baseball','Youth','Jr.M2015','Jr. Mosquito',10,100,33,4,0,67,3630.00],
+['Baseball','Youth','M2015','Mosquito',10,100,82,6,0,18,10250.00],
+['Baseball','Youth','P2015','Peewee',10,42,41,1,0,1,4375.00],
+['Baseball','Youth','RC2015','Rally Cap',10,58,20,1,0,38,1700.00],
+['Baseball','Youth','Y2015','Youth',9,19,18,3,0,1,2250.00],
+
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+
+        table.draw(data, {showRowNumber: true, width: '90%', height: '2000'});
+      }
+    </script>
+  </head>
+  <body>
+    <div id="table_div"></div>
+  </body>
+</html>
+

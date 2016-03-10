@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Landmarks>
+  <Landmark>
+    <id>1000</id>
+    <latitude>46.188494</latitude>
+    <longitude>-62.932969</longitude>
+    <name lang='en_CA'>Busters Garage</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1001</id>
+    <latitude>46.265678</latitude>
+    <longitude>-63.158511</longitude>
+    <name lang='en_CA'>Skate Country</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1002</id>
+    <latitude>46.274535</latitude>
+    <longitude>-63.106944</longitude>
+    <name lang='en_CA'>Purple House</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1003</id>
+    <latitude>46.286329</latitude>
+    <longitude>-63.276443</longitude>
+    <name lang='en_CA'>Red Roof Church</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>003_W</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1004</id>
+    <latitude>46.509245</latitude>
+    <longitude>-63.992138</longitude>
+    <name lang='en_CA'>Irving Service Station</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1005</id>
+    <latitude>46.405732</latitude>
+    <longitude>-62.256311</longitude>
+    <name lang='en_CA'>Artesian Well</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1006</id>
+    <latitude>46.164344</latitude>
+    <longitude>-62.64859</longitude>
+    <name lang='en_CA'>Montague Dairy</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1007</id>
+    <latitude>46.222967</latitude>
+    <longitude>-63.305076</longitude>
+    <name lang='en_CA'>Fairyland</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1008</id>
+    <latitude>46.23369</latitude>
+    <longitude>-63.126961</longitude>
+    <name lang='en_CA'>Sir John A Statue</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>005_M</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1009</id>
+    <latitude>46.266062</latitude>
+    <longitude>-63.144553</longitude>
+    <name lang='en_CA'>Towers</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1010</id>
+    <latitude>46.409386</latitude>
+    <longitude>-63.485383</longitude>
+    <name lang='en_CA'>Devil's Punchbowl</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>External link</description>
+        <URL>http://www.trailpeak.com/trail-Devil-s-Punchbowl-near-Charlottetown-PE-10157</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1011</id>
+    <latitude>46.204313</latitude>
+    <longitude>-63.087862</longitude>
+    <name lang='en_CA'>Beacon Hill Sign</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1012</id>
+    <latitude>46.164893</latitude>
+    <longitude>-62.634058</longitude>
+    <name lang='en_CA'>Jimmy's Rec Park</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1013</id>
+    <latitude>46.163551</latitude>
+    <longitude>-62.645245</longitude>
+    <name lang='en_CA'>Clark's Store</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1014</id>
+    <latitude>46.236591</latitude>
+    <longitude>-63.127391</longitude>
+    <name lang='en_CA'>Myron's</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1015</id>
+    <latitude>46.199212</latitude>
+    <longitude>-62.654918</longitude>
+    <name lang='en_CA'>Bell's Hill</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1016</id>
+    <latitude>46.28926</latitude>
+    <longitude>-63.288924</longitude>
+    <name lang='en_CA'>Bobby Clow's</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1017</id>
+    <latitude>46.255789</latitude>
+    <longitude>-63.192669</longitude>
+    <name lang='en_CA'>Sam's Corner</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1018</id>
+    <latitude>46.221588</latitude>
+    <longitude>-62.971936</longitude>
+    <name lang='en_CA'>Pippy's</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1019</id>
+    <latitude>46.217783</latitude>
+    <longitude>-63.098172</longitude>
+    <name lang='en_CA'>Blue Church</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>003_W</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1020</id>
+    <latitude>46.240566</latitude>
+    <longitude>-63.125309</longitude>
+    <name lang='en_CA'>Ken's Korner</name>
+    <Aliases>
+        <alias lang='en_CA'>placeholder alias</alias>
+    </Aliases>
+    <nowKnownAsName lang='en_CA'>Ken's Corner Needs</nowKnownAsName>
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate>1970</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=2170</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>Ken's Corner Needs</description>
+        <URL>https://www.facebook.com/pages/Kens-Corner-Needs/239371156146561</URL>
+      </Link>
+    </NowKnownAsLinks>
+  </Landmark>
+  <Landmark>
+    <id>1021</id>
+    <latitude>46.33066</latitude>
+    <longitude>-63.419847</longitude>
+    <name lang='en_CA'>Highest point</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1022</id>
+    <latitude>46.268778</latitude>
+    <longitude>-63.150158</longitude>
+    <name lang='en_CA'>Slick's</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1023</id>
+    <latitude>46.352638</latitude>
+    <longitude>-63.490124</longitude>
+    <name lang='en_CA'>The Dunk</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1024</id>
+    <latitude>46.398744</latitude>
+    <longitude>-63.778056</longitude>
+    <name lang='en_CA'>Fox Farm</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1025</id>
+    <latitude>46.49065</latitude>
+    <longitude>-63.393803</longitude>
+    <name lang='en_CA'>Rainbow Valley</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1026</id>
+    <latitude>46.237799</latitude>
+    <longitude>-63.13094</longitude>
+    <name lang='en_CA'>The Red House</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1027</id>
+    <latitude>46.284878</latitude>
+    <longitude>-63.698215</longitude>
+    <name lang='en_CA'>Seven Mile Bay Church</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>003_W</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>External link</description>
+        <URL>http://www.gcatholic.org/churches/canada-east/14909.htm</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1028</id>
+    <latitude>46.391075</latitude>
+    <longitude>-63.740695</longitude>
+    <name lang='en_CA'>Red Bridge</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1029</id>
+    <latitude>46.165668</latitude>
+    <longitude>-62.692561</longitude>
+    <name lang='en_CA'>Dick's Mix</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>External link</description>
+        <URL>http://www.macleanspei.ca/</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1030</id>
+    <latitude>46.389731</latitude>
+    <longitude>-62.118272</longitude>
+    <name lang='en_CA'>Seabreeze Motel</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>External link</description>
+        <URL>http://singingsandsinn.ca/en/</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1031</id>
+    <latitude>46.35683</latitude>
+    <longitude>-62.279568</longitude>
+    <name lang='en_CA'>Platter House</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1032</id>
+    <latitude>46.295869</latitude>
+    <longitude>-63.269374</longitude>
+    <name lang='en_CA'>Gordie's Dip</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1033</id>
+    <latitude>46.358063</latitude>
+    <longitude>-63.308851</longitude>
+    <name lang='en_CA'>Bungay Hill</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1034</id>
+    <latitude>46.264386</latitude>
+    <longitude>-63.158074</longitude>
+    <name lang='en_CA'>Queen's Arms Intersection</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1035</id>
+    <latitude>46.248816</latitude>
+    <longitude>-63.190313</longitude>
+    <name lang='en_CA'>York Point Baseball Field</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1036</id>
+    <latitude>46.25778</latitude>
+    <longitude>-63.182857</longitude>
+    <name lang='en_CA'>North River Causeway</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1037</id>
+    <latitude>46.471393</latitude>
+    <longitude>-63.61543</longitude>
+    <name lang='en_CA'>Black Horse Corner</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1038</id>
+    <latitude>46.429521</latitude>
+    <longitude>-63.146504</longitude>
+    <name lang='en_CA'>Covehead Bridge</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1039</id>
+    <latitude>46.430286</latitude>
+    <longitude>-63.143429</longitude>
+    <name lang='en_CA'>Stanhope Lighthouse</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1040</id>
+    <latitude>46.234273</latitude>
+    <longitude>-63.128149</longitude>
+    <name lang='en_CA'>Rogers Hardware</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1041</id>
+    <latitude>46.802935</latitude>
+    <longitude>-64.196063</longitude>
+    <name lang='en_CA'>Up West</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1042</id>
+    <latitude>46.235051</latitude>
+    <longitude>-63.086085</longitude>
+    <name lang='en_CA'>Old Town Hall</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1043</id>
+    <latitude>46.7659878</latitude>
+    <longitude>-64.0876355</longitude>
+    <name lang='en_CA'>Princess Pat Drive-in</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1044</id>
+    <latitude>46.24994</latitude>
+    <longitude>-63.129956</longitude>
+    <name lang='en_CA'>Lily Pond</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>External link</description>
+        <URL>http://friendsofthefarmpei.ca/history/</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1045</id>
+    <latitude>46.359402</latitude>
+    <longitude>-63.361987</longitude>
+    <name lang='en_CA'>Just Another Farm</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1046</id>
+    <latitude>46.235063</latitude>
+    <longitude>-63.125604</longitude>
+    <name lang='en_CA'>Boer War Memorial</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>005_M</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1047</id>
+    <latitude>46.228016</latitude>
+    <longitude>-63.137159</longitude>
+    <name lang='en_CA'>Cannons at Victoria Park</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>005_M</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1048</id>
+    <latitude>46.232467</latitude>
+    <longitude>-63.137618</longitude>
+    <name lang='en_CA'>Prince Edward Island Hospital</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>External link</description>
+        <URL>https://en.wikipedia.org/wiki/Prince_Edward_Island_Hospital</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1049</id>
+    <latitude>46.230874</latitude>
+    <longitude>-63.12922</longitude>
+    <name lang='en_CA'>Charlottetown Hospital</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>External link</description>
+        <URL>https://en.wikipedia.org/wiki/Charlottetown_Hospital</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1050</id>
+    <latitude>46.275077</latitude>
+    <longitude>-63.645776</longitude>
+    <name lang='en_CA'>Albany Pit</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1051</id>
+    <latitude>46.235409</latitude>
+    <longitude>-63.086339</longitude>
+    <name lang='en_CA'>Old Town Hall</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1052</id>
+    <latitude>46.946909</latitude>
+    <longitude>-64.048485</longitude>
+    <name lang='en_CA'>Cousin's Restaurant</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1053</id>
+    <latitude>46.664</latitude>
+    <longitude>-64.058913</longitude>
+    <name lang='en_CA'>Sharbell's Store</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1054</id>
+    <latitude>46.504666</latitude>
+    <longitude>-63.990061</longitude>
+    <name lang='en_CA'>Richmond Dairy Bar</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1055</id>
+    <latitude>46.381454</latitude>
+    <longitude>-62.140878</longitude>
+    <name lang='en_CA'>Lily Pond</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1056</id>
+    <latitude>46.379284</latitude>
+    <longitude>-62.140049</longitude>
+    <name lang='en_CA'>Red Point Park Corner</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1057</id>
+    <latitude>46.691998</latitude>
+    <longitude>-64.15205</longitude>
+    <name lang='en_CA'>MacArthur's Esso</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1058</id>
+    <latitude>46.69191</latitude>
+    <longitude>-64.15177</longitude>
+    <name lang='en_CA'>Coleman Corner</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1059</id>
+    <latitude>46.728203</latitude>
+    <longitude>-64.170867</longitude>
+    <name lang='en_CA'>Dairy Royal</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1060</id>
+    <latitude>46.751502</latitude>
+    <longitude>-64.179492</longitude>
+    <name lang='en_CA'>Paul's Muffler</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1061</id>
+    <latitude>46.761236</latitude>
+    <longitude>-64.180023</longitude>
+    <name lang='en_CA'>Bloomfield Corner</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1062</id>
+    <latitude>46.250058</latitude>
+    <longitude>-63.139079</longitude>
+    <name lang='en_CA'>Gentleman Jim's Steakhouse</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1063</id>
+    <latitude>46.24991</latitude>
+    <longitude>-63.11972</longitude>
+    <name lang='en_CA'>Spring Lane Park</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1064</id>
+    <latitude>46.264435</latitude>
+    <longitude>-63.145727</longitude>
+    <name lang='en_CA'>Charlottetown Mall Liquor Store</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1065</id>
+    <latitude>46.422004</latitude>
+    <longitude>-63.811148</longitude>
+    <name lang='en_CA'>Compass Corner</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1066</id>
+    <latitude>46.399384</latitude>
+    <longitude>-63.787307</longitude>
+    <name lang='en_CA'>Queen Elizabeth Park</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1067</id>
+    <latitude>46.399184</latitude>
+    <longitude>-63.805102</longitude>
+    <name lang='en_CA'>Ice Pond</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1068</id>
+    <latitude>46.397266</latitude>
+    <longitude>-63.782327</longitude>
+    <name lang='en_CA'>Campsie Garden</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1069</id>
+    <latitude>46.394878</latitude>
+    <longitude>-63.781132</longitude>
+    <name lang='en_CA'>Electric Light Pond</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1070</id>
+    <latitude>46.392105</latitude>
+    <longitude>-63.794064</longitude>
+    <name lang='en_CA'>PEI Bag Co.</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1071</id>
+    <latitude>46.406987</latitude>
+    <longitude>-63.770317</longitude>
+    <name lang='en_CA'>Campbell's Pit</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1072</id>
+    <latitude>46.391902</latitude>
+    <longitude>-63.791806</longitude>
+    <name lang='en_CA'>The Purple Parrot</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1073</id>
+    <latitude>46.392461</latitude>
+    <longitude>-63.792707</longitude>
+    <name lang='en_CA'>Ideal Dairy</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1074</id>
+    <latitude>46.392398</latitude>
+    <longitude>-63.792322</longitude>
+    <name lang='en_CA'>Capitol Theatre</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1075</id>
+    <latitude>46.392251</latitude>
+    <longitude>-63.791381</longitude>
+    <name lang='en_CA'>The Regent</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1076</id>
+    <latitude>46.434514</latitude>
+    <longitude>-63.8002</longitude>
+    <name lang='en_CA'>The old dump</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1077</id>
+    <latitude>46.397336</latitude>
+    <longitude>-63.797896</longitude>
+    <name lang='en_CA'>Little Jimmy's</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1078</id>
+    <latitude>46.393606</latitude>
+    <longitude>-63.828324</longitude>
+    <name lang='en_CA'>The Spa</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1079</id>
+    <latitude>46.395502</latitude>
+    <longitude>-63.804259</longitude>
+    <name lang='en_CA'>Green's Shore beach</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1080</id>
+    <latitude>46.391224</latitude>
+    <longitude>-63.790731</longitude>
+    <name lang='en_CA'>Holman's</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1081</id>
+    <latitude>46.391698</latitude>
+    <longitude>-63.792059</longitude>
+    <name lang='en_CA'>Smallman's</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1082</id>
+    <latitude>46.394644</latitude>
+    <longitude>-63.766682</longitude>
+    <name lang='en_CA'>PEI Farm Equipment</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1083</id>
+    <latitude>46.340257</latitude>
+    <longitude>-63.703028</longitude>
+    <name lang='en_CA'>Callbeck's</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1084</id>
+    <latitude>46.301468</latitude>
+    <longitude>-63.332031</longitude>
+    <name lang='en_CA'>North Wiltshire Hall</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1085</id>
+    <latitude>46.301598</latitude>
+    <longitude>-63.332397</longitude>
+    <name lang='en_CA'>Wiltshire Post Office</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1086</id>
+    <latitude>46.301842</latitude>
+    <longitude>-63.333192</longitude>
+    <name lang='en_CA'>Maclean's Store</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1087</id>
+    <latitude>46.198607</latitude>
+    <longitude>-63.41803</longitude>
+    <name lang='en_CA'>Blue Goose Restaurant</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1088</id>
+    <latitude>46.23424</latitude>
+    <longitude>-63.12628</longitude>
+    <name lang='en_CA'>Victoria Row</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>006_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1089</id>
+    <latitude>46.238752</latitude>
+    <longitude>-63.127906</longitude>
+    <name lang='en_CA'>YMCA</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1090</id>
+    <latitude>46.23951</latitude>
+    <longitude>-63.125169</longitude>
+    <name lang='en_CA'>Charlottetown Forum</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1091</id>
+    <latitude>46.260265</latitude>
+    <longitude>-63.16972</longitude>
+    <name lang='en_CA'>North River Drive-in</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1092</id>
+    <latitude>46.23408</latitude>
+    <longitude>-63.129123</longitude>
+    <name lang='en_CA'>Prince Edward Cinemas</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1093</id>
+    <latitude>46.236384</latitude>
+    <longitude>-63.127623</longitude>
+    <name lang='en_CA'>Tweel's Gift Shop</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1094</id>
+    <latitude>46.236084</latitude>
+    <longitude>-63.13038</longitude>
+    <name lang='en_CA'>Tweel's Groceteria</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1095</id>
+    <latitude>46.243955</latitude>
+    <longitude>-63.133439</longitude>
+    <name lang='en_CA'>Queen Street Meat Market</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1096</id>
+    <latitude>46.236162</latitude>
+    <longitude>-63.118787</longitude>
+    <name lang='en_CA'>CN Station</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>N</exists>
+    <type>002_S</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1097</id>
+    <latitude>46.4006</latitude>
+    <longitude>-63.548259</longitude>
+    <name lang='en_CA'>Big White Church on Route 2</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>003_W</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1098</id>
+    <latitude>46.420095</latitude>
+    <longitude>-63.376509</longitude>
+    <name lang='en_CA'>Hot dogs</name>
+    <Aliases />
+    <nowKnownAsName lang='en_CA' />
+    <description lang='en_CA'></description>
+    <exists>Y</exists>
+    <type>004_N</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <ExternalLink />
+    </ExternalLinks>
+    <AliasLinks />
+    <NowKnownAsLinks/>
+  </Landmark>
+</Landmarks>

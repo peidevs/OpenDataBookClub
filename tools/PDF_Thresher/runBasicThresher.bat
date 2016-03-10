@@ -1,0 +1,3 @@
+
+java BasicThresher %1
+

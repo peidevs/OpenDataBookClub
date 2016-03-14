@@ -10,7 +10,8 @@ title: PEI Open Data Hackathon
 
 #### Address Liberation 
 * [presentation photo](https://www.flickr.com/photos/100794919@N05/24938363134/in/album-72157663224471673/)
-* Mark Wright, Mike Berger, Chris Stewart
+* **Team Members**: Mark Wright, Mike Berger, Chris Stewart
+* **Source Control** - Missing
 * Liberate the Address Lookup currently available on the Government of Prince Edward Island website
 * Currently a service on a webpage, but needs to be opened for more information
 * Built a database from GIS SHP files
@@ -21,7 +22,9 @@ title: PEI Open Data Hackathon
 
 #### Bursary
 * [presentation photo](https://www.flickr.com/photos/100794919@N05/25542728046/in/album-72157663224471673/)
-* Michael Easter, Evan Porter, Christian Southgate, Ifo Ikede
+* **Team Members**: Michael Easter, Evan Porter, Christian Southgate, Ifo Ikede
+* [View the Application](http://peidevs.github.io/OpenDataBookClub/bursary/)
+* [Source Control](https://github.com/peidevs/OpenDataBookClub/tree/gh-pages/bursary)
 * Goal - aggregate infomation about Bursaries and Scholarships
 * Lots of public info, but it is scattered
 * Data is not easy to get
@@ -36,7 +39,8 @@ title: PEI Open Data Hackathon
 
 #### Airplane
 * [presentation photo](https://www.flickr.com/photos/100794919@N05/25273254090/in/album-72157663224471673/)
-* Nathan Murnaghan, Nitheen Rao
+* **Team Members**: Nathan Murnaghan, Nitheen Rao
+* **Source Control** - Missing
 * Working with Civil Aircraft Register Database
 * Comments on current site indicate data is unfriendly.
 * Team wanted to clean up data to make it much more usable. 
@@ -50,7 +54,8 @@ title: PEI Open Data Hackathon
 
 #### Apple TV Street Condition
 * [presentation photo](https://www.flickr.com/photos/100794919@N05/25450302532/in/album-72157663224471673/)
-* Nolan Phillips, Bob Shand, Kelvin Susam, Calista Tan, Ben Sinnamon
+* **Team Members**: Nolan Phillips, Bob Shand, Kelvin Susam, Calista Tan, Ben Sinnamon
+* **Source Control**: Missing
 * Use Province 511 Data to create an IOS/Apple TV application.
 * Trying to Enhance the existing weather reports and traffic conditions
 * Challenge, data contained points that were not labeled what spatial data format it was. Caused issues getting the data in lat long. 
@@ -58,8 +63,9 @@ title: PEI Open Data Hackathon
 
 #### MapRiddlr
 * [presentation photo](https://www.flickr.com/photos/100794919@N05/25273253320/in/album-72157663224471673/)
+* **Team Members**: Sarah Thompson, Patrick Williams, Jullian Keller, Matt White, Nikita Volodin, Celito Felipetto
 * [Ron Myers](https://www.flickr.com/photos/100794919@N05/25450295822/in/album-72157663224471673/)
-* Sarah Thompson, Patrick Williams, Jullian Keller, Matt White, Nikita Volodin, Celito Felipetto
+* [Source Control](https://github.com/MatthewWhite/MapRiddlr)
 * Created a game where you had to find a person hidden on the map
 * Provided user a hint, and the user had to find the user on the map
 * Zoom in on the map until you find person

@@ -11,7 +11,7 @@ title: PEI Open Data Hackathon
 #### Address Liberation 
 * [presentation photo](https://www.flickr.com/photos/100794919@N05/24938363134/in/album-72157663224471673/)
 * **Team Members**: Mark Wright, Mike Berger, Chris Stewart
-* **Source Control** - Missing
+* **Source Control** - Mark will provide link
 * Liberate the Address Lookup currently available on the Government of Prince Edward Island website
 * Currently a service on a webpage, but needs to be opened for more information
 * Built a database from GIS SHP files
@@ -55,7 +55,7 @@ title: PEI Open Data Hackathon
 #### Apple TV Street Condition
 * [presentation photo](https://www.flickr.com/photos/100794919@N05/25450302532/in/album-72157663224471673/)
 * **Team Members**: Nolan Phillips, Bob Shand, Kelvin Susam, Calista Tan, Ben Sinnamon
-* **Source Control**: Missing
+* **Source Control**: Waiting on Bob
 * Use Province 511 Data to create an IOS/Apple TV application.
 * Trying to Enhance the existing weather reports and traffic conditions
 * Challenge, data contained points that were not labeled what spatial data format it was. Caused issues getting the data in lat long. 

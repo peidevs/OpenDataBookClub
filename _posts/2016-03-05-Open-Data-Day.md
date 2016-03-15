@@ -8,9 +8,12 @@ title: PEI Open Data Hackathon
 * [CBC article](http://www.cbc.ca/news/canada/prince-edward-island/data-computer-apps-open-government-1.3478962)
 * [Caravaggio](https://twitter.com/30_for_60/status/706992363185577985)
 
-#### Address Liberation 
-* [presentation photo](https://www.flickr.com/photos/100794919@N05/24938363134/in/album-72157663224471673/)
-* **Team Members**: Mark Wright, Mike Berger, Chris Stewart
+#### Restful GIS 
+![Mark Wright presenting Address Liberation project](https://www.flickr.com/photos/100794919@N05/24938363134/in/album-72157663224471673/ "Mark Wright presenting Address Liberation project") 
+**Team Members**: Mark Wright, Mike Berger, Chris Stewart
+The focus of the the Restful GIS team was to work with the existing governments GIS data and provide a restful API to the data which would provide users of the data an easier mechanism to consume the data. The GIS SHP files were extracted to a database which allowed queries to be written which allowed for advanced usage of the data. In the current format it was hard for users to cross reference data in multiple SHP files. The team was able to write queries on that data which would allow them to answer data requests for things like "All properties in Stratford" or "Police coverage within 5km of me". This project demonstrates the need for easy to consume data. SHP files provide lots of information, but are not easy to access for a general user. Providing the restful API provided users a cheaper entry point to the provinces GIS data. 
+
+#### Retired.....
 * **Source Control** - Mark will provide link
 * Liberate the Address Lookup currently available on the Government of Prince Edward Island website
 * Currently a service on a webpage, but needs to be opened for more information

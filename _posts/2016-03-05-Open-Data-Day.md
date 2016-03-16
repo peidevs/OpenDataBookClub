@@ -121,7 +121,7 @@ who were already pulling out the GIS data into restful services.
 ![MapRiddlr](https://farm2.staticflickr.com/1551/25273253320_1c0f83880c_n.jpg "Sarah and Celito Presenting"){: .postImage }
 **Team Members**: Sarah Thompson, Patrick Williams, Jullian Keller, Matt White, Nikita Volodin, Celito Felipetto
 
-Where's Waldo?, Where In the World is Carmen Sandiego? Where the f*** is Ron Myers? This team would like to help you find
+Where's Waldo?, Where In the World is Carmen Sandiego? Where the bleep is Ron Myers? This team would like to help you find
 them. 
 
 The MapRiddlr team created a game using google maps which provided the user clues in order to find a place in the world. 

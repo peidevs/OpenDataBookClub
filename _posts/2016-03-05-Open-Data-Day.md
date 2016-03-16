@@ -58,20 +58,27 @@ for the people who need this information most.
 * [Source Control](https://github.com/peidevs/OpenDataBookClub/tree/gh-pages/bursary)
 
 
-#### Airplane
-* [presentation photo](https://www.flickr.com/photos/100794919@N05/25273254090/in/album-72157663224471673/)
-* **Team Members**: Nathan Murnaghan, Nitheen Rao
-* **Source Control** - Missing
-* Working with Civil Aircraft Register Database
-* Comments on current site indicate data is unfriendly.
-* Team wanted to clean up data to make it much more usable. 
-* Current site is 2 CSV files, hard to link together
-* Civil Private Aircrafts.
-* Pilots/Owners loooking for their own planes and were having trouble finding their aircraft
-* Team created application which simplified the data and allowed the users to find/search aircrafts
-* Data was national
-* There was some data which needs cleanup. Showing data in this way it was easier to find bad data. e.g. license expiry dates of 1900
-* First time doing web app for the team. Learned AngularJS for the project
+#### Civil Aircraft Register
+![Airplane](https://farm2.staticflickr.com/1457/25273254090_c855113396_n.jpg "Nathan presenting for his team"){: .postImage }
+**Team Members**: Nathan Murnaghan, Nitheen Rao
+
+Nitheen and Nathan set out to tackle the Canadian Civil Arcraft Register database, which contains information about 
+all of the privatly owned airplanes in Canada. The current site offers two CSV files for download which contain 
+information about the planes and their address information. Comments on the existing site, indicate that the data 
+is not usable and unfriendly to work with. Even pilots who owned aircraft were having trouble finding their own information
+to make sure everything was up to date and not expired. 
+
+The teams goal was to massage the data and come up with a user friendly way for this information to be displayed. By 
+making the data friendlier to use, the team was able to create a web application which let users find information about
+planes quicker and easier than before.
+
+While working and massaging the data into a usable format, the team quickly discovered that their was lots of bad data
+in the records. Because the information was so hard to search in the original format it may not have been caught easily.
+One example they discovered was the expiry dates on the registration for a few planes was 1900. 3 Years before the Wright
+brothers flew their first plane.
+
+**Team Resources**
+
 
 #### Apple TV Street Condition
 * [presentation photo](https://www.flickr.com/photos/100794919@N05/25450302532/in/album-72157663224471673/)

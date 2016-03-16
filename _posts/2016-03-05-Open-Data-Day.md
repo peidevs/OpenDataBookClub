@@ -9,7 +9,7 @@ title: PEI Open Data Hackathon
 * [Caravaggio](https://twitter.com/30_for_60/status/706992363185577985)
 
 #### Restful GIS 
-![Mark Wright presenting Address Liberation project](https://farm2.staticflickr.com/1489/24938363134_e142478510_z.jpg "Mark Wright presenting Address Liberation project"){: .postImage } 
+![Team Restful GIS](https://farm2.staticflickr.com/1489/24938363134_e142478510_z.jpg "Mark Wright presenting Address Liberation project"){: .postImage } 
 **Team Members**: Mark Wright, Mike Berger, Chris Stewart
 
 The focus of the the Restful GIS team was to work with the existing governments GIS data and provide a restful API to 
@@ -17,36 +17,46 @@ the data which would provide users of the data an easier mechanism to consume th
 to a database which allowed queries to be written which allowed for advanced usage of the data. In the current format it 
 was hard for users to cross reference data in multiple SHP files. The team was able to write queries on that data which 
 would allow them to answer data requests for things like "All properties in Stratford" or "Police coverage within 5km of 
-me". This project demonstrates the need for easy to consume data. SHP files provide lots of information, but are not 
-easy to access for a general user. Providing the restful API provided users a cheaper entry point to the provinces GIS 
-data. 
+me". 
 
-#### Retired.....
-* **Source Control** - Mark will provide link
-* Liberate the Address Lookup currently available on the Government of Prince Edward Island website
-* Currently a service on a webpage, but needs to be opened for more information
-* Built a database from GIS SHP files
-* Create a RESTful API of the data, to get information that is easier for applications to consume
-* In DB, the data was easier to write queries to do things like Search for all properties in Stratford
-* Still contains GIS data, so you can search for all properties in a given area or range
-* Search for police coverage in a given area
+This project demonstrates the need for easy to consume data. SHP files provide lots of information, but are not 
+easy to access for a general user. Providing the restful API provided users a cheaper entry point to the provinces GIS 
+data.
+
+**Team Resources**
 
 #### Bursary
-* [presentation photo](https://www.flickr.com/photos/100794919@N05/25542728046/in/album-72157663224471673/)
-* **Team Members**: Michael Easter, Evan Porter, Christian Southgate, Ifo Ikede
+![Team Bursary](https://farm2.staticflickr.com/1501/25542728046_334649dd05_n.jpg "Christian Southgate presenting for the Bursary Team"){: .postImage }
+**Team Members**: Michael Easter, Evan Porter, Christian Southgate, Ifo Ikede
+
+A student looking for financial aid has to know about many different resources in order to apply for bursaries. For any
+student, they may look on their schools financial aid's office website, go to multiple government websites, visit
+their local municipal offices or local church. One example was on the PEI government site. The team began looking at the 
+website for the Department of Workforce and Advanced Learning. This was a good starting point as this is the department 
+responsible for assisting in financial aid. What they later discovered is that they found more bursary information on 
+the PEI Government website, this time in the Advisory Council for the Status of Women section. Two departments on the 
+same website hosting busary information. This makes information harder to discover.
+
+Because there is no consolidated effort to list bursary information, a good chunk of this financial aid is going 
+unclaimed every year. 
+
+The goal of this team was to create an aggregate of the information listed on multiple sites and show how an easy 
+search/filter can be used to help students find and apply for financial aid. The team found that their was lots of 
+information available for bursaries in many different formats. They noticed that the Holland College website offered a 
+similar service but the information was not easy to consume and required the effort to scrape the data in order to use 
+it. Other sites had closed off the information in PDF's and other formats which made consolidating the information 
+difficult.
+
+The groups original approach to the project was to create an automatic scrapper to pull the information into their
+application. They realized this approach was not realistic because they would have to create a transformation for each
+new resource which they discovered. Their goal shifted throughout the day and in the end their goal was to start the 
+conversation that if more groups opened the information or consolidated efforts, the end result is a better experience
+for the people who need this information most.
+
+**Team Resources**
 * [View the Application](http://peidevs.github.io/OpenDataBookClub/bursary/)
 * [Source Control](https://github.com/peidevs/OpenDataBookClub/tree/gh-pages/bursary)
-* Goal - aggregate infomation about Bursaries and Scholarships
-* Lots of public info, but it is scattered
-* Data is not easy to get
-* Initial idea was automated scraping of PDFs and other data
-    * unrealistic, have to write a transformer for every single doc
-* Goal became to create the start of a conversation
-* Show everyone how good and powerful this can be
-* Challenge, data is too spread out. On the pei government site alone, there were a few departments hosting bursary data
-    * Department of Workforce and Advanced Learning
-    * Advisorie Council for the status of Women 
-* Holland College offers similar service, but the information is closed and needs to be scraped
+
 
 #### Airplane
 * [presentation photo](https://www.flickr.com/photos/100794919@N05/25273254090/in/album-72157663224471673/)

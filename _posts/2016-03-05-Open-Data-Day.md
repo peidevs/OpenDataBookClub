@@ -3,13 +3,13 @@ layout: post
 title: PEI Open Data Hackathon
 ---
 
+## Introduction
+
 ## Team Presentations
-* [event photos](https://www.flickr.com/photos/100794919@N05/albums/72157663224471673)
-* [CBC article](http://www.cbc.ca/news/canada/prince-edward-island/data-computer-apps-open-government-1.3478962)
-* [Caravaggio](https://twitter.com/30_for_60/status/706992363185577985)
 
 #### Restful GIS 
-![Team Restful GIS](https://farm2.staticflickr.com/1489/24938363134_e142478510_z.jpg "Mark Wright presenting Address Liberation project"){: .postImage } 
+
+![Team Restful GIS](https://farm2.staticflickr.com/1489/24938363134_e142478510_n.jpg "Mark Wright presenting Address Liberation project"){: .postImage } 
 **Team Members**: Mark Wright, Mike Berger, Chris Stewart
 
 The focus of the the Restful GIS team was to work with the existing governments GIS data and provide a restful API to 
@@ -25,7 +25,11 @@ data.
 
 **Team Resources**
 
+* [PEI GIS Catalog](http://www.gov.pe.ca/gis/index.php3?number=77543)
+* Source Control - Waiting on Mark
+
 #### Bursary
+
 ![Team Bursary](https://farm2.staticflickr.com/1501/25542728046_334649dd05_n.jpg "Christian Southgate presenting for the Bursary Team"){: .postImage }
 **Team Members**: Michael Easter, Evan Porter, Christian Southgate, Ifo Ikede
 
@@ -54,11 +58,13 @@ conversation that if more groups opened the information or consolidated efforts,
 for the people who need this information most.
 
 **Team Resources**
+
 * [View the Application](http://peidevs.github.io/OpenDataBookClub/bursary/)
 * [Source Control](https://github.com/peidevs/OpenDataBookClub/tree/gh-pages/bursary)
 
 
 #### Civil Aircraft Register
+
 ![Airplane](https://farm2.staticflickr.com/1457/25273254090_c855113396_n.jpg "Nathan presenting for his team"){: .postImage }
 **Team Members**: Nathan Murnaghan, Nitheen Rao
 
@@ -79,21 +85,46 @@ brothers flew their first plane.
 
 **Team Resources**
 
+* [Existing Civil Aircraft Register Website](http://wwwapps.tc.gc.ca/saf-sec-sur/2/ccarcs-riacc/Menu.aspx?lang=eng)
 
 #### Apple TV Street Condition
-* [presentation photo](https://www.flickr.com/photos/100794919@N05/25450302532/in/album-72157663224471673/)
-* **Team Members**: Nolan Phillips, Bob Shand, Kelvin Susam, Calista Tan, Ben Sinnamon
-* **Source Control**: Waiting on Bob
-* Use Province 511 Data to create an IOS/Apple TV application.
-* Trying to Enhance the existing weather reports and traffic conditions
-* Challenge, data contained points that were not labeled what spatial data format it was. Caused issues getting the data in lat long. 
-* Existing 511 used images instead of spatial data to draw 
 
-#### MapRiddlrgit add
-* [presentation photo](https://www.flickr.com/photos/100794919@N05/25273253320/in/album-72157663224471673/)
-* **Team Members**: Sarah Thompson, Patrick Williams, Jullian Keller, Matt White, Nikita Volodin, Celito Felipetto
-* [Ron Myers](https://www.flickr.com/photos/100794919@N05/25450295822/in/album-72157663224471673/)
-* [Source Control](https://github.com/MatthewWhite/MapRiddlr)
+![Apple Tv](https://farm2.staticflickr.com/1518/25450302532_c8334f895f_n.jpg "Bob Shand showing off some code"){: .postImage }
+**Team Members**: Nolan Phillips, Bob Shand, Kelvin Susam, Calista Tan, Ben Sinnamon
+
+It was discovered that the Provincial 511 Data poertal was already providing some open data in json format and it was 
+being used to show maps and charts on various road conditions and weather. The team decided to try and enhance the existing
+portal by creating a map application on an IOS device which would be more user friendly. The existing site contains
+lots of information, but is hard to use and the maps are not very responsive. 
+
+When working with spatial data there are many different formats. The team learned that the 511 data contained points
+but did not indicate which of the spatial formats were being used. Many hours were spent trying to decipher which format
+the information was in, as well as discovering the data was in Radians insted of Degrees. Once that was completed the 
+team moved on to their next problem.
+
+The road conditions map shows roads and is dynamic to to show different colored lines based on the road conditions. Looking 
+at the data it was clear to see their was a code representing the various road conditions. The team was expecting to find
+that the existing site was using the road condition code along with GIS data to draw the line on the roads indicating the 
+road conditions is a user friendy way. Instead they found that code was used to load an image of a map tile which overlayed 
+the map. The difficulty now for the team, was they would have to pul in a 2nd dataset to assist in their project. Given
+the timeframe of the event, this wasn't possible to do. The team could have used the GIS data available on the government
+portal, but would have had to learn to use SHP files. This would have been a great collaboration with the Restful GIS team
+who were already pulling out the GIS data into restful services. 
+
+**Team Resources**
+
+* [PEI 511 Portal](http://511.gov.pe.ca/en/map_report.html)
+* [Spatial Reference](http://spatialreference.org/)
+* Source Control - Waiting on Bob
+
+#### MapRiddlr
+![MapRiddlr](https://farm2.staticflickr.com/1551/25273253320_1c0f83880c_n.jpg "Sarah and Celito Presenting"){: .postImage }
+**Team Members**: Sarah Thompson, Patrick Williams, Jullian Keller, Matt White, Nikita Volodin, Celito Felipetto
+
+
+
+
+
 * Created a game where you had to find a person hidden on the map
 * Provided user a hint, and the user had to find the user on the map
 * Zoom in on the map until you find person
@@ -105,6 +136,17 @@ brothers flew their first plane.
 * Once you find the head, you would click the "head" to start a new game
 * Great use of open data. You never know what it will be used for
 
+**Team Resources**
+
+[Source Control](https://github.com/MatthewWhite/MapRiddlr)
+
 ## Closing Remarks
- * Thank you again to our sponsors: Government of PEI, StartUp Zone, and Binary Star
+Thank you again to our sponsors: Government of PEI, StartUp Zone, and Binary Star. Thank you to Tracy and John for 
+stopping by and talking about the PEI Governments initiative to move to open data. Thank you to Cody from the StartUp Zone
+who introduced many of us to this new location in PEI.
+ 
+## Additional Resources
+ * [event photos](https://www.flickr.com/photos/100794919@N05/albums/72157663224471673)
+ * [CBC article](http://www.cbc.ca/news/canada/prince-edward-island/data-computer-apps-open-government-1.3478962)
+ * [Caravaggio](https://twitter.com/30_for_60/status/706992363185577985)
 

@@ -121,24 +121,32 @@ who were already pulling out the GIS data into restful services.
 ![MapRiddlr](https://farm2.staticflickr.com/1551/25273253320_1c0f83880c_n.jpg "Sarah and Celito Presenting"){: .postImage }
 **Team Members**: Sarah Thompson, Patrick Williams, Jullian Keller, Matt White, Nikita Volodin, Celito Felipetto
 
+Where's Waldo?, Where In the World is Carmen Sandiego? Where the f*** is Ron Myers? This team would like to help you find
+them. 
 
+The MapRiddlr team created a game using google maps which provided the user clues in order to find a place in the world. 
+A scavenger hunt of sorts. The clues would help narrow the location of the user. Providing points for correctly finding 
+the location. The game was configurable to chase after different people including Mario, Yoshi and Ron Myers. Of
+course Ron was wearing a bright red hat so he was easy to find.
 
+If the clues were not enough, the team put a flag on the map at your location. The flag would tell you the distance between
+you and the person you were trying to find. The users would be directd to various locations accross the world, in the 
+Demo the team showed clues to find the Eiffel Tower. 
 
+The team wanted to use the Landmarks of PEI project, created by Michael (PEI Open Data Bookclub Founder), but were not 
+able to find enough information to get this data into the game. Because some of the points in that dataset are not always 
+well known to people outside of an area or age demographic the team struggled to come up with enough clues to make the game 
+viable in the timeframe expected at the event. Finding useful hints and facts about places liek the Eiffel Tower are 
+much easier and a click away. So the team stayed focused on world landmarks for the demo.
 
-* Created a game where you had to find a person hidden on the map
-* Provided user a hint, and the user had to find the user on the map
-* Zoom in on the map until you find person
-* Point system, user could ask for hints but would lose points. 1000 point base, lose 200 points for each hint
-* A flag on the map would tell you how far you are from the point
-* Inspired by Landmarks in PEI. Didn't have time to complete the game and create hints for all locations
-    *  Difficulty with some of the points was coming up with the questions and hints
-    *  Finding information about major landmarks was easier on a global scale
-* Once you find the head, you would click the "head" to start a new game
-* Great use of open data. You never know what it will be used for
+The team showed a great potential for open data. You never know what your project could be used for. Who would think a 
+landmarks project would be used as game to find the landmarks.
+
+Of note, only a handful of people in the room knew who Carmen Saniego was, which makes this writer feel old.
 
 **Team Resources**
 
-[Source Control](https://github.com/MatthewWhite/MapRiddlr)
+* [Source Control](https://github.com/MatthewWhite/MapRiddlr)
 
 ## Closing Remarks
 Thank you again to our sponsors: Government of PEI, StartUp Zone, and Binary Star. Thank you to Tracy and John for 

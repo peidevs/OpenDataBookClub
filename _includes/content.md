@@ -17,7 +17,7 @@ As with PEI Developers, this is a volunteer, non-partisan initiative. We're open
 
 ## When
 
-We meet on the 4th week of the month (usually Tuesday). Our next meeting will be [Tuesday, February 23, 2016](http://www.meetup.com/Open-Data-PEI/events/228548487/).
+We meet on the 4th week of the month (usually Tuesday). Our next meeting will be [Tuesday, March 22, 2016](http://www.meetup.com/Open-Data-PEI/events/229432782/).
 
 {% comment %} 
 Everyone welcome: the audience is *not* just software developers!  

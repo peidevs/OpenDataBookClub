@@ -76,27 +76,14 @@ While working and massaging the data into a usable format, the team quickly enco
 
 #### Apple TV Street Condition
 
-![Apple Tv](https://farm2.staticflickr.com/1518/25450302532_c8334f895f_n.jpg "Bob Shand showing off some code"){: .postImage }
+![Apple TV](https://farm2.staticflickr.com/1518/25450302532_c8334f895f_n.jpg "Bob Shand showing off some code"){: .postImage }
 **Team Members**: Nolan Phillips, Bob Shand, Kelvin Susam, Calista Tan, Ben Sinnamon
 
-It was discovered that the Provincial 511 Data poertal was already providing some open data in json format and it was 
-being used to show maps and charts on various road conditions and weather. The team decided to try and enhance the existing
-portal by creating a map application on an IOS device which would be more user friendly. The existing site contains
-lots of information, but is hard to use and the maps are not very responsive. 
+It was discovered that the Provincial Open 511 Data portal was already providing open data in JSON format; it was being used to show maps and charts on various road conditions and weather. The team endeavoured to enhance the existing portal by creating a map application on an iOS device to deliver a fresh user-experience. The existing site contains good info, but is difficult to use on mobile devices.
 
-When working with spatial data there are many different formats. The team learned that the 511 data contained points
-but did not indicate which of the spatial formats were being used. Many hours were spent trying to decipher which format
-the information was in, as well as discovering the data was in Radians insted of Degrees. Once that was completed the 
-team moved on to their next problem.
+When working with spatial data there are many different formats. The team learned that the Open 511 data contained points but did not indicate which of the spatial formats were being used. Many hours were spent trying to identify the format; as well as discovering the data was in Radians insted of Degrees. 
 
-The road conditions map shows roads and is dynamic to to show different colored lines based on the road conditions. Looking 
-at the data it was clear to see their was a code representing the various road conditions. The team was expecting to find
-that the existing site was using the road condition code along with GIS data to draw the line on the roads indicating the 
-road conditions is a user friendy way. Instead they found that code was used to load an image of a map tile which overlayed 
-the map. The difficulty now for the team, was they would have to pul in a 2nd dataset to assist in their project. Given
-the timeframe of the event, this wasn't possible to do. The team could have used the GIS data available on the government
-portal, but would have had to learn to use SHP files. This would have been a great collaboration with the Restful GIS team
-who were already pulling out the GIS data into restful services. 
+The *road conditions* map shows is dynamic: it displays different coloured lines based on conditions. Looking at the data, the team identified a code that represents various road conditions. The team anticipated that the road condition code combined with GIS data to render the line on the roads. Instead, the code is used to load an image of a map tile which overlayed the map. The team now needed a second dataset to implement the idea. Given the timeframe of the hackathon, this was impossible. The team could have used the GIS data available on the government portal, but would have had to learn to use SHP files. This could be a great future collaboration with the RESTful GIS team (who were already pulling out the GIS data into RESTful services). 
 
 **Team Resources**
 

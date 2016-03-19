@@ -95,28 +95,22 @@ The *road conditions* map shows is dynamic: it displays different coloured lines
 ![MapRiddlr](https://farm2.staticflickr.com/1551/25273253320_1c0f83880c_n.jpg "Sarah and Celito Presenting"){: .postImage }
 **Team Members**: Sarah Thompson, Patrick Williams, Jullian Keller, Matt White, Nikita Volodin, Celito Felipetto
 
-Where's Waldo?, Where In the World is Carmen Sandiego? Where the bleep is Ron Myers? This team would like to help you find
-them. 
+* *Where's Waldo?* 
+* *Where In the World is Carmen Sandiego?* 
+* *Where the @-&! is Ron Myers?* 
 
-The MapRiddlr team created a game using google maps which provided the user clues in order to find a place in the world. 
-A scavenger hunt of sorts. The clues would help narrow the location of the user. Providing points for correctly finding 
-the location. The game was configurable to chase after different people including Mario, Yoshi and Ron Myers. Of
-course Ron was wearing a bright red hat so he was easy to find.
+This team would like to help you find them. 
 
-If the clues were not enough, the team put a flag on the map at your location. The flag would tell you the distance between
-you and the person you were trying to find. The users would be directd to various locations accross the world, in the 
-Demo the team showed clues to find the Eiffel Tower. 
+The MapRiddlr team created a game using Google Maps: the user receives clues to find a place in the world; a scavenger hunt, of sorts. The clues help narrow the location, and the user gains points for correctly finding it. The game used configurable targets: Mario, Yoshi and (our favourite) *Ron Myers*. Of course, Ron's image featured a bright red hat, so he was easy to find.
 
-The team wanted to use the Landmarks of PEI project, created by Michael (PEI Open Data Bookclub Founder), but were not 
-able to find enough information to get this data into the game. Because some of the points in that dataset are not always 
-well known to people outside of an area or age demographic the team struggled to come up with enough clues to make the game 
-viable in the timeframe expected at the event. Finding useful hints and facts about places liek the Eiffel Tower are 
-much easier and a click away. So the team stayed focused on world landmarks for the demo.
+If the clues aren't enough, the team places a flag on the map at your location. The flag would tell you the distance between you and the person you were trying to find. The user is directed to various locations accross the world. In the Demo, the team demonstrated clues to find the Eiffel Tower. 
 
-The team showed a great potential for open data. You never know what your project could be used for. Who would think a 
-landmarks project would be used as game to find the landmarks.
+The team wanted to use the [PEI Landmarks](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html), but were not able to find enough hints/clues, a show-stopper for users outside of an area or age-demographic. Finding useful hints and facts about places like the Eiffel Tower are much easier and a click away. So the team focused on world landmarks for the demo.  
 
-Of note, only a handful of people in the room knew who Carmen Saniego was, which makes this writer feel old.
+The team illustrated the great potential for open data. We never know where Open Data might be used. Who would think a 
+landmarks project would be used as game to find the landmarks?
+
+(Note: only a handful of people in the room knew who Carmen Sandiego was, which makes this writer feel old).
 
 **Team Resources**
 

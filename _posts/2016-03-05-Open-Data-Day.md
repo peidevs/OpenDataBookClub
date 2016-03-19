@@ -62,19 +62,13 @@ for the people who need this information most.
 **Team Members**: Nathan Murnaghan, Nitheen Rao
 
 Nitheen and Nathan set out to tackle the Canadian Civil Arcraft Register database, which contains information about 
-all of the privatly owned airplanes in Canada. The current site offers two CSV files for download which contain 
-information about the planes and their address information. Comments on the existing site, indicate that the data 
-is not usable and unfriendly to work with. Even pilots who owned aircraft were having trouble finding their own information
-to make sure everything was up to date and not expired. 
+all privately-owned airplanes in Canada. The current site offers two CSV files for download, which contain 
+information about the planes and their address information. Comments on the existing site indicate that the data 
+is not usable and unfriendly to work with. Even pilots who owned aircraft were having trouble finding *their own information* to ensure data was up-to-date.
 
-The teams goal was to massage the data and come up with a user friendly way for this information to be displayed. By 
-making the data friendlier to use, the team was able to create a web application which let users find information about
-planes quicker and easier than before.
+The goal: massage the data to enable a user-friendly way for this information to be displayed. By making the data simpler to use, the team created a web application which illustrated the effective search.
 
-While working and massaging the data into a usable format, the team quickly discovered that their was lots of bad data
-in the records. Because the information was so hard to search in the original format it may not have been caught easily.
-One example they discovered was the expiry dates on the registration for a few planes was 1900. 3 Years before the Wright
-brothers flew their first plane.
+While working and massaging the data into a usable format, the team quickly encouraged the scourge of Open Data: bad data. The improved format revealed errors that had been hidden in the past. E.g. the expiry date on the registration for a few planes was **1900**, *three years before* the Wright brothers flew their first plane!
 
 **Team Resources**
 

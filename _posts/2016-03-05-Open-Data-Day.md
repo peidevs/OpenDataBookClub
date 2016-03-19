@@ -34,28 +34,20 @@ This project demonstrates the need for simple access to data. SHP files provide 
 ![Team Bursary](https://farm2.staticflickr.com/1501/25542728046_334649dd05_n.jpg "Christian Southgate presenting for the Bursary Team"){: .postImage }
 **Team Members**: Michael Easter, Evan Porter, Christian Southgate, Ifo Ikede
 
-A student looking for financial aid has to know about many different resources in order to apply for bursaries. For any
-student, they may look on their schools financial aid's office website, go to multiple government websites, visit
-their local municipal offices or local church. One example was on the PEI government site. The team began looking at the 
-website for the Department of Workforce and Advanced Learning. This was a good starting point as this is the department 
-responsible for assisting in financial aid. What they later discovered is that they found more bursary information on 
-the PEI Government website, this time in the Advisory Council for the Status of Women section. Two departments on the 
-same website hosting busary information. This makes information harder to discover.
+Students in search of financial aid must consider many different resources: they might look on their schools financial aid's office website, go to multiple government websites, visit their local municipal offices or local church. One example was on the PEI government site. The team began looking at the website for the Department of Workforce and Advanced Learning. This was a good starting point as this is the department responsible for assisting in financial aid. What they later discovered is that they found more bursary information on the PEI Government website, this time in the Advisory Council for the Status of Women section. The bursary information is stored in *information silos*.
 
-Because there is no consolidated effort to list bursary information, a good chunk of this financial aid is going 
-unclaimed every year. 
+Because of the distributed nature of these silos, a non-trivial amount of this financial aid is going unclaimed every year. 
 
-The goal of this team was to create an aggregate of the information listed on multiple sites and show how an easy 
-search/filter can be used to help students find and apply for financial aid. The team found that their was lots of 
-information available for bursaries in many different formats. They noticed that the Holland College website offered a 
+The goal: to create an aggregate of the information listed on multiple sites and offer a easy 
+search/filter to help students find and apply for financial aid. The team discovered that much of the information available exists in different formats. They noticed that the Holland College website offered a 
 similar service but the information was not easy to consume and required the effort to scrape the data in order to use 
-it. Other sites had closed off the information in PDF's and other formats which made consolidating the information 
+it. Other sites had closed off the information in PDFs and other formats which made consolidating the information 
 difficult.
 
-The groups original approach to the project was to create an automatic scrapper to pull the information into their
-application. They realized this approach was not realistic because they would have to create a transformation for each
-new resource which they discovered. Their goal shifted throughout the day and in the end their goal was to start the 
-conversation that if more groups opened the information or consolidated efforts, the end result is a better experience
+The groups original approach to the project was to create an automatic scraper to pull the information into their
+application. They realized this approach was not realistic: they would have to create a transformation for each
+new resource which they discovered. Their goal shifted throughout the day: to start a 
+conversation to encourage groups to open information for consolidation. The end result is a better experience
 for the people who need this information most.
 
 **Team Resources**

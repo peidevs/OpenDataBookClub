@@ -97,7 +97,7 @@ The *road conditions* map shows is dynamic: it displays different coloured lines
 
 * *Where's Waldo?* 
 * *Where In the World is Carmen Sandiego?* 
-* *Where the @-&! is Ron Myers?* 
+* *Where the heck is Ron Myers?* 
 
 This team would like to help you find them. 
 

@@ -3,7 +3,7 @@ Open Data day is March 5, 2016. Please see the following link for details, [Even
 
 ## Quick News
 
-Our [February meeting](http://www.meetup.com/Open-Data-PEI/events/228548487/) features [Robert Hughes](https://twitter.com/rg_hughes), CAO with the [Town of Stratford](http://www.townofstratford.ca/). Robert will introduce us to Town services and discuss opportunities for Open Data and Open Government.
+For our [March meeting](http://www.meetup.com/Open-Data-PEI/events/229432782/) we'll review the PEI Open Data Hackathon, held on March 5. We'll explore the lessons learned, and take a brief tour of the work that was done. As time allows, we may check-in on both the PEI Landmarks project and PDF Thresher, the wrapper around PDF Box.
 
 ## What is this about?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.

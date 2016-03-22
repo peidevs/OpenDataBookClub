@@ -6,15 +6,21 @@
 <nav class="menu-header">
     <span><a href="{{site.url}}">Home</a></span>
     <span><a href="{{site.url}}/about">About</a></span>
-    <span><a href="#">Posts</a></span>
+    <span><a href="#" onclick="togglePosts(); return false;">Posts</a></span>
 </nav>
 
-<span id="posts">
-    <ul>
-        {% for post in site.posts limit:5 %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</span>
+<div id="posts">
+    {% for post in site.posts limit:5 %}
+    <div><a href="{{ post.url }}">{{ post.title }}</a></div>
+    {% endfor %}
+</div>
+
+<script type="text/javascript">
+
+    function togglePosts() {
+        var posts = document.getElementById('posts');
+
+        posts.style.visibility = (posts.style.visibility === 'visible') ? 'hidden' : 'visible';
+    };
+
+</script>

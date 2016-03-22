@@ -3,3 +3,17 @@
   <h2 class="project-tagline">Promoting Open Data on PEI</h2>
   <h4 class="project-tagline">(in association with PEI Developers)</h4>
 </section>
+<nav>
+    <span><a href="{{site.url}}">Home</a></span>
+    <span><a href="{{site.url}}/about">About</a></span>
+    <span><a href="#" onclick="showPosts()">Posts</a></span>
+</nav>
+<span id="posts">
+    <ul>
+        {% for post in site.posts limit:5 %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</span>

@@ -267,6 +267,8 @@ a {
   background-color: #075;
 
   float: left;
+
+  position: absolute;
   z-index: 30;
 
   visibility: hidden;

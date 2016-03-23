@@ -3,6 +3,25 @@ Let's treat this file as a changelog of sorts, and just place new stuff
 at the top of the file, and keep old stuff.
 -->
 
+#### March 2016
+
+###### Topics
+* Review of [PEI Open Data Hackathon](http://peidevs.github.io/OpenDataBookClub/2016/03/05/Open-Data-Day)
+
+###### Announcements
+* [News for March](http://peidevs.github.io/OpenDataBookClub/2016/03/20/news-for-MAR-2016)
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* venuesponsored by [Michael Easter](http://twitter.com/30_for_60)
+* video equipment loaned by [ScreenScape](http://www.screenscape.com)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+* door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
+
+-----
+
 #### February 2016
 
 ###### Topics

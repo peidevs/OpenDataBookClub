@@ -15,7 +15,7 @@ at the top of the file, and keep old stuff.
 * [Michael Easter](http://twitter.com/30_for_60) 
 
 ###### Sponsors
-* venuesponsored by [Michael Easter](http://twitter.com/30_for_60)
+* venue sponsored by [Michael Easter](http://twitter.com/30_for_60)
 * video equipment loaned by [ScreenScape](http://www.screenscape.com)
 * ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 * door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)

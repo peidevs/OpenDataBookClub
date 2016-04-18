@@ -175,7 +175,10 @@
     <startDate />
     <endDate />
     <ExternalLinks>
-      <ExternalLink />
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=5469</URL>
+      </Link>
     </ExternalLinks>
     <AliasLinks />
     <NowKnownAsLinks/>
@@ -486,7 +489,9 @@
     <latitude>46.237799</latitude>
     <longitude>-63.13094</longitude>
     <name lang='en_CA'>The Red House</name>
-    <Aliases />
+    <Aliases>
+        <alias lang='en_CA'>Gordie Dunn's</alias>
+    </Aliases>
     <nowKnownAsName lang='en_CA' />
     <description lang='en_CA'></description>
     <exists>N</exists>
@@ -494,7 +499,10 @@
     <startDate />
     <endDate />
     <ExternalLinks>
-      <ExternalLink />
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=2663</URL>
+      </Link>
     </ExternalLinks>
     <AliasLinks />
     <NowKnownAsLinks/>
@@ -884,7 +892,10 @@
     <startDate />
     <endDate />
     <ExternalLinks>
-      <ExternalLink />
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=23802380</URL>
+      </Link>
     </ExternalLinks>
     <AliasLinks />
     <NowKnownAsLinks/>
@@ -903,7 +914,11 @@
     <endDate />
     <ExternalLinks>
       <Link>
-        <description lang='en_CA'>External link</description>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=2377</URL>
+      </Link>
+      <Link>
+        <description lang='en_CA'>Wikipedia page</description>
         <URL>https://en.wikipedia.org/wiki/Prince_Edward_Island_Hospital</URL>
       </Link>
     </ExternalLinks>
@@ -1160,7 +1175,10 @@
     <startDate />
     <endDate />
     <ExternalLinks>
-      <ExternalLink />
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=4275</URL>
+      </Link>
     </ExternalLinks>
     <AliasLinks />
     <NowKnownAsLinks/>
@@ -1196,7 +1214,10 @@
     <startDate />
     <endDate />
     <ExternalLinks>
-      <ExternalLink />
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=5469</URL>
+      </Link>
     </ExternalLinks>
     <AliasLinks />
     <NowKnownAsLinks/>
@@ -1812,5 +1833,205 @@
     </ExternalLinks>
     <AliasLinks />
     <NowKnownAsLinks/>
+  </Landmark>
+  <Landmark>
+    <id>1099</id>
+    <latitude>46.266368</latitude>
+    <longitude>-63.148940</longitude>
+    <name lang='en_CA'>Peter Pan Drive-in</name>
+    <Aliases>
+        <alias lang='en_CA'>The Peter Pan</alias>
+    </Aliases>
+    <nowKnownAsName />
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate>1958</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=4837</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks />
+  </Landmark>
+  <Landmark>
+    <id>1100</id>
+    <latitude>46.234395</latitude>
+    <longitude>-63.122578</longitude>
+    <name lang='en_CA'>Eddie's Lunch</name>
+    <Aliases>
+        <alias lang='en_CA'>placeholder alias</alias>
+    </Aliases>
+    <nowKnownAsName />
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=1397</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks />
+  </Landmark>
+  <Landmark>
+    <id>1101</id>
+    <latitude>46.260787</latitude>
+    <longitude>-63.119764</longitude>
+    <name lang='en_CA'>Ellis Brothers</name>
+    <Aliases>
+        <alias lang='en_CA'>placeholder alias</alias>
+    </Aliases>
+    <nowKnownAsName />
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate>1963</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=1212</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks />
+  </Landmark>
+  <Landmark>
+    <id>1102</id>
+    <latitude>46.245662</latitude>
+    <longitude>-63.1259367</longitude>
+    <name lang='en_CA'>1911 Jail</name>
+    <Aliases>
+        <alias lang='en_CA'>placeholder alias</alias>
+    </Aliases>
+    <nowKnownAsName lang='en_CA'>Pizza Delight</nowKnownAsName>
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate>1911</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=2303</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>Pizza Delight</description>
+        <URL>http://www.pizzadelight.com/en/find-a-restaurant/pizzeria/89-charlottetown-jail-.html</URL>
+      </Link>
+    </NowKnownAsLinks>
+  </Landmark>
+  <Landmark>
+    <id>1103</id>
+    <latitude>46.250461</latitude>
+    <longitude>-63.140339</longitude>
+    <name lang='en_CA'>K-Mart</name>
+    <Aliases>
+        <alias lang='en_CA'>placeholder alias</alias>
+    </Aliases>
+    <nowKnownAsName />
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate>1970</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=4275</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks />
+  </Landmark>
+  <Landmark>
+    <id>1104</id>
+    <latitude>46.243223</latitude>
+    <longitude>-63.132916</longitude>
+    <name lang='en_CA'>The Harley Club</name>
+    <Aliases>
+        <alias lang='en_CA'>The Broken Cue</alias>
+        <alias lang='en_CA'>The Lions Club</alias>
+    </Aliases>
+    <nowKnownAsName />
+    <description lang='en_CA'>placeholder description</description>
+    <exists>Y</exists>
+    <type>001_B</type>
+    <startDate>1970</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=4458</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks />
+  </Landmark>
+  <Landmark>
+    <id>1105</id>
+    <latitude>46.252379</latitude>
+    <longitude>-63.138599</longitude>
+    <name lang='en_CA'>A&amp;W restaurant</name>
+    <Aliases>
+        <alias lang='en_CA'>placeholder alias</alias>
+    </Aliases>
+    <nowKnownAsName lang='en_CA'>Subway</nowKnownAsName>
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate>1964</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=5516</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>Subway</description>
+        <URL>https://eatspei.com/pei-restaurants/subway-480-university/</URL>
+      </Link>
+    </NowKnownAsLinks>
+  </Landmark>
+  <Landmark>
+    <id>1106</id>
+    <latitude>46.263384</latitude>
+    <longitude>-63.162611</longitude>
+    <name lang='en_CA'>Wandalyn</name>
+    <Aliases>
+        <alias lang='en_CA'>placeholder alias</alias>
+    </Aliases>
+    <nowKnownAsName lang='en_CA'>Holiday Inn Express</nowKnownAsName>
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate>1971</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=1200</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>Holiday Inn Express</description>
+        <URL>http://www.ihg.com/holidayinnexpress/hotels/us/en/charlottetown/yygca/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-CAN-_-YYGCA</URL>
+      </Link>
+    </NowKnownAsLinks>
   </Landmark>
 </Landmarks>

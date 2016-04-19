@@ -4,8 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+The PEI Open Data Book Club was founded in September 2015.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+[Find our next event](http://www.meetup.com/Open-Data-PEI/)<br />
+[Follow us on Twitter](https://twitter.com/opendatapei)<br />
+[Follow us on Facebook](https://www.facebook.com/PEI-Open-Data-Book-Club-809023082556778/)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+----
+This page was derived from [OpenDataBook.club](https://github.com/deniszgonjanin/opendatabook.club)

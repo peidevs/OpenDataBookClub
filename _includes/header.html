@@ -3,3 +3,24 @@
   <h2 class="project-tagline">Promoting Open Data on PEI</h2>
   <h4 class="project-tagline">(in association with PEI Developers)</h4>
 </section>
+<nav class="menu-header">
+    <span><a href="{{site.url}}">Home</a></span>
+    <span><a href="{{site.url}}/about">About</a></span>
+    <span><a href="#" onclick="togglePosts(); return false;">Posts</a></span>
+</nav>
+
+<div id="posts">
+    {% for post in site.posts limit:5 %}
+    <div><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></div>
+    {% endfor %}
+</div>
+
+<script type="text/javascript">
+
+    function togglePosts() {
+        var posts = document.getElementById('posts');
+
+        posts.style.visibility = (posts.style.visibility === 'visible') ? 'hidden' : 'visible';
+    };
+
+</script>

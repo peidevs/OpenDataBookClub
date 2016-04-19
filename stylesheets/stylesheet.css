@@ -243,3 +243,48 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+.menu-header {
+  line-height: 1.2em;
+  background-color: #075;
+}
+
+.menu-header a {
+  color: #ffffff;
+  font-size: 1.1em;
+  padding-left: 5px;
+}
+
+.menu-header a:last-child {
+  padding-right: 5px;
+}
+
+#posts {
+  width: 350px;
+  padding-left: 5px;
+  padding-top: 10px;
+  background-color: #075;
+
+  float: left;
+
+  position: absolute;
+  z-index: 30;
+
+  visibility: hidden;
+}
+
+#posts div {
+  width:345px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+#posts div a {
+  color: #FFF;
+}
+
+

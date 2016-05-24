@@ -3,6 +3,23 @@ Let's treat this file as a changelog of sorts, and just place new stuff
 at the top of the file, and keep old stuff.
 -->
 
+#### May 2016
+
+###### Topics
+* Review of CODS 16
+
+###### Announcements
+* TBA
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* venue sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* video equipment loaned by [ScreenScape](http://www.screenscape.com)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+* door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
+
 #### March 2016
 
 ###### Topics

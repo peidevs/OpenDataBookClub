@@ -1,9 +1,6 @@
-## Announcement
-Open Data day is March 5, 2016. Please see the following link for details, [Event Details]({{ site.url }}{% post_url 2016-02-29-PEI-Open-Data-Hackathon %}). This is a free event and all are welcome to come.
-
 ## Quick News
 
-For our [March meeting](http://www.meetup.com/Open-Data-PEI/events/229432782/) we'll review the PEI Open Data Hackathon, held on March 5. We'll explore the lessons learned, and take a brief tour of the work that was done. As time allows, we may check-in on both the PEI Landmarks project and PDF Thresher, the wrapper around PDF Box.
+[Click here](http://peidevs.github.io/OpenDataBookClub/2016/05/24/news-for-MAY-2016) for various resources from Canadian Open Data Summit 2016.
 
 ## What is this about?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.
@@ -17,7 +14,7 @@ As with PEI Developers, this is a volunteer, non-partisan initiative. We're open
 
 ## When
 
-We meet on the 4th week of the month (usually Tuesday). Our next meeting will be [Tuesday, March 22, 2016](http://www.meetup.com/Open-Data-PEI/events/229432782/).
+We meet on the 4th week of the month (usually Tuesday). Our next meeting will be in late June, 2016. Check out our [MeetUp page.](http://www.meetup.com/Open-Data-PEI/)
 
 {% comment %} 
 Everyone welcome: the audience is *not* just software developers!  

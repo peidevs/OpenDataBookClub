@@ -29,7 +29,6 @@ This is a list of useful resources regarding Open Data, for both interested citi
 * [Nova Scotia Open Data Portal](https://data.novascotia.ca/)
 * [Open Data Catalogue | Ontario](http://www.ontario.ca/open-data)
 * [Gouvernement Ouvert QC](http://www.donnees.gouv.qc.ca/?node=/accueil)
-* [Open Data Saskatchewan](http://opendatask.ca)
 
 ### Canadian Data Catalogues (Municipal)
 

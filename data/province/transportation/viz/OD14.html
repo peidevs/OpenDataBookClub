@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>PEI Conservation Plates</title>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawVisualization);
+
+      function drawVisualization() {
+        var data = google.visualization.arrayToDataTable([
+['Year', 'Red Fox', 'Blue Jay', 'Canada Goose', 'Brook Trout', 'Lady Slipper'],
+['2013-2014',2608,1374,869,789,703],
+['2014-2015',2848,1374,890,919,908],
+['2015-2016',936,381,265,304,175],
+      ]);
+
+    var options = {
+      title : 'Conservation Plates on PEI',
+      colors: ['red', 'blue', 'green', 'gray', 'pink'],
+      vAxis: {title: 'Total Number Sold'},
+      hAxis: {title: 'Year'},
+      seriesType: 'bars',
+      series: {5: {type: 'line'}}
+    };
+
+    var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+  }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 90%; height: 90%;"></div>
+    <hr/>
+    <div align="center">A visualization of <a href="https://www.princeedwardisland.ca/en/service/conservation-plates-2013-2016-open-data">this data set<a>, licensed under the <a href="https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island">Open Government License - Prince Edward Island</div>
+  </body>
+</html>
+

@@ -76,10 +76,15 @@ def findSize = { map, school, year ->
 
 // --------- main 
 
+if (args.size() < 2) {
+    println "Usage: groovy Validator.groovy infile1 infile2"
+    System.exit(-1)
+}
+
 def mapBySchool = parseFile(args[0])
 
 def isFirstLine = true
-new File("OD9.transform.csv").eachLine { line ->
+new File(args[1]).eachLine { line ->
     if (isFirstLine) {
         isFirstLine = false
     } else { 

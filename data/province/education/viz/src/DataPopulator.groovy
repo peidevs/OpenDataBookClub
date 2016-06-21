@@ -57,9 +57,14 @@ def buildFilter = { def schools ->
 
 // --------- main 
 
+if (args.size() < 2) {
+    println "Usage: groovy DataPopulator.groovy infile outfile"
+    System.exit(-1)
+}
+
 def mapBySchool = parseFile(args[0])
 
-new File("OD9.transform.csv").withWriter { def writer ->
+new File(args[1]).withWriter { def writer ->
     writer.write("School,Year,Size\n")
 
     mapBySchool.each { school, infos ->
@@ -71,10 +76,11 @@ new File("OD9.transform.csv").withWriter { def writer ->
     }
 }
 
-def templateText = new File("template.OD9.html").getText()
+def templateText = new File("template.OD9.step.chart.html").getText()
 
 final String DATA_SCHOOL_AUTOGEN = "DATA_SCHOOL_AUTOGEN"
 final String DATA_SCHOOL_OPTIONS = "DATA_SCHOOL_OPTIONS" 
+final String DATA_SCHOOL_CSV_URL = "DATA_SCHOOL_CSV_URL"
 final String DATA_SCHOOL_FILTER = "DATA_SCHOOL_FILTER"
 
 def schools = []
@@ -83,14 +89,16 @@ schools.sort()
 
 def dataSchoolAutoGen = "THIS FILE IS AUTO-GENERATED. DO NOT EDIT (use the template instead)."
 def dataSchoolOptions = buildOptions(schools) 
+def dataSchoolCsvURL = '"https://raw.githubusercontent.com/peidevs/OpenDataBookClub/master/data/province/education/OD9.transform.csv"'
 def dataSchoolFilter = buildFilter(schools)
 
 def newText = templateText
 .replaceAll(DATA_SCHOOL_AUTOGEN, dataSchoolAutoGen)
 .replaceAll(DATA_SCHOOL_OPTIONS, dataSchoolOptions) 
+.replaceAll(DATA_SCHOOL_CSV_URL, dataSchoolCsvURL) 
 .replaceAll(DATA_SCHOOL_FILTER, dataSchoolFilter) 
 
-new File("../OD9.chart.html").withWriter { writer ->
+new File("../OD9.step.chart.html").withWriter { writer ->
     writer.write(newText)
 }
 

@@ -36,7 +36,7 @@ DATA_SCHOOL_OPTIONS
 <div id="chartContainer" style="height: 2000px;">
   <script type="text/javascript">
     var svg = dimple.newSvg("#chartContainer", "95%", "90%");
-    d3.csv("file:///Users/measter/src/github/peidevs/OpenDataBookClub/data/province/education/viz/src/OD9.transform.csv", function (data) {
+    d3.csv(DATA_SCHOOL_CSV_URL, function (data) {
         data = dimple.filterData(data, "School", [
 DATA_SCHOOL_FILTER
                 ]);

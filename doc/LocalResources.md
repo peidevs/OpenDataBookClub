@@ -20,7 +20,7 @@ This is a simple consolidation of various online resources regarding Open Data o
 * [Premier MacLauchlan's Opening Remarks](https://www.youtube.com/watch?v=5YTGJqZaDzw), Directors Forum, Government of PEI, December 2015 
 * [A Cook's Tour ...](https://speakerdeck.com/reinvented/a-cooks-tour-of-open-data-from-a-users-perspective-directors-forum), Directors Forum, by [Peter Rukavina](http://twitter.com/ruk), December 2015
 * [Open Data Book Club](http://bit.ly/1ZfVnO4), Directors Forum, by [Open Data Book Club](http://twitter.com/opendatapei), December 2015
-* [Open Data and Generation Open](bit.ly/1ownflF), CIPS PEI, by [Michael Easter](http://twitter.com/30_for_60), February 2016 
+* [Open Data and Generation Open](http://peidevs.github.io/OpenDataBookClub/presentations/2016_FEB_18_CIPS_PEI), CIPS PEI, by [Michael Easter](http://twitter.com/30_for_60), February 2016 
 * [Open Data Book Clubs](https://www.youtube.com/watch?v=5DiBSloGRl0&feature=youtu.be&t=3h15m37s), Canadian Open Data Summit 2016, by Ottawa, Toronto, and PEI [Open Data Book Clubs](http://opendatabook.club/#list-of-active-open-data-book-clubs), April 2016
 
 ### Projects (aka 'the Peter Rukavina Appreciation List')

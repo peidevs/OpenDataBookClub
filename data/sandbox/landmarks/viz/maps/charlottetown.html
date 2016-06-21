@@ -55,8 +55,10 @@ function newLayer(whereClauseStr) {
 }
 
 function initialize() {
-    var iniZoom = 9;
-    var mapCenter = new google.maps.LatLng(46.354867, -63.348864);
+    var iniZoom = 13;
+    var centerLat =  46.250707;
+    var centerLng = -63.133828;
+    var mapCenter = new google.maps.LatLng(centerLat, centerLng);
     var mapOptions = {zoom: iniZoom, center: mapCenter};
 
     map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);

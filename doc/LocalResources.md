@@ -7,7 +7,7 @@ This is a simple consolidation of various online resources regarding Open Data o
 
 * **Note**: any editorials do not reflect the views of the Open Data Book Club, though we celebrate discussion in general
 * [Conversation Plates](http://bit.ly/1XnrWNp) by Open Data Book Club
-* [PEI School Enrollments](http://swhalley.github.io/EducationAttendance/) by [Sean Whalley](http://twitter.com/swhalley21) 
+* [PEI School Enrollments](http://swhalley.github.io/EducationAttendance/) by [Sean Whalley](http://twitter.com/seanwhalley21) 
 * another view of [PEI School Enrollments](http://bit.ly/28LVVLW) by Open Data Book Club
 * [Visitors to Historic Sites](https://evanepio.github.io/DataVis/) by [Evan Porter](http://twitter.com/evanepio)
 * another view of [Visitors to Historic Sites](http://bit.ly/1XXLkSi) by Open Data Book Club
@@ -17,7 +17,7 @@ This is a simple consolidation of various online resources regarding Open Data o
 * [several in 2015](http://ruk.ca/content/year-open-data) by [Peter Rukavina](http://twitter.com/ruk)
 * [Open Data: Let's Lean Forward](http://bit.ly/1NzHQfG) for PEI Devs by [Michael Easter](http://twitter.com/30_for_60), August 2015
 * [A Cook's Tour](https://speakerdeck.com/reinvented/open-data-book-club-presentation), the inaugural Open Data Book Club meeting, by [Peter Rukavina](http://twitter.com/ruk), September 2015
-* [Premier MacLaughlan's Opening Remarks](https://www.youtube.com/watch?v=5YTGJqZaDzw), Directors Forum, Government of PEI, December 2015 
+* [Premier MacLauchlan's Opening Remarks](https://www.youtube.com/watch?v=5YTGJqZaDzw), Directors Forum, Government of PEI, December 2015 
 * [A Cook's Tour ...](https://speakerdeck.com/reinvented/a-cooks-tour-of-open-data-from-a-users-perspective-directors-forum), Directors Forum, by [Peter Rukavina](http://twitter.com/ruk), December 2015
 * [Open Data Book Club](http://bit.ly/1ZfVnO4), Directors Forum, by [Open Data Book Club](http://twitter.com/opendatapei), December 2015
 * [Open Data and Generation Open](bit.ly/1ownflF), CIPS PEI, by [Michael Easter](http://twitter.com/30_for_60), February 2016 

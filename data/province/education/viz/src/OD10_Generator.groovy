@@ -120,7 +120,7 @@ final String DATA_SCHOOL_LEVELS_DESC = "DATA_SCHOOL_LEVELS_DESC"
 
 def dataSchoolAutoGen = "THIS FILE IS AUTO-GENERATED. DO NOT EDIT (use the template instead)."
 def dataSchoolOptions = buildOptions(schools) 
-def dataSchoolCsvURL = '"https://github.com/peidevs/OpenDataBookClub/blob/master/data/province/education/OD10.transform.csv"'
+def dataSchoolCsvURL = '"https://raw.githubusercontent.com/peidevs/OpenDataBookClub/master/data/province/education/OD10.transform.csv"'
 def dataSchoolFilter = buildFilter(schools)
 def dataSchoolLevelsAsc = '[ "K", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12"]'
 def dataSchoolLevelsDesc = '["Grade 12", "Grade 11", "Grade 10", "Grade 9", "Grade 8", "Grade 7", "Grade 6", "Grade 5", "Grade 4", "Grade 3", "Grade 2", "Grade 1", "K"]'

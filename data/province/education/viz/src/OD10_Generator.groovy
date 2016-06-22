@@ -133,7 +133,7 @@ def newText = templateText
 .replaceAll(DATA_SCHOOL_LEVELS_ASC, dataSchoolLevelsAsc) 
 .replaceAll(DATA_SCHOOL_LEVELS_DESC, dataSchoolLevelsDesc) 
 
-new File("../OD10.step.group2.html").withWriter("UTF-8") { writer ->
+new File("../OD10.step.group.html").withWriter("UTF-8") { writer ->
     writer.write(newText)
 }
 

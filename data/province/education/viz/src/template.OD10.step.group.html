@@ -13,6 +13,9 @@ DATA_SCHOOL_AUTOGEN
     font-size: 100%;
     font-family: Verdana;
   } 
+  html, body {
+    height: 100%;
+  }
   </style>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
@@ -22,7 +25,7 @@ DATA_SCHOOL_AUTOGEN
 <body>
 <div align="center" style="font-size: medium;">A visualization of <a href="https://www.princeedwardisland.ca/en/service/official-school-enrollment-grade-1999-2015-open-data">this PEI School Enrollment data set<a>, licensed under the <a href="https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island">Open Government License - Prince Edward Island</a></div>
 <br/>
-<div align="center" style="font-size: small;">Specific schools can be selected from drop-down box.</div>
+<div align="center" style="font-size: small;">Specific schools can be selected from drop-down box. Legend is interactive (e.g. K-level can be removed from view).</div>
 <div align="center" style="font-size: small;">Note: original data uses synonyms (e.g. 'Charlottetown Rural High' vs 'Charlottetown Rural') which have been normalized.</div>
 <br/>
 <div align="right" style="font-size: small;"><a href="https://github.com/peidevs/OpenDataBookClub/tree/master/data/province/education">source here</a></div>
@@ -34,9 +37,9 @@ DATA_SCHOOL_AUTOGEN
 DATA_SCHOOL_OPTIONS
 </select>
 <button type="button" id="animationButton">Stop animation</button>
-<div id="chartContainer" style="height: 2000px;">
+<div id="chartContainer" style="height: 90%;">
   <script type="text/javascript">
-    var svg = dimple.newSvg("#chartContainer", "95%", "90%");
+    var svg = dimple.newSvg("#chartContainer", "95%", "85%");
     // d3.csv("https://raw.githubusercontent.com/codetojoy/Git_Sandbox/master/data/simple.full.csv?foo=bar5150", function (data) {
     d3.csv(DATA_SCHOOL_CSV_URL, function(data) {
         data = dimple.filterData(data, "School", [
@@ -52,13 +55,12 @@ DATA_SCHOOL_FILTER
 
         var myChart = new dimple.chart(svg, data);
 
-        var MY_CHART_LEFT = 180;
-        var MY_CHART_TOP = 60;
-        var MY_CHART_RIGHT = 300;
-        var MY_CHART_BOTTOM = 1250;
-        var MY_CHART_NUM_FRAMES = 65;
+        var MY_CHART_X_PERCENT = "10%";
+        var MY_CHART_Y_PERCENT = "7%";
+        var MY_CHART_W_PERCENT = "75%";
+        var MY_CHART_H_PERCENT = "80%";
 
-        myChart.setMargins(MY_CHART_LEFT,MY_CHART_TOP,MY_CHART_RIGHT,MY_CHART_BOTTOM);
+        myChart.setBounds(MY_CHART_X_PERCENT, MY_CHART_Y_PERCENT, MY_CHART_W_PERCENT, MY_CHART_H_PERCENT);
 
         var x = myChart.addCategoryAxis("x", ["Year"]);
         x.fontSize = "auto";
@@ -70,7 +72,13 @@ DATA_SCHOOL_FILTER
         s.interpolation = "step";
         s.lineWeight = 1;
         s.barGap = 0.05;
-        var myLegend = myChart.addLegend(1130, 80, 100, 700, "left");
+
+        var MY_LEGEND_X_PERCENT = "90%";
+        var MY_LEGEND_Y_PERCENT = "30%";
+        var MY_LEGEND_W_PERCENT = "10%";
+        var MY_LEGEND_H_PERCENT = "50%";
+
+        var myLegend = myChart.addLegend(MY_LEGEND_X_PERCENT, MY_LEGEND_Y_PERCENT, MY_LEGEND_W_PERCENT, MY_LEGEND_H_PERCENT, "left");
         myLegend.fontSize = "auto";
 
         // legend order (from Stack Overflow http://stackoverflow.com/a/23537474/12704 ) 
@@ -140,6 +148,41 @@ DATA_SCHOOL_FILTER
         function onTick(e) {
             d3.select("#comboBox").property("value", e);
         }
+
+        // Get a unique list of Owner values to use when filtering
+        var filterValues = dimple.getUniqueValues(data, "Level");
+
+        // Get all the rectangles from our now orphaned legend
+        myLegend.shapes.selectAll("rect")
+            // Add a click event to each rectangle
+            .on("click", function (e) {
+              // This indicates whether the item is already visible or not
+              var hide = false;
+              var newFilters = [];
+              // If the filters contain the clicked shape hide it
+              filterValues.forEach(function (f) {
+                if (f === e.aggField.slice(-1)[0]) {
+                  hide = true;
+                } else {
+                  newFilters.push(f);
+                }
+              });
+              // Hide the shape or show it
+              if (hide) {
+                d3.select(this).style("opacity", 0.2);
+              } else {
+                newFilters.push(e.aggField.slice(-1)[0]);
+                d3.select(this).style("opacity", 0.8);
+              }
+              // Update the filters
+              filterValues = newFilters;
+              // Filter the data
+              myChart.data = dimple.filterData(data, "Level", filterValues);
+              // Passing a duration parameter makes the chart animate. Without
+              // it there is no transition
+              myChart.draw(800);
+              stopAnimation();
+          });
       });
   </script>
 </div>

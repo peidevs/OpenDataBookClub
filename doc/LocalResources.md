@@ -9,6 +9,7 @@ This is a simple consolidation of various online resources regarding Open Data o
 * [Conversation Plates](http://bit.ly/1XnrWNp) by Open Data Book Club
 * [PEI School Enrollments](http://swhalley.github.io/EducationAttendance/) by [Sean Whalley](http://twitter.com/seanwhalley21) 
 * another view of [PEI School Enrollments](http://bit.ly/28LVVLW) by Open Data Book Club
+* a view of [PEI School Enrollments by Grade](http://bit.ly/28NxNEQ ) by Open Data Book Club
 * [Visitors to Historic Sites](https://evanepio.github.io/DataVis/) by [Evan Porter](http://twitter.com/evanepio)
 * another view of [Visitors to Historic Sites](http://bit.ly/1XXLkSi) by Open Data Book Club
 

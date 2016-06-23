@@ -181,7 +181,10 @@ DATA_SCHOOL_FILTER
               // Passing a duration parameter makes the chart animate. Without
               // it there is no transition
               myChart.draw(800);
-              stopAnimation();
+
+              if (! isAnimationOn) {
+                  stopAnimation();
+              }
           });
       });
   </script>

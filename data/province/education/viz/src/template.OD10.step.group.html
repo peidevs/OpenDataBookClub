@@ -40,9 +40,8 @@ DATA_SCHOOL_OPTIONS
 <div id="chartContainer" style="height: 90%;">
   <script type="text/javascript">
     var svg = dimple.newSvg("#chartContainer", "95%", "85%");
-    // d3.csv("https://raw.githubusercontent.com/codetojoy/Git_Sandbox/master/data/simple.full.csv?foo=bar5150", function (data) {
     d3.csv(DATA_SCHOOL_CSV_URL, function(data) {
-        data = dimple.filterData(data, "School", [
+        data = dimple.filterData(data, DATA_SCHOOL_PREDICATE_FIELD, [
 DATA_SCHOOL_FILTER
                 ]);
 
@@ -102,11 +101,10 @@ DATA_SCHOOL_FILTER
         };
 
         // Add a storyboard to the main chart and set the tick event
-        var story = myChart.setStoryboard("School", onTick);
+        var story = myChart.setStoryboard(DATA_SCHOOL_PREDICATE_FIELD, onTick);
         // Change the frame duration
         story.frameDuration = frame;
-        // Order the storyboard by School 
-        story.addOrderRule("School");
+        story.addOrderRule(DATA_SCHOOL_PREDICATE_FIELD);
 
         // Draw the bubble chart
         myChart.draw();

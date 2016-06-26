@@ -3,12 +3,6 @@
 import static com.xlson.groovycsv.CsvParser.parseCsv
 import java.text.Collator
 
-class Info {
-    def year
-    def level
-    def size
-}
-
 def sanitizeSchool = { s ->
     def sTrim = s.replaceAll("School","").trim()
     def result = sTrim
@@ -45,17 +39,6 @@ def sanitizeSchool = { s ->
     return result 
 }
 
-def sanitizeSize = { s ->
-    def size = 0
-    
-    if (s != null && (! s.trim().isEmpty())) {
-        println "TRACER :  " + s
-        size = s as int
-    }
-
-    return size
-}
-
 def levels = []
 levels << "K"
 for (i in 1..12) {
@@ -70,7 +53,7 @@ def parseFile = { def file ->
     def data = parseCsv text
 
     data.each { def line ->
-        def school = sanitizeSchool(line.getAt(1))
+        def school = sanitizeSchool(line.getAt(0))
         schoolsSet << school
     }
 
@@ -102,7 +85,7 @@ def buildFilter = { def schools ->
 
 // --------- main 
 
-if (args.size() < 1) {
+if (args.size() < 2) {
     println "Usage: groovy DataPopulator.groovy OD10_original"
     System.exit(-1)
 }
@@ -117,6 +100,7 @@ final String DATA_SCHOOL_CSV_URL = "DATA_SCHOOL_CSV_URL"
 final String DATA_SCHOOL_FILTER = "DATA_SCHOOL_FILTER"
 final String DATA_SCHOOL_LEVELS_ASC = "DATA_SCHOOL_LEVELS_ASC"
 final String DATA_SCHOOL_LEVELS_DESC = "DATA_SCHOOL_LEVELS_DESC"
+final String DATA_SCHOOL_PREDICATE_FIELD = "DATA_SCHOOL_PREDICATE_FIELD"
 
 def dataSchoolAutoGen = "THIS FILE IS AUTO-GENERATED. DO NOT EDIT (use the template instead)."
 def dataSchoolOptions = buildOptions(schools) 
@@ -124,6 +108,7 @@ def dataSchoolCsvURL = '"https://raw.githubusercontent.com/peidevs/OpenDataBookC
 def dataSchoolFilter = buildFilter(schools)
 def dataSchoolLevelsAsc = '[ "K", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12"]'
 def dataSchoolLevelsDesc = '["Grade 12", "Grade 11", "Grade 10", "Grade 9", "Grade 8", "Grade 7", "Grade 6", "Grade 5", "Grade 4", "Grade 3", "Grade 2", "Grade 1", "K"]'
+def dataSchoolPredicateField = '"School"' 
 
 def newText = templateText
 .replaceAll(DATA_SCHOOL_AUTOGEN, dataSchoolAutoGen)
@@ -132,8 +117,9 @@ def newText = templateText
 .replaceAll(DATA_SCHOOL_FILTER, dataSchoolFilter) 
 .replaceAll(DATA_SCHOOL_LEVELS_ASC, dataSchoolLevelsAsc) 
 .replaceAll(DATA_SCHOOL_LEVELS_DESC, dataSchoolLevelsDesc) 
+.replaceAll(DATA_SCHOOL_PREDICATE_FIELD, dataSchoolPredicateField) 
 
-new File("../OD10.step.group.html").withWriter("UTF-8") { writer ->
+new File(args[1]).withWriter("UTF-8") { writer ->
     writer.write(newText)
 }
 

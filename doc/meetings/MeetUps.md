@@ -3,6 +3,22 @@ Let's treat this file as a changelog of sorts, and just place new stuff
 at the top of the file, and keep old stuff.
 -->
 
+#### June 2016
+
+###### Topics
+* Carol Mayne, Director of Business Application Development with Government of Prince Edward Island on initial open [data sets](http://bit.ly/1UhNHuN) and the [Open Government License of Prince Edward Island](https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island)
+
+###### Announcements
+* TBA
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* venue provided by [StartupZone](http://twitter.com/StartupZonePEI)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+* door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
+
 #### May 2016
 
 ###### Topics

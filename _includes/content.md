@@ -2,7 +2,7 @@
 
 We're delighted to announce that our speaker for June is Carol Mayne, Director of Business Application Services (in Finance and ITSS), with the Government of Prince Edward Island. She is the team-lead for the newly unveiled Open Data initiative. RSVP at our [MeetUp page](http://bit.ly/28CrfDZ)
 
-For reference, here are the initial (data sets)[https://www.princeedwardisland.ca/en/search/site/?f[0]=type:service&f[1]=field_service_topics:2237] and some basic [views](https://github.com/peidevs/OpenDataBookClub/blob/master/doc/LocalResources.md) by our members.
+For reference, here are the initial [data sets](https://www.princeedwardisland.ca/en/search/site/?f[0]=type:service&f[1]=field_service_topics:2237) and some basic [views](https://github.com/peidevs/OpenDataBookClub/blob/master/doc/LocalResources.md) by our members.
 
 ## What is this about?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.

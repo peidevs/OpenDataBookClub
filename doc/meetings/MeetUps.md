@@ -16,8 +16,10 @@ at the top of the file, and keep old stuff.
 
 ###### Sponsors
 * venue provided by [StartupZone](http://twitter.com/StartupZonePEI)
-* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+* video equipment loaned by [ScreenScape](http://www.screenscape.com)
+* snacks sponsored by [Michael Easter](http://twitter.com/30_for_60)
 * door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 
 #### May 2016
 
@@ -33,8 +35,8 @@ at the top of the file, and keep old stuff.
 ###### Sponsors
 * venue sponsored by [Michael Easter](http://twitter.com/30_for_60)
 * video equipment loaned by [ScreenScape](http://www.screenscape.com)
-* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 * door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 
 #### March 2016
 
@@ -50,8 +52,8 @@ at the top of the file, and keep old stuff.
 ###### Sponsors
 * venue sponsored by [Michael Easter](http://twitter.com/30_for_60)
 * video equipment loaned by [ScreenScape](http://www.screenscape.com)
-* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 * door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 
 -----
 
@@ -72,8 +74,8 @@ at the top of the file, and keep old stuff.
 ###### Sponsors
 * venue & food sponsored by [Michael Easter](http://twitter.com/30_for_60)
 * video equipment loaned by [ScreenScape](http://www.screenscape.com)
-* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 * door prize sponsored by [ScreenScape](http://www.screenscape.com)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 
 -----
 

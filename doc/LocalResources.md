@@ -6,7 +6,7 @@ This is a simple consolidation of various online resources regarding Open Data o
 ### Data Visualizations 
 
 * **Note**: any editorials do not reflect the views of the Open Data Book Club, though we celebrate discussion in general
-* [Conversation Plates](http://bit.ly/1XnrWNp) by Open Data Book Club
+* [Conservation Plates](http://bit.ly/1XnrWNp) by Open Data Book Club
 * [PEI School Enrollments](http://swhalley.github.io/EducationAttendance/) by [Sean Whalley](http://twitter.com/seanwhalley21) 
 * another view of [PEI School Enrollments](http://bit.ly/28LVVLW) by Open Data Book Club
 * a view of [PEI School Enrollments by Grade](http://bit.ly/28NxNEQ ) by Open Data Book Club

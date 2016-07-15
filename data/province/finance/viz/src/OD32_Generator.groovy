@@ -68,7 +68,7 @@ def dataCsvURL = '"https://raw.githubusercontent.com/peidevs/OpenDataBookClub/ma
 def dataFilter = buildFilter(entities)
 def dataPredicateField = '"Source (Type)"' 
 def dataXField = '"Fiscal Year"'
-def dataYField = '"Amount"'
+def dataYField = '"Amount (000' + "'" + 's)"'
 
 def newText = templateText
 .replaceAll(DATA_AUTOGEN, dataAutoGen)

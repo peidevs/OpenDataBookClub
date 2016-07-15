@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<!--
+DATA_SCHOOL_AUTOGEN
+-->
+
+<head>
+  <title>Visualization of PEI School Enrollment</title>
+  <style type="text/css">
+  * {
+    font-size: 100%;
+    font-family: Verdana;
+  } 
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dimple/2.2.0/dimple.latest.min.js"></script>
+</head>
+
+<body>
+<div align="center" style="font-size: medium;">A visualization of <a href="https://www.princeedwardisland.ca/en/service/pei-consolidated-expenses-open-data">this Consolidated Expenses data set<a>, licensed under the <a href="https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island">Open Government License - Prince Edward Island</a></div>
+<br/>
+<div align="center" style="font-size: small;">Specific Departments/Agencies can be selected from drop-down box.</div>
+<br/>
+<div align="right" style="font-size: small;"><a href="https://github.com/peidevs/OpenDataBookClub/tree/master/data/province/finance">source here</a></div>
+<div align="right" style="font-size: small;">and uses <a href="http://dimplejs.org/">dimple</a></div>
+
+<hr/>
+
+<select id="comboBox">
+<option value="Agriculture and Forestry">Agriculture and Forestry</option>
+<option value="Amortization of Tangible Capital Assets">Amortization of Tangible Capital Assets</option>
+<option value="Auditor General's Office">Auditor General's Office</option>
+<option value="Community Services and Seniors">Community Services and Seniors</option>
+<option value="Council of Atlantic Premiers">Council of Atlantic Premiers</option>
+<option value="Crown Building Corporation">Crown Building Corporation</option>
+<option value="Department of Education and Early Childhood Development">Department of Education and Early Childhood Development</option>
+<option value="Department of Environment, Labour and Justice">Department of Environment, Labour and Justice</option>
+<option value="Department of Finance, Energy and Municipal Affairs">Department of Finance, Energy and Municipal Affairs</option>
+<option value="Department of Fisheries, Aquaculture, and Rural Development">Department of Fisheries, Aquaculture, and Rural Development</option>
+<option value="Department of Health and Wellness">Department of Health and Wellness</option>
+<option value="Department of Innovation and Advanced Learning">Department of Innovation and Advanced Learning</option>
+<option value="Department of Tourism and Culture">Department of Tourism and Culture</option>
+<option value="Department of Transportation and Infrastructure Renewal">Department of Transportation and Infrastructure Renewal</option>
+<option value="Employee Benefits">Employee Benefits</option>
+<option value="Employment Development Agency">Employment Development Agency</option>
+<option value="English Language School Board">English Language School Board</option>
+<option value="Executive Council">Executive Council</option>
+<option value="Finance PEI">Finance PEI</option>
+<option value="French Language School Board">French Language School Board</option>
+<option value="General Government">General Government</option>
+<option value="Harness Racing PEI Inc.">Harness Racing PEI Inc.</option>
+<option value="Health PEI">Health PEI</option>
+<option value="Innovation PEI">Innovation PEI</option>
+<option value="Interest charges on the debt">Interest charges on the debt</option>
+<option value="Interest on Unfunded Employees Future Benefits">Interest on Unfunded Employees Future Benefits</option>
+<option value="Island Regulatory and Appeals Commission">Island Regulatory and Appeals Commission</option>
+<option value="Legislative Assembly">Legislative Assembly</option>
+<option value="P.E.I. Energy Corporation">P.E.I. Energy Corporation</option>
+<option value="P.E.I. Human Rights Commission">P.E.I. Human Rights Commission</option>
+<option value="P.E.I. Lending Agency">P.E.I. Lending Agency</option>
+<option value="P.E.I. Self-Insurance and Risk Management Fund">P.E.I. Self-Insurance and Risk Management Fund</option>
+<option value="PEI 2014 Inc.">PEI 2014 Inc.</option>
+<option value="PEI Aquaculture and Fisheries Research Initiative">PEI Aquaculture and Fisheries Research Initiative</option>
+<option value="PEI Museum and Heritage Foundation">PEI Museum and Heritage Foundation</option>
+<option value="Public Service Commission">Public Service Commission</option>
+<option value="Student Financial Assistance Corporation">Student Financial Assistance Corporation</option>
+<option value="Summerside Regional Development Corporation">Summerside Regional Development Corporation</option>
+<option value="Tourism PEI">Tourism PEI</option>
+
+</select>
+<button type="button" id="animationButton">Stop animation</button>
+<div id="chartContainer" style="height: 2000px;">
+  <script type="text/javascript">
+    var svg = dimple.newSvg("#chartContainer", "95%", "90%");
+    d3.csv("https://raw.githubusercontent.com/peidevs/OpenDataBookClub/master/data/province/finance/OD31.transform.csv", function (data) {
+        data = dimple.filterData(data, "Department or Agency", [
+"Agriculture and Forestry",
+"Amortization of Tangible Capital Assets",
+"Auditor General's Office",
+"Community Services and Seniors",
+"Council of Atlantic Premiers",
+"Crown Building Corporation",
+"Department of Education and Early Childhood Development",
+"Department of Environment, Labour and Justice",
+"Department of Finance, Energy and Municipal Affairs",
+"Department of Fisheries, Aquaculture, and Rural Development",
+"Department of Health and Wellness",
+"Department of Innovation and Advanced Learning",
+"Department of Tourism and Culture",
+"Department of Transportation and Infrastructure Renewal",
+"Employee Benefits",
+"Employment Development Agency",
+"English Language School Board",
+"Executive Council",
+"Finance PEI",
+"French Language School Board",
+"General Government",
+"Harness Racing PEI Inc.",
+"Health PEI",
+"Innovation PEI",
+"Interest charges on the debt",
+"Interest on Unfunded Employees Future Benefits",
+"Island Regulatory and Appeals Commission",
+"Legislative Assembly",
+"P.E.I. Energy Corporation",
+"P.E.I. Human Rights Commission",
+"P.E.I. Lending Agency",
+"P.E.I. Self-Insurance and Risk Management Fund",
+"PEI 2014 Inc.",
+"PEI Aquaculture and Fisheries Research Initiative",
+"PEI Museum and Heritage Foundation",
+"Public Service Commission",
+"Student Financial Assistance Corporation",
+"Summerside Regional Development Corporation",
+"Tourism PEI",
+
+                ]);
+
+        // The frame duration for the animation in milliseconds
+        var frame = 2000;
+
+        var isAnimationOn = true;
+
+        // Draw the main chart
+        var myChart = new dimple.chart(svg, data);
+
+        var MY_CHART_LEFT = 120;
+        var MY_CHART_TOP = 60;
+        var MY_CHART_RIGHT = 100;
+        var MY_CHART_BOTTOM = 1250;
+        var MY_CHART_NUM_FRAMES = 65;
+        
+        myChart.setMargins(MY_CHART_LEFT,MY_CHART_TOP,MY_CHART_RIGHT,MY_CHART_BOTTOM);
+
+        var myChartx = myChart.addCategoryAxis("x", "Fiscal Year");
+        myChartx.addOrderRule("Fiscal Year");
+        myChartx.fontSize = "auto";
+
+        var myCharty = myChart.addMeasureAxis("y", "Amount");
+        myCharty.fontSize = "auto";
+
+        var myChartSeries = myChart.addSeries(null, dimple.plot.area);
+        myChartSeries.interpolation = "step";
+        myChartSeries.lineWeight = 5;
+
+        // Add a storyboard to the main chart and set the tick event
+        var story = myChart.setStoryboard("Department or Agency", onTick);
+        // Change the frame duration
+        story.frameDuration = frame;
+        // Order the storyboard 
+        story.addOrderRule("Department or Agency");
+
+        // Draw the bubble chart
+        myChart.draw();
+
+        // Orphan the legends as they are consistent but by default they
+        // will refresh on tick
+        myChart.legends = [];
+        // Remove the storyboard label because the chart will indicate the
+        // current month instead of the label
+        story.storyLabel.remove();
+
+        // On click of the side chart
+        function onChange() {
+            var yValue = d3.select("#comboBox").node().value;
+            story.goToFrame(yValue);
+            stopAnimation();
+        }
+
+        function stopAnimation() {
+            story.pauseAnimation();
+            d3.select("#animationButton").text("Resume Animation");
+            isAnimationOn = false;
+        }
+
+        function toggleAnimation() {
+          if (isAnimationOn) {
+              stopAnimation();
+          } else {
+              isAnimationOn = true;
+              d3.select("#animationButton").text("Stop Animation");
+              story.startAnimation();
+          }
+        }
+
+        d3.select("#comboBox").on("change", onChange);
+        d3.select("#animationButton").on("click", toggleAnimation);
+
+        // On tick of the main charts storyboard
+        function onTick(e) {
+            d3.select("#comboBox").property("value", e);
+        }
+      });
+  </script>
+</div>
+</body>
+</html>

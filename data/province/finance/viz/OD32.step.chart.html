@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<!--
+DATA_SCHOOL_AUTOGEN
+-->
+
+<head>
+  <title>Visualization of PEI School Enrollment</title>
+  <style type="text/css">
+  * {
+    font-size: 100%;
+    font-family: Verdana;
+  } 
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dimple/2.2.0/dimple.latest.min.js"></script>
+</head>
+
+<body>
+<div align="center" style="font-size: medium;">A visualization of <a href="https://www.princeedwardisland.ca/en/service/pei-consolidated-expenses-open-data">this Consolidated Revenues data set<a>, licensed under the <a href="https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island">Open Government License - Prince Edward Island</a></div>
+<br/>
+<div align="center" style="font-size: small;">Specific Source-Type combinations can be selected from drop-down box.</div>
+<br/>
+<div align="right" style="font-size: small;"><a href="https://github.com/peidevs/OpenDataBookClub/tree/master/data/province/finance">source here</a></div>
+<div align="right" style="font-size: small;">and uses <a href="http://dimplejs.org/">dimple</a></div>
+
+<hr/>
+
+<select id="comboBox">
+<option value="Government of Canada (Canada Health and Social Transfer)">Government of Canada (Canada Health and Social Transfer)</option>
+<option value="Government of Canada (Government of Canada Equalization)">Government of Canada (Government of Canada Equalization)</option>
+<option value="Government of Canada (Other)">Government of Canada (Other)</option>
+<option value="Provincial (Corporate Income Tax)">Provincial (Corporate Income Tax)</option>
+<option value="Provincial (Fees and Services)">Provincial (Fees and Services)</option>
+<option value="Provincial (Government Business Enterprises)">Provincial (Government Business Enterprises)</option>
+<option value="Provincial (Investment Income)">Provincial (Investment Income)</option>
+<option value="Provincial (Licenses and Permits)">Provincial (Licenses and Permits)</option>
+<option value="Provincial (Other Taxes)">Provincial (Other Taxes)</option>
+<option value="Provincial (Other income)">Provincial (Other income)</option>
+<option value="Provincial (Personal Income Tax)">Provincial (Personal Income Tax)</option>
+<option value="Provincial (Real Property Tax)">Provincial (Real Property Tax)</option>
+<option value="Provincial (Sales Tax)">Provincial (Sales Tax)</option>
+<option value="Provincial (Sales)">Provincial (Sales)</option>
+<option value="Sinking (Sinking Fund Revenue)">Sinking (Sinking Fund Revenue)</option>
+
+</select>
+<button type="button" id="animationButton">Stop animation</button>
+<div id="chartContainer" style="height: 2000px;">
+  <script type="text/javascript">
+    var svg = dimple.newSvg("#chartContainer", "95%", "90%");
+    d3.csv("https://raw.githubusercontent.com/peidevs/OpenDataBookClub/master/data/province/finance/OD32.transform.csv", function (data) {
+        data = dimple.filterData(data, "Source (Type)", [
+"Government of Canada (Canada Health and Social Transfer)",
+"Government of Canada (Government of Canada Equalization)",
+"Government of Canada (Other)",
+"Provincial (Corporate Income Tax)",
+"Provincial (Fees and Services)",
+"Provincial (Government Business Enterprises)",
+"Provincial (Investment Income)",
+"Provincial (Licenses and Permits)",
+"Provincial (Other Taxes)",
+"Provincial (Other income)",
+"Provincial (Personal Income Tax)",
+"Provincial (Real Property Tax)",
+"Provincial (Sales Tax)",
+"Provincial (Sales)",
+"Sinking (Sinking Fund Revenue)",
+
+                ]);
+
+        // The frame duration for the animation in milliseconds
+        var frame = 2000;
+
+        var isAnimationOn = true;
+
+        // Draw the main chart
+        var myChart = new dimple.chart(svg, data);
+
+        var MY_CHART_LEFT = 120;
+        var MY_CHART_TOP = 60;
+        var MY_CHART_RIGHT = 100;
+        var MY_CHART_BOTTOM = 1250;
+        var MY_CHART_NUM_FRAMES = 65;
+        
+        myChart.setMargins(MY_CHART_LEFT,MY_CHART_TOP,MY_CHART_RIGHT,MY_CHART_BOTTOM);
+
+        var myChartx = myChart.addCategoryAxis("x", "Fiscal Year");
+        myChartx.addOrderRule("Fiscal Year");
+        myChartx.fontSize = "auto";
+
+        var myCharty = myChart.addMeasureAxis("y", "Amount");
+        myCharty.fontSize = "auto";
+
+        var myChartSeries = myChart.addSeries(null, dimple.plot.area);
+        myChartSeries.interpolation = "step";
+        myChartSeries.lineWeight = 5;
+
+        // Add a storyboard to the main chart and set the tick event
+        var story = myChart.setStoryboard("Source (Type)", onTick);
+        // Change the frame duration
+        story.frameDuration = frame;
+        // Order the storyboard 
+        story.addOrderRule("Source (Type)");
+
+        // Draw the bubble chart
+        myChart.draw();
+
+        // Orphan the legends as they are consistent but by default they
+        // will refresh on tick
+        myChart.legends = [];
+        // Remove the storyboard label because the chart will indicate the
+        // current month instead of the label
+        story.storyLabel.remove();
+
+        // On click of the side chart
+        function onChange() {
+            var yValue = d3.select("#comboBox").node().value;
+            story.goToFrame(yValue);
+            stopAnimation();
+        }
+
+        function stopAnimation() {
+            story.pauseAnimation();
+            d3.select("#animationButton").text("Resume Animation");
+            isAnimationOn = false;
+        }
+
+        function toggleAnimation() {
+          if (isAnimationOn) {
+              stopAnimation();
+          } else {
+              isAnimationOn = true;
+              d3.select("#animationButton").text("Stop Animation");
+              story.startAnimation();
+          }
+        }
+
+        d3.select("#comboBox").on("change", onChange);
+        d3.select("#animationButton").on("click", toggleAnimation);
+
+        // On tick of the main charts storyboard
+        function onTick(e) {
+            d3.select("#comboBox").property("value", e);
+        }
+      });
+  </script>
+</div>
+</body>
+</html>

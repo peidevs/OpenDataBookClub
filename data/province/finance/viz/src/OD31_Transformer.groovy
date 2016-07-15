@@ -22,7 +22,7 @@ assert 0 == sanitizeAmount(null)
 assert 0 == sanitizeAmount("")
 assert 1000 == sanitizeAmount("1000")
 
-def fiscalYears = [ "FY 2011/12 (000's)", "FY 2012/13 (000's)", "FY 2013/14 (000's)", "FY 2014/15 (000's)" ]
+def fiscalYears = [ "FY 2011/12", "FY 2012/13", "FY 2013/14", "FY 2014/15" ]
 
 def parseFile = { def file ->
     def mapByEntity = [:].withDefault { key -> [] }
@@ -57,7 +57,7 @@ def outfile = args[1]
 def mapByEntity = parseFile(infile)
 
 new File(outfile).withWriter("UTF-8") { def writer ->
-    writer.write("Department or Agency,Fiscal Year,Amount\n")
+    writer.write("Department or Agency,Fiscal Year,Amount (000's)\n")
 
     mapByEntity.each { entity, infos ->
         infos.each { info ->

@@ -61,7 +61,7 @@ final String DATA_Y_FIELD = "DATA_Y_FIELD"
 
 def dataAutoGen = "THIS FILE IS AUTO-GENERATED. DO NOT EDIT (use the template instead)."
 def dataOptions = buildOptions(entities) 
-def dataCsvURL = '"https://raw.githubusercontent.com/codetojoy/Git_Sandbox/master/data/simple.2.csv?foo=5150"'
+def dataCsvURL = '"https://raw.githubusercontent.com/peidevs/OpenDataBookClub/master/data/province/finance/OD31.transform.csv"'
 def dataFilter = buildFilter(entities)
 def dataPredicateField = '"Department or Agency"' 
 def dataXField = '"Fiscal Year"'

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<!--
+DATA_AUTOGEN
+-->
+
+<head>
+  <title>Visualization of Consolidated Revenues</title>
+  <style type="text/css">
+  * {
+    font-size: 100%;
+    font-family: Verdana;
+  } 
+  html, body {
+    height: 100%;
+  }
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dimple/2.2.0/dimple.latest.min.js"></script>
+
+  <script>
+    var MY_CHART_X_PERCENT = "30%";
+    var MY_CHART_Y_PERCENT = "7%";
+    var MY_CHART_W_PERCENT = "75%";
+    var MY_CHART_H_PERCENT = "80%";
+
+    var MY_LEGEND_X_PERCENT = "10%";
+    var MY_LEGEND_Y_PERCENT = "10%";
+    var MY_LEGEND_W_PERCENT = "10%";
+    var MY_LEGEND_H_PERCENT = "50%";
+
+    var svg = null;
+
+    function buildMainChart(data) {
+        var myChart = null;
+
+        svg = dimple.newSvg("#chartContainer", "95%", "90%");
+        data = dimple.filterData(data, DATA_PREDICATE_FIELD, [ DATA_FILTER ]);
+
+        myChart = new dimple.chart(svg, data);
+
+        myChart.setBounds(MY_CHART_X_PERCENT, MY_CHART_Y_PERCENT, MY_CHART_W_PERCENT, MY_CHART_H_PERCENT); 
+
+        myChart.addMeasureAxis("p", DATA_MEASURE_FIELD);
+        var ring = myChart.addSeries(DATA_SERIES_FIELD, dimple.plot.pie);
+        ring.innerRadius = "50%";
+
+        var myLegend = myChart.addLegend(MY_LEGEND_X_PERCENT, MY_LEGEND_Y_PERCENT, MY_LEGEND_W_PERCENT, MY_LEGEND_H_PERCENT, "left");
+        myLegend.fontSize = "auto";
+
+        return myChart;
+    }
+
+    function myChartFunction(data) {
+
+        // The frame duration for the animation in milliseconds
+        var frame = 2000;
+
+        var isAnimationOn = true;
+
+        var myChart = buildMainChart(data);
+
+        // Add a storyboard to the main chart and set the tick event
+        var story = myChart.setStoryboard(DATA_PREDICATE_FIELD, onTick);
+        // Change the frame duration
+        story.frameDuration = frame;
+        // Order the storyboard 
+        story.addOrderRule(DATA_PREDICATE_FIELD);
+
+        // Draw the chart
+        myChart.draw();
+
+        // Orphan the legends as they are consistent but by default they
+        // will refresh on tick
+        myChart.legends = [];
+        // Remove the storyboard label because the chart will indicate the
+        // current month instead of the label
+        story.storyLabel.remove();
+
+        // On click of the side chart
+        function onChange() {
+            var yValue = d3.select("#comboBox").node().value;
+            story.goToFrame(yValue);
+            stopAnimation();
+        }
+
+        function stopAnimation() {
+            story.pauseAnimation();
+            d3.select("#animationButton").text("Resume Animation");
+            isAnimationOn = false;
+        }
+
+        function toggleAnimation() {
+          if (isAnimationOn) {
+              stopAnimation();
+          } else {
+              isAnimationOn = true;
+              d3.select("#animationButton").text("Stop Animation");
+              story.startAnimation();
+          }
+        }
+
+        d3.select("#comboBox").on("change", onChange);
+        d3.select("#animationButton").on("click", toggleAnimation);
+
+        // On tick of the main charts storyboard
+        function onTick(e) {
+            d3.select("#comboBox").property("value", e);
+        }
+    }
+  </script> 
+</head>
+
+<body>
+<div align="center" style="font-size: medium;">A visualization of <a href="https://www.princeedwardisland.ca/en/service/pei-consolidated-revenues-open-data">this Consolidated Revenues data set<a>, licensed under the <a href="https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island">Open Government License - Prince Edward Island</a></div>
+<br/>
+<div align="center" style="font-size: small;">Specific Source-Type combinations can be selected from drop-down box.</div>
+<div align="center" style="font-size: small;">Hover over segments for details. Amounts in 000's and rounded. <a href="https://github.com/peidevs/OpenDataBookClub/blob/master/doc/LocalResources.md">Other graphs here</a></div>
+
+<br/>
+<div align="right" style="font-size: small;"><a href="https://github.com/peidevs/OpenDataBookClub/tree/master/data/province/finance">source here</a></div>
+<div align="right" style="font-size: small;">and uses <a href="http://dimplejs.org/">dimple</a></div>
+
+<hr/>
+
+<select id="comboBox">
+DATA_OPTIONS
+</select>
+<button type="button" id="animationButton">Stop animation</button>
+<div id="chartContainer" style="height: 90%;">
+  <script type="text/javascript">
+    d3.csv(DATA_CSV_URL, myChartFunction);
+  </script>
+</div>
+</body>
+</html>

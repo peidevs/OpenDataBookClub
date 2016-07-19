@@ -13,51 +13,31 @@ DATA_AUTOGEN
     font-size: 100%;
     font-family: Verdana;
   } 
+  html, body {
+    height: 100%;
+  }
   </style>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dimple/2.2.0/dimple.latest.min.js"></script>
-</head>
 
-<body>
-<div align="center" style="font-size: medium;">A visualization of <a href="https://www.princeedwardisland.ca/en/service/pei-consolidated-revenues-open-data">this Consolidated Revenues data set<a>, licensed under the <a href="https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island">Open Government License - Prince Edward Island</a></div>
-<br/>
-<div align="center" style="font-size: small;">Specific Source-Type combinations can be selected from drop-down box.</div>
-<div align="center" style="font-size: small;">Amounts in 000's. <a href="http://peidevs.github.io/OpenDataBookClub/data/province/finance/viz/OD31.step.chart.html">Consolidated Expenses here</a></div>
+  <script>
+    var MY_CHART_X_PERCENT = "10%";
+    var MY_CHART_Y_PERCENT = "7%";
+    var MY_CHART_W_PERCENT = "85%";
+    var MY_CHART_H_PERCENT = "70%";
+   
+    var svg = null;
 
-<br/>
-<div align="right" style="font-size: small;"><a href="https://github.com/peidevs/OpenDataBookClub/tree/master/data/province/finance">source here</a></div>
-<div align="right" style="font-size: small;">and uses <a href="http://dimplejs.org/">dimple</a></div>
+    function buildMainChart(data) {
+        var myChart = null;
 
-<hr/>
+        svg = dimple.newSvg("#chartContainer", "95%", "90%");
+        data = dimple.filterData(data, DATA_PREDICATE_FIELD, [ DATA_FILTER ]);
 
-<select id="comboBox">
-DATA_OPTIONS
-</select>
-<button type="button" id="animationButton">Stop animation</button>
-<div id="chartContainer" style="height: 2000px;">
-  <script type="text/javascript">
-    var svg = dimple.newSvg("#chartContainer", "95%", "90%");
-    d3.csv(DATA_CSV_URL, function (data) {
-        data = dimple.filterData(data, DATA_PREDICATE_FIELD, [
-DATA_FILTER
-                ]);
+        myChart = new dimple.chart(svg, data);
 
-        // The frame duration for the animation in milliseconds
-        var frame = 2000;
-
-        var isAnimationOn = true;
-
-        // Draw the main chart
-        var myChart = new dimple.chart(svg, data);
-
-        var MY_CHART_LEFT = 120;
-        var MY_CHART_TOP = 60;
-        var MY_CHART_RIGHT = 100;
-        var MY_CHART_BOTTOM = 1250;
-        var MY_CHART_NUM_FRAMES = 65;
-        
-        myChart.setMargins(MY_CHART_LEFT,MY_CHART_TOP,MY_CHART_RIGHT,MY_CHART_BOTTOM);
+        myChart.setBounds(MY_CHART_X_PERCENT, MY_CHART_Y_PERCENT, MY_CHART_W_PERCENT, MY_CHART_H_PERCENT);
 
         var myChartx = myChart.addCategoryAxis("x", DATA_X_FIELD);
         myChartx.addOrderRule(DATA_X_FIELD);
@@ -69,6 +49,19 @@ DATA_FILTER
         var myChartSeries = myChart.addSeries(null, dimple.plot.area);
         myChartSeries.interpolation = "step";
         myChartSeries.lineWeight = 5;
+
+        myChart.defaultColors = [ new dimple.color("#CCFFCC") ];
+
+        return myChart;
+    }
+
+    function myChartFunction(data) {
+        // The frame duration for the animation in milliseconds
+        var frame = 2000;
+
+        var isAnimationOn = true;
+
+        var myChart = buildMainChart(data);
 
         // Add a storyboard to the main chart and set the tick event
         var story = myChart.setStoryboard(DATA_PREDICATE_FIELD, onTick);
@@ -117,7 +110,29 @@ DATA_FILTER
         function onTick(e) {
             d3.select("#comboBox").property("value", e);
         }
-      });
+    } 
+  </script>
+</head>
+
+<body>
+<div align="center" style="font-size: medium;">A visualization of <a href="https://www.princeedwardisland.ca/en/service/pei-consolidated-revenues-open-data">this Consolidated Revenues data set<a>, licensed under the <a href="https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island">Open Government License - Prince Edward Island</a></div>
+<br/>
+<div align="center" style="font-size: small;">Specific Source-Type combinations can be selected from drop-down box.</div>
+<div align="center" style="font-size: small;">Amounts in 000's. <a href="https://github.com/peidevs/OpenDataBookClub/blob/master/doc/LocalResources.md">Other graphs here</a></div>
+
+<br/>
+<div align="right" style="font-size: small;"><a href="https://github.com/peidevs/OpenDataBookClub/tree/master/data/province/finance">source here</a></div>
+<div align="right" style="font-size: small;">and uses <a href="http://dimplejs.org/">dimple</a></div>
+
+<hr/>
+
+<select id="comboBox">
+DATA_OPTIONS
+</select>
+<button type="button" id="animationButton">Stop animation</button>
+<div id="chartContainer" style="height: 90%;">
+  <script type="text/javascript">
+    d3.csv(DATA_CSV_URL, myChartFunction);
   </script>
 </div>
 </body>

@@ -6,14 +6,20 @@ This is a simple consolidation of various online resources regarding Open Data o
 ### Data Visualizations 
 
 * **Note**: any editorials do not reflect the views of the Open Data Book Club, though we celebrate discussion in general
-* [Consolidated Expenses, Province of PEI 2011-2015](http://bit.ly/29SxsW3) by Open Data Book Club
-* [Consolidated Revenues, Province of PEI 2011-2015](http://bit.ly/29Sxk9n) by Open Data Book Club
-* [Conservation Plates](http://bit.ly/1XnrWNp) by Open Data Book Club
+*
+* [Step chart, Consolidated Expenses, Province of PEI 2011-2015](http://bit.ly/29SxsW3) by Open Data Book Club
+* [Ring chart, Consolidated Expenses, Province of PEI 2011-2015]() by Open Data Book Club
+* [Step chart, Consolidated Revenues, Province of PEI 2011-2015](http://bit.ly/29Sxk9n) by Open Data Book Club
+* [Ring chart, Consolidated Revenues, Province of PEI 2011-2015]() by Open Data Book Club
+*
 * [PEI School Enrollments](http://swhalley.github.io/EducationAttendance/) by [Sean Whalley](http://twitter.com/seanwhalley21) 
 * another view of [PEI School Enrollments](http://bit.ly/28LVVLW) by Open Data Book Club
 * a view of [PEI School Enrollments by Grade](http://bit.ly/28NxNEQ ) by Open Data Book Club
+*
 * [Visitors to Historic Sites](https://evanepio.github.io/DataVis/) by [Evan Porter](http://twitter.com/evanepio)
 * another view of [Visitors to Historic Sites](http://bit.ly/1XXLkSi) by Open Data Book Club
+*
+* [Conservation Plates](http://bit.ly/1XnrWNp) by Open Data Book Club
 
 ### Presentations
 

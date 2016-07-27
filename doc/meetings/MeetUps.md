@@ -3,6 +3,21 @@ Let's treat this file as a changelog of sorts, and just place new stuff
 at the top of the file, and keep old stuff.
 -->
 
+#### July 2016
+
+###### Topics
+* summer social
+* 
+###### Announcements
+* TBA
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* snacks sponsored by [Binary Star](http://www.binarystar.biz/)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+
 #### June 2016
 
 ###### Topics

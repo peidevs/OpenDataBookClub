@@ -7,7 +7,7 @@ at the top of the file, and keep old stuff.
 
 ###### Topics
 * summer social
-* 
+
 ###### Announcements
 * TBA
 

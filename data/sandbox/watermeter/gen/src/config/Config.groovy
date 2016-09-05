@@ -1,4 +1,6 @@
 /*
+This is MOCK DATA with BOGUS names and addresses.
+
 ["Team Id","Team Type","Team Profile","Location Type","Street Address","Town","Postal Code","Location Misc","Usage In Litres [List]"]
 */
 

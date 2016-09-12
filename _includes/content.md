@@ -1,8 +1,9 @@
 ## Quick News
 
-We're delighted to announce that our speaker for June is Carol Mayne, Director of Business Application Services (in Finance and ITSS), with the Government of Prince Edward Island. She is the team-lead for the newly unveiled Open Data initiative. RSVP at our [MeetUp page](http://bit.ly/28CrfDZ)
+We're happy to announce that our speaker for September is [Paul Alan](http://twitter.com/peipaulalan), Director of Communications for [Elections PEI](http://electionspei.ca). Paul will speak on [Electoral Reform](http://yourchoice.ca) and the upcoming plebiscite. RSVP at our [MeetUp page](http://bit.ly/2cBvhp5) or drop an email to opendatapei@gmail.com
 
-For reference, here are the initial [data sets](https://www.princeedwardisland.ca/en/search/site/?f[0]=type:service&f[1]=field_service_topics:2237) and some basic [views](https://github.com/peidevs/OpenDataBookClub/blob/master/doc/LocalResources.md) by our members.
+Application Services (in Finance and ITSS), with the Government of Prince Edward Island. She is the team-lead for the newly unveiled Open Data initiative. RSVP at our [MeetUp page](http://bit.ly/28CrfDZ)
+
 
 ## What is this about?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.
@@ -16,7 +17,7 @@ As with PEI Developers, this is a volunteer, non-partisan initiative. We're open
 
 ## When
 
-We meet on the 4th week of the month (usually Tuesday). Our next meeting will be on June 28, 2016. RSVP at our [MeetUp page](http://bit.ly/28CrfDZ)
+We meet on the 4th week of the month (usually Tuesday). Our next meeting will be on Sept 27, 2016. RSVP at our [MeetUp page](http://bit.ly/2cBvhp5)
 
 {% comment %} 
 Everyone welcome: the audience is *not* just software developers!  

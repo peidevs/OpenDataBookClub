@@ -1,6 +1,6 @@
 ## Quick News
 
-We're happy to announce that our speaker for September is [Paul Alan](http://twitter.com/peipaulalan), Director of Communications for [Elections PEI](http://electionspei.ca). Paul will speak on [Electoral Reform](http://yourchoice.ca) and the upcoming plebiscite. RSVP at our [MeetUp page](http://bit.ly/2cBvhp5) or drop an email to opendatapei@gmail.com
+We're happy to announce that our speaker for September is [Paul Alan](http://twitter.com/peipaulalan), Director of Communications for [Elections PEI](http://electionspei.ca). Paul will speak on [Electoral Reform](http://yourchoicepei.ca) and the upcoming plebiscite. RSVP at our [MeetUp page](http://bit.ly/2cBvhp5) or drop an email to opendatapei@gmail.com
 
 Application Services (in Finance and ITSS), with the Government of Prince Edward Island. She is the team-lead for the newly unveiled Open Data initiative. RSVP at our [MeetUp page](http://bit.ly/28CrfDZ)
 

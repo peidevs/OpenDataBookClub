@@ -20,6 +20,6 @@ Here are videos regarding the options:
 | [First-Past-the-Post](https://www.youtube.com/watch?v=Xs2_SXiy-o8) | 
 | [First-Past-the-Post Plus Leaders](https://www.youtube.com/watch?v=Ym1-hqkMNsQ) | 
 | [Dual Member Proportional](https://www.youtube.com/watch?v=FdN7Jb1wCBY) | 
-| [Mixed-Member Proportional](https://www.youtube.com/watch?v=fskEeYj4kWo) | 
+| [Mixed Member Proportional](https://www.youtube.com/watch?v=fskEeYj4kWo) | 
 | [Preferential Voting](https://www.youtube.com/watch?v=UZA0tLf0300) | 
 

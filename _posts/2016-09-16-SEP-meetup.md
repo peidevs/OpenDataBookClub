@@ -7,7 +7,9 @@ title: September MeetUp
 
 For September, we step away from Open Data *per se*, and consider civic engagement. As you know, PEI takes pride in voter turnout, and so we're excited to feature a presentation on the upcoming plebiscite on [Electoral Reform](http://yourchoicepei.ca) by [Paul Alan](http://twitter.com/peipaulalan), Director of Communications at [Elections PEI](http://electionspei.ca).
 
-This is a terrific opportunity to learn more about the options on the ballot, and the plebiscite itself. Please join us! Send an email to opendatapei@gmail.com or RSVP via our [MeetUp page](http://www.meetup.com/Open-Data-PEI/events/233915223/).
+This is a terrific opportunity to learn more about the options on the ballot, and the plebiscite itself. 
+
+Please join us! Send an email to opendatapei@gmail.com or RSVP via our [MeetUp page](http://www.meetup.com/Open-Data-PEI/events/233915223/).
 
 ## Resources
 

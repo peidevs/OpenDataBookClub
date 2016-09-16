@@ -18,8 +18,8 @@ We are non-partisan and neutral on the options. Our goal is to encourage dialogu
 | Option / System | Also known as | Example locations | 
 | ------------- | -------- | ---------- |
 | [First-Past-the-Post](https://www.youtube.com/watch?v=Xs2_SXiy-o8) | FPTP | Canada, US, UK [from Wikipedia](https://en.wikipedia.org/wiki/First-past-the-post_voting) |
-| [First-Past-the-Post Plus Leaders](https://www.youtube.com/watch?v=Ym1-hqkMNsQ) | FPTP+ | PEI only | 
-| [Dual Member Proportional](https://www.youtube.com/watch?v=FdN7Jb1wCBY) | DMP | PEI only |
+| [First-Past-the-Post Plus Leaders](https://www.youtube.com/watch?v=Ym1-hqkMNsQ) | FPTP+ | would be PEI only | 
+| [Dual Member Proportional](https://www.youtube.com/watch?v=FdN7Jb1wCBY) | DMP | would be PEI only |
 | [Mixed Member Proportional](https://www.youtube.com/watch?v=fskEeYj4kWo) | MMP | Germany, New Zealand [from Wikipedia](https://en.wikipedia.org/wiki/Mixed-member_proportional_representation)
 | [Preferential Voting](https://www.youtube.com/watch?v=UZA0tLf0300) | PV | Australia [from Wikipedia](https://en.wikipedia.org/wiki/Instant-runoff_voting) |
 

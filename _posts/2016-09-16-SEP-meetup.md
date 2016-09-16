@@ -13,7 +13,7 @@ Please join us! Send an email to opendatapei@gmail.com or RSVP via our [MeetUp p
 
 ## Resources
 
-[Here](https://www.youtube.com/watch?v=IHlDdIKcpF8) is a general introduction on the plebiscite. Videos describing the options are listed below:
+We are non-partisan and neutral on the options. Our goal is to encourage dialogue and amplifly existing resources. To that end, [here is a general intro](https://www.youtube.com/watch?v=IHlDdIKcpF8) on the plebiscite. Videos describing the options are listed below:
 
 | Option / System | Also known as | Example locations | 
 | ------------- | -------- | ---------- |

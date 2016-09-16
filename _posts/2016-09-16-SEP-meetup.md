@@ -13,7 +13,7 @@ Please join us Tuesday, Sept 27, 7 pm at the [StartupZone](http://twitter.com/st
 
 ## Resources
 
-We are non-partisan and neutral on the options. Our goal is to encourage dialogue and amplifly existing resources. To that end, [here is a general introduction](https://www.youtube.com/watch?v=IHlDdIKcpF8) on the plebiscite. Videos describing the options are listed below:
+We are non-partisan and neutral on the options. Our goal is to encourage dialogue and amplify existing resources. To that end, [here is a general introduction](https://www.youtube.com/watch?v=IHlDdIKcpF8) on the plebiscite. Videos describing the options are listed below:
 
 | Option / System | Also known as | Example locations | 
 | ------------- | -------- | ---------- |

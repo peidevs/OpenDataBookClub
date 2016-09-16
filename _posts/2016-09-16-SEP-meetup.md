@@ -13,7 +13,7 @@ Please join us! Send an email to opendatapei@gmail.com or RSVP via our [MeetUp p
 
 ## Resources
 
-Here are videos regarding the options:
+[Here](https://www.youtube.com/watch?v=IHlDdIKcpF8) is a general introduction on the plebiscite. Videos describing the options are listed below:
 
 | Option / System |
 | ------------- |

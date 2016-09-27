@@ -3,6 +3,36 @@ Let's treat this file as a changelog of sorts, and just place new stuff
 at the top of the file, and keep old stuff.
 -->
 
+#### September 2016
+
+###### Topics
+* Paul Alan from Elections PEI on the upcoming Electoral Reform plebiscite
+
+###### Announcements
+* Open Access Week at UPEI, late October
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* community partner, Startup Zone PEI
+* venue sponsor, Binary Star
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+
+#### August 2016
+
+###### Topics
+* summer social
+
+###### Announcements
+* TBA
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+
 #### July 2016
 
 ###### Topics

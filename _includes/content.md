@@ -1,6 +1,6 @@
 ## Quick News
 
-We're happy to announce that our speaker for September is [Paul Alan](http://twitter.com/peipaulalan), Director of Communications for [Elections PEI](http://electionspei.ca). Paul will speak on [Electoral Reform](http://yourchoicepei.ca) and the upcoming plebiscite. RSVP at our [MeetUp page](http://bit.ly/2cBvhp5) or drop an email to opendatapei@gmail.com
+Click [here](http://peidevs.github.io/OpenDataBookClub/2016/10/12/OCT-meetup.html) for details on our October Meetup, Thursday, Oct 27 at Robertson Library on UPEI campus.
 
 ## What is this about?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.

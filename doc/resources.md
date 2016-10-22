@@ -32,6 +32,7 @@ This is a list of useful resources regarding Open Data, for both interested citi
 
 ### Canadian Data Catalogues (Municipal)
 
+* [Brantford](http://data.brantford.opendata.arcgis.com/)
 * [Calgary](http://www.opencalgary.org)
 * [Edmonton](https://data.edmonton.ca)
 * [Fredericton](http://www.fredericton.ca/en/citygovernment/Catalogue.asp)

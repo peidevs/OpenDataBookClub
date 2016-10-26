@@ -22,7 +22,7 @@ This is a list of useful resources regarding Open Data, for both interested citi
 
 ### Canadian Open Data
 
-* [This project](https://github.com/jpmckinney/open_data_canada) aspires to be the canonical database for Open Data in Canada. We recommend it; the entries below are surely in the canonical will eventually be deleted from this page.
+* [This project](https://github.com/jpmckinney/open_data_canada) aspires to be the canonical database for Open Data in Canada. We recommend it; the entries below are surely in the canonical list and will eventually be deleted from this page.
 
 ### Canadian Data Catalogues (Federal, Provincial)
 

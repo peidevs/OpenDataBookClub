@@ -5,7 +5,7 @@ Document to track planning for the 2017 Hackathon. Presented by the ODBC and PEI
 Sean Whalley (@seanWhalley21)
 
 ###Date 
-2016-03-04
+Saturday March 4th, 2017
 
 ###Time
 8am-8pm

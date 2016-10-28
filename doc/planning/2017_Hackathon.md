@@ -22,8 +22,18 @@ Startup Zone
 
 ###Checklist
 - [x] Venue
+- [ ] Meetup Event
 - [ ] Food
 - [ ] Dongles
 - [ ] Promotion
+   - [ ] Slack
+   - [ ] Twitter
+   - [ ] Innovatin PEI
+   - [ ] UPEI
+   - [ ] Holland Collage
+   - [ ] Meetup Email
 - [x] Theme
 - [x] Date and Time
+- [ ] Sponsors
+   - [x] Venue - Binary Star
+   - [ ] Food

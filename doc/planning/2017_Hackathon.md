@@ -18,3 +18,12 @@ Startup Zone
 * PEI Open Data Portal [Link](https://www.princeedwardisland.ca/en/search/site/?f%5B0%5D=type%3Aservice&f%5B1%5D=field_service_topics%3A2237)
 * 511 Data [Link](https://www.princeedwardisland.ca/en/service/view-pei-511-road-conditions)
 * GIS Data Portal [Link](http://www.gov.pe.ca/gis/)
+* Wind Energy [Link](https://www.princeedwardisland.ca/en/service/view-peis-wind-energy-generation)
+
+###Checklist
+- [x] Venue
+- [ ] Food
+- [ ] Dongles
+- [ ] Promotion
+- [x] Theme
+- [x] Date and Time

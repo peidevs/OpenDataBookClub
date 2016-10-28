@@ -12,6 +12,7 @@ This is a simple consolidation of various online resources regarding Open Data o
 * [PEI School Enrollments](http://swhalley.github.io/EducationAttendance/) by [Sean Whalley](http://twitter.com/seanwhalley21) 
 * another view of [PEI School Enrollments](http://bit.ly/28LVVLW) by Open Data Book Club
 * a view of [PEI School Enrollments by Grade](http://bit.ly/28NxNEQ ) by Open Data Book Club
+* [Capacity and Enrollment for all schools in the Public Schools branch](http://peidevs.github.io/OpenDataBookClub/data/province/education/viz/OD34.bar.html) by Open Data Book Club
 
 #### Province, Finance
 

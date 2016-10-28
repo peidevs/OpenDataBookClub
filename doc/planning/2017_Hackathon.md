@@ -19,11 +19,12 @@ Startup Zone
 * 511 Data [Link](https://www.princeedwardisland.ca/en/service/view-pei-511-road-conditions)
 * GIS Data Portal [Link](http://www.gov.pe.ca/gis/)
 * Wind Energy [Link](https://www.princeedwardisland.ca/en/service/view-peis-wind-energy-generation)
-* assuming the Province has an official Open Data Portal (e.g. CKAN), explore the API
-* NB has an [Open Data Viz Challenge](http://huddle.today/nbsprn-to-host-open-data-visualization-challenge/) that encourages work prior to the event. The event itself is a show-and-tell.  
+* Assuming the Province has an official Open Data Portal (e.g. CKAN), explore the API.
+* NB has an [Open Data Viz Challenge](http://huddle.today/nbsprn-to-host-open-data-visualization-challenge/) that encourages work prior to the event. The event itself is a show-and-tell. This solves the problems of (a) environment setup (b) time pressure that plagues hackathons. 
 * Define a specific problem/dataset and concentrate on that for the day. Suggestions:
-    * Refine the [PEI Landmarks](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html) project
-    * Refine [PDF Thresher](https://github.com/peidevs/OpenDataBookClub/tree/master/tools/PDF_Thresher) so that journalists/others can use it as a standalone binary/website
+    * Refine the [PEI Landmarks](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html) project. This project is by no means complete.
+    * Refine [PDF Thresher](https://github.com/peidevs/OpenDataBookClub/tree/master/tools/PDF_Thresher) so that journalists/others can use it as a standalone binary/website. This would be a tremendous service to the community.
+    * Target a suite of PDF files and liberate the data.
 
 ###Checklist
 - [x] Venue

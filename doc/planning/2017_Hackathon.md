@@ -26,6 +26,7 @@ Startup Zone
 - [ ] Food
 - [ ] Dongles
 - [ ] Promotion
+   - [ ] Poster(s)
    - [ ] Slack
    - [ ] Twitter
    - [ ] Innovatin PEI

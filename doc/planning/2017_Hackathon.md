@@ -2,7 +2,7 @@
 Document to track planning for the 2017 Hackathon. Presented by the ODBC and PEIDevs
 
 ###Main Organizer
-Sean Whalley (@seanWhalley21)
+[Sean Whalley](https://twitter.com/seanWhalley21)
 
 ###Date 
 Saturday March 4th, 2017

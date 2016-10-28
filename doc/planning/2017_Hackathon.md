@@ -25,7 +25,7 @@ Startup Zone
     * Refine the [PEI Landmarks](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html) project. This project is by no means complete.
     * Refine [PDF Thresher](https://github.com/peidevs/OpenDataBookClub/tree/master/tools/PDF_Thresher) so that journalists/others can use it as a standalone binary/website. This would be a tremendous service to the community.
     * Target a suite of PDF files and liberate the data.
-* Sports Data [Link](https://www.mysportsfeeds.com/) Provided courtesy of Brad Barkhouse of Binary Star
+* Sports Data [Link](https://www.mysportsfeeds.com/) Provided courtesy of [Brad Barkhouse](https://twitter.com/mysportsfeeds) of Binary Star
 
 ###Checklist
 - [x] Venue

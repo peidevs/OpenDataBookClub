@@ -67,15 +67,7 @@ DATA_SCHOOL_FILTER
         y.addOrderRule(DATA_SCHOOL_LEVELS_DESC);
         y.fontSize = "auto";
         var s = myChart.addSeries("Metric", dimple.plot.bar);
-/*
-        s.getTooltipText = function (e) {
-            console.log("TRACER : " + JSON.stringify(e, null, 4));
-            return [
-                "e.aggField[0]: " + e,
-                "e.aggField[1]: " + e.aggField[1],
-            ];
-        };
-*/
+
         var MY_LEGEND_X_PERCENT = "90%";
         var MY_LEGEND_Y_PERCENT = "30%";
         var MY_LEGEND_W_PERCENT = "10%";

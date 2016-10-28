@@ -9,6 +9,8 @@ def sanitize = { def s ->
        result = "O'Leary Elementary School" 
     }
 
+    result = result.replace("School", "").trim()
+
     return result
 }
 

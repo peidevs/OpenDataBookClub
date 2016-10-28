@@ -62,7 +62,7 @@ final String DATA_SCHOOL_PREDICATE_FIELD = "DATA_SCHOOL_PREDICATE_FIELD"
 
 def dataSchoolAutoGen = "THIS FILE IS AUTO-GENERATED. DO NOT EDIT (use the template instead)."
 def dataSchoolOptions = buildOptions(schools) 
-def dataSchoolCsvURL = '"https://raw.githubusercontent.com/codetojoy/Git_Sandbox/master/data/test.full.csv"'
+def dataSchoolCsvURL = '"https://raw.githubusercontent.com/peidevs/OpenDataBookClub/master/data/province/education/OD34.transform.csv"'
 def dataSchoolFilter = buildFilter(schools)
 def dataSchoolLevelsAsc = '[ "Current Capacity", "2016 Enrollment", "2022 Enrollment", "Capacity at Build" ]'
 def dataSchoolLevelsDesc = '[ "Capacity at Build", "2022 Enrollment", "2016 Enrollment", "Current Capacity" ]'

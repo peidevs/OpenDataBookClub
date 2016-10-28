@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<!--
+THIS FILE IS AUTO-GENERATED. DO NOT EDIT (use the template instead).
+-->
+
+<head>
+  <title>Visualization of PEI School Enrollment by Grade</title>
+  <style type="text/css">
+  * {
+    font-size: 100%;
+    font-family: Verdana;
+  } 
+  html, body {
+    height: 100%;
+  }
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dimple/2.2.0/dimple.latest.min.js"></script>
+</head>
+
+<body>
+<div align="center" style="font-size: medium;">A visualization of <a href="https://www.princeedwardisland.ca/en/service/capacity-and-enrollment-all-schools-public-schools-branch-open-data">this PEI School Capacity/Enrollment data set<a>, licensed under the <a href="https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island">Open Government License - Prince Edward Island</a></div>
+<br/>
+<div align="center" style="font-size: small;">Specific schools can be selected from drop-down box.</div>
+<br/>
+<div align="right" style="font-size: small;"><a href="https://github.com/peidevs/OpenDataBookClub/tree/master/data/province/education">source here</a></div>
+<div align="right" style="font-size: small;">and uses <a href="http://dimplejs.org/">dimple</a></div>
+
+<hr/>
+
+<select id="comboBox">
+<option value="Alberton Elementary School">Alberton Elementary School</option>
+<option value="Amherst Cove Consolidated School">Amherst Cove Consolidated School</option>
+<option value="Athena Consolidated School">Athena Consolidated School</option>
+<option value="Belfast Consolidated School">Belfast Consolidated School</option>
+<option value="Birchwood Intermediate School">Birchwood Intermediate School</option>
+<option value="Bloomfield Elementary School">Bloomfield Elementary School</option>
+<option value="Bluefield Senior High School">Bluefield Senior High School</option>
+<option value="Cardigan Consolidated School">Cardigan Consolidated School</option>
+<option value="Central Queens Elementary School">Central Queens Elementary School</option>
+<option value="Charlottetown Rural Senior High School">Charlottetown Rural Senior High School</option>
+<option value="Colonel Gray Senior High School">Colonel Gray Senior High School</option>
+<option value="Donagh Regional School">Donagh Regional School</option>
+<option value="East Wiltshire Intermediate School">East Wiltshire Intermediate School</option>
+<option value="Eliot River Elementary School">Eliot River Elementary School</option>
+<option value="Ellerslie Elementary School">Ellerslie Elementary School</option>
+<option value="Elm Street Elementary School">Elm Street Elementary School</option>
+<option value="Englewood School">Englewood School</option>
+<option value="Georgetown Elementary School">Georgetown Elementary School</option>
+<option value="Glen Stewart Primary School">Glen Stewart Primary School</option>
+<option value="Greenfield Elementary School">Greenfield Elementary School</option>
+<option value="Gulf Shore Consolidated School">Gulf Shore Consolidated School</option>
+<option value="Hernewood Intermediate School">Hernewood Intermediate School</option>
+<option value="Kensington Intermediate Senior High School">Kensington Intermediate Senior High School</option>
+<option value="Kinkora Regional High School">Kinkora Regional High School</option>
+<option value="L. M. Montgomery Elementary School">L. M. Montgomery Elementary School</option>
+<option value="M. E. Callaghan Intermediate School">M. E. Callaghan Intermediate School</option>
+<option value="Miscouche Consolidated School">Miscouche Consolidated School</option>
+<option value="Montague Consolidated School">Montague Consolidated School</option>
+<option value="Montague Intermediate School">Montague Intermediate School</option>
+<option value="Montague Regional High School">Montague Regional High School</option>
+<option value="Morell Consolidated School">Morell Consolidated School</option>
+<option value="Morell Regional High School">Morell Regional High School</option>
+<option value="Mt. Stewart Consolidated School">Mt. Stewart Consolidated School</option>
+<option value="O'Leary Elementary School">O'Leary Elementary School</option>
+<option value="Parkdale Elementary School">Parkdale Elementary School</option>
+<option value="Parkside Elementary School">Parkside Elementary School</option>
+<option value="Prince Street Elementary School">Prince Street Elementary School</option>
+<option value="Queen Charlotte Intermediate School">Queen Charlotte Intermediate School</option>
+<option value="Queen Elizabeth Elementary School">Queen Elizabeth Elementary School</option>
+<option value="Sherwood Elementary School">Sherwood Elementary School</option>
+<option value="Somerset Elementary School">Somerset Elementary School</option>
+<option value="Souris Regional">Souris Regional</option>
+<option value="Southern Kings Consolidated School">Southern Kings Consolidated School</option>
+<option value="Spring Park Elementary School">Spring Park Elementary School</option>
+<option value="St. Jean Elementary School">St. Jean Elementary School</option>
+<option value="St. Louis Elementary School">St. Louis Elementary School</option>
+<option value="Stonepark Intermediate School">Stonepark Intermediate School</option>
+<option value="Stratford Elementary School">Stratford Elementary School</option>
+<option value="Summerside Intermediate School">Summerside Intermediate School</option>
+<option value="Three Oaks Senior High School">Three Oaks Senior High School</option>
+<option value="Tignish Elementary School">Tignish Elementary School</option>
+<option value="Vernon River Consolidated School">Vernon River Consolidated School</option>
+<option value="West Kent Elementary School">West Kent Elementary School</option>
+<option value="West Royalty Elementary School">West Royalty Elementary School</option>
+<option value="Westisle Composite High School">Westisle Composite High School</option>
+<option value="Westwood Primary School">Westwood Primary School</option>
+
+</select>
+<button type="button" id="animationButton">Stop animation</button>
+<div id="chartContainer" style="height: 90%;">
+  <script type="text/javascript">
+    var svg = dimple.newSvg("#chartContainer", "95%", "85%");
+    d3.csv("https://raw.githubusercontent.com/codetojoy/Git_Sandbox/master/data/test.full.csv", function(data) {
+        data = dimple.filterData(data, "School", [
+"Alberton Elementary School",
+"Amherst Cove Consolidated School",
+"Athena Consolidated School",
+"Belfast Consolidated School",
+"Birchwood Intermediate School",
+"Bloomfield Elementary School",
+"Bluefield Senior High School",
+"Cardigan Consolidated School",
+"Central Queens Elementary School",
+"Charlottetown Rural Senior High School",
+"Colonel Gray Senior High School",
+"Donagh Regional School",
+"East Wiltshire Intermediate School",
+"Eliot River Elementary School",
+"Ellerslie Elementary School",
+"Elm Street Elementary School",
+"Englewood School",
+"Georgetown Elementary School",
+"Glen Stewart Primary School",
+"Greenfield Elementary School",
+"Gulf Shore Consolidated School",
+"Hernewood Intermediate School",
+"Kensington Intermediate Senior High School",
+"Kinkora Regional High School",
+"L. M. Montgomery Elementary School",
+"M. E. Callaghan Intermediate School",
+"Miscouche Consolidated School",
+"Montague Consolidated School",
+"Montague Intermediate School",
+"Montague Regional High School",
+"Morell Consolidated School",
+"Morell Regional High School",
+"Mt. Stewart Consolidated School",
+"O'Leary Elementary School",
+"Parkdale Elementary School",
+"Parkside Elementary School",
+"Prince Street Elementary School",
+"Queen Charlotte Intermediate School",
+"Queen Elizabeth Elementary School",
+"Sherwood Elementary School",
+"Somerset Elementary School",
+"Souris Regional",
+"Southern Kings Consolidated School",
+"Spring Park Elementary School",
+"St. Jean Elementary School",
+"St. Louis Elementary School",
+"Stonepark Intermediate School",
+"Stratford Elementary School",
+"Summerside Intermediate School",
+"Three Oaks Senior High School",
+"Tignish Elementary School",
+"Vernon River Consolidated School",
+"West Kent Elementary School",
+"West Royalty Elementary School",
+"Westisle Composite High School",
+"Westwood Primary School",
+
+                ]);
+
+        // The frame duration for the animation in milliseconds
+        var frame = 2000;
+
+        var isAnimationOn = true;
+
+        /////////////////////////////////////////////////
+        // Draw the main chart
+
+        var myChart = new dimple.chart(svg, data);
+
+        var MY_CHART_X_PERCENT = "10%";
+        var MY_CHART_Y_PERCENT = "7%";
+        var MY_CHART_W_PERCENT = "75%";
+        var MY_CHART_H_PERCENT = "80%";
+
+        myChart.setBounds(MY_CHART_X_PERCENT, MY_CHART_Y_PERCENT, MY_CHART_W_PERCENT, MY_CHART_H_PERCENT);
+
+        var x = myChart.addMeasureAxis("x", ["# Students"]);
+        x.fontSize = "auto";
+        var y = myChart.addCategoryAxis("y", "Metric");
+        y.addOrderRule([ "Capacity at Build", "2022 Enrollment", "2016 Enrollment", "Current Capacity" ]);
+        y.fontSize = "auto";
+        var s = myChart.addSeries("Metric", dimple.plot.bar);
+/*
+        s.getTooltipText = function (e) {
+            console.log("TRACER : " + JSON.stringify(e, null, 4));
+            return [
+                "e.aggField[0]: " + e,
+                "e.aggField[1]: " + e.aggField[1],
+            ];
+        };
+*/
+        var MY_LEGEND_X_PERCENT = "90%";
+        var MY_LEGEND_Y_PERCENT = "30%";
+        var MY_LEGEND_W_PERCENT = "10%";
+        var MY_LEGEND_H_PERCENT = "50%";
+
+        var myLegend = myChart.addLegend(MY_LEGEND_X_PERCENT, MY_LEGEND_Y_PERCENT, MY_LEGEND_W_PERCENT, MY_LEGEND_H_PERCENT, "left");
+        myLegend.fontSize = "auto";
+
+        // legend order (from Stack Overflow http://stackoverflow.com/a/23537474/12704 ) 
+        myLegend._getEntries = function () {
+            var orderedValues = [ "Current Capacity", "2016 Enrollment", "2022 Enrollment", "Capacity at Build" ];
+            var entries = [];
+            orderedValues.forEach(function (v) {
+                entries.push(
+                {
+                        key: v,
+                        fill: myChart.getColor(v).fill,
+                        stroke: myChart.getColor(v).stroke,
+                        opacity: myChart.getColor(v).opacity,
+                        series: s,
+                        aggField: [v]
+                    }
+                );
+            }, this);
+
+            return entries;
+        };
+
+        // Add a storyboard to the main chart and set the tick event
+        var story = myChart.setStoryboard("School", onTick);
+        // Change the frame duration
+        story.frameDuration = frame;
+        story.addOrderRule("School");
+
+        // Draw the main chart
+        myChart.draw();
+
+        // Setting the y tick format will only affect the tooltip now
+        x.tickFormat = d3.format(",.0f");
+
+        // Orphan the legends as they are consistent but by default they
+        // will refresh on tick
+        myChart.legends = [];
+        // Remove the storyboard label because the chart will indicate the
+        // current month instead of the label
+        story.storyLabel.remove();
+
+        // On click of the side chart
+        function onChange() {
+            var yValue = d3.select("#comboBox").node().value;
+            story.goToFrame(yValue);
+            stopAnimation();
+        }
+
+        function stopAnimation() {
+            story.pauseAnimation();
+            d3.select("#animationButton").text("Resume Animation");
+            isAnimationOn = false;
+        }
+
+        function toggleAnimation() {
+          if (isAnimationOn) {
+              stopAnimation();
+          } else {
+              isAnimationOn = true;
+              d3.select("#animationButton").text("Stop Animation");
+              story.startAnimation();
+          }
+        }
+
+        d3.select("#comboBox").on("change", onChange);
+        d3.select("#animationButton").on("click", toggleAnimation);
+
+        // On tick of the main charts storyboard
+        function onTick(e) {
+            d3.select("#comboBox").property("value", e);
+        }
+
+        // Get a unique list of Owner values to use when filtering
+        var filterValues = dimple.getUniqueValues(data, "Level");
+
+        // Get all the rectangles from our now orphaned legend
+        myLegend.shapes.selectAll("rect")
+            // Add a click event to each rectangle
+            .on("click", function (e) {
+              // This indicates whether the item is already visible or not
+              var hide = false;
+              var newFilters = [];
+              // If the filters contain the clicked shape hide it
+              filterValues.forEach(function (f) {
+                if (f === e.aggField.slice(-1)[0]) {
+                  hide = true;
+                } else {
+                  newFilters.push(f);
+                }
+              });
+              // Hide the shape or show it
+              if (hide) {
+                d3.select(this).style("opacity", 0.2);
+              } else {
+                newFilters.push(e.aggField.slice(-1)[0]);
+                d3.select(this).style("opacity", 0.8);
+              }
+              // Update the filters
+              filterValues = newFilters;
+              // Filter the data
+              myChart.data = dimple.filterData(data, "Metric", filterValues);
+              // Passing a duration parameter makes the chart animate. Without
+              // it there is no transition
+              myChart.draw(800);
+
+              if (! isAnimationOn) {
+                  stopAnimation();
+              }
+          });
+      });
+  </script>
+</div>
+</body>
+</html>

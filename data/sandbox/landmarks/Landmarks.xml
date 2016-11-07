@@ -166,14 +166,18 @@
     <id>1009</id>
     <latitude>46.266062</latitude>
     <longitude>-63.144553</longitude>
-    <name lang='en_CA'>Towers</name>
-    <Aliases />
-    <nowKnownAsName lang='en_CA' />
+    <name lang='en_CA'>Towers Mall</name>
+    <Aliases>
+        <alias lang='en_CA'>Charlottetown Mall</alias>
+        <alias lang='en_CA'>Target</alias>
+        <alias lang='en_CA'>Zellers</alias>
+    </Aliases>
+    <nowKnownAsName lang='en_CA'>Charlottetown Mall</nowKnownAsName>
     <description lang='en_CA'></description>
     <exists>N</exists>
     <type>001_B</type>
-    <startDate />
-    <endDate />
+    <startDate>1974</startDate>
+    <endDate>MAX</endDate>
     <ExternalLinks>
       <Link>
         <description lang='en_CA'>Charlottetown Heritage</description>
@@ -181,7 +185,12 @@
       </Link>
     </ExternalLinks>
     <AliasLinks />
-    <NowKnownAsLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Mall</description>
+        <URL>http://charlottetownmall.ca/</URL>
+      </Link>
+    </NowKnownAsLinks>
   </Landmark>
   <Landmark>
     <id>1010</id>
@@ -786,6 +795,7 @@
     <AliasLinks />
     <NowKnownAsLinks/>
   </Landmark>
+  <!--
   <Landmark>
     <id>1042</id>
     <latitude>46.235051</latitude>
@@ -804,6 +814,7 @@
     <AliasLinks />
     <NowKnownAsLinks/>
   </Landmark>
+  -->
   <Landmark>
     <id>1043</id>
     <latitude>46.7659878</latitude>
@@ -894,7 +905,7 @@
     <ExternalLinks>
       <Link>
         <description lang='en_CA'>Charlottetown Heritage</description>
-        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=23802380</URL>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=2380</URL>
       </Link>
     </ExternalLinks>
     <AliasLinks />
@@ -1036,6 +1047,7 @@
     <AliasLinks />
     <NowKnownAsLinks/>
   </Landmark>
+  <!--
   <Landmark>
     <id>1055</id>
     <latitude>46.381454</latitude>
@@ -1054,6 +1066,7 @@
     <AliasLinks />
     <NowKnownAsLinks/>
   </Landmark>
+  -->
   <Landmark>
     <id>1056</id>
     <latitude>46.379284</latitude>
@@ -1660,17 +1673,25 @@
     <longitude>-63.127906</longitude>
     <name lang='en_CA'>YMCA</name>
     <Aliases />
-    <nowKnownAsName lang='en_CA' />
+    <nowKnownAsName lang='en_CA'>Y Lofts Condos</nowKnownAsName>
     <description lang='en_CA'></description>
     <exists>N</exists>
     <type>002_S</type>
-    <startDate />
-    <endDate />
+    <startDate>1949</startDate>
+    <endDate>MAX</endDate>
     <ExternalLinks>
-      <ExternalLink />
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=1108</URL>
+      </Link>
     </ExternalLinks>
-    <AliasLinks />
-    <NowKnownAsLinks/>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>Y Lofts</description>
+        <URL>https://www.facebook.com/media/set/?set=a.167434513289067.36681.108236189208900&amp;type=3</URL>
+      </Link>
+    </NowKnownAsLinks>
   </Landmark>
   <Landmark>
     <id>1090</id>
@@ -1726,6 +1747,7 @@
     <AliasLinks />
     <NowKnownAsLinks/>
   </Landmark>
+  <!--
   <Landmark>
     <id>1093</id>
     <latitude>46.236384</latitude>
@@ -1762,6 +1784,7 @@
     <AliasLinks />
     <NowKnownAsLinks/>
   </Landmark>
+  -->
   <Landmark>
     <id>1095</id>
     <latitude>46.243955</latitude>
@@ -1905,8 +1928,8 @@
   </Landmark>
   <Landmark>
     <id>1102</id>
-    <latitude>46.245662</latitude>
-    <longitude>-63.1259367</longitude>
+    <latitude>46.245818</latitude>
+    <longitude>-63.123922</longitude>
     <name lang='en_CA'>1911 Jail</name>
     <Aliases>
         <alias lang='en_CA'>placeholder alias</alias>
@@ -1937,7 +1960,7 @@
     <longitude>-63.140339</longitude>
     <name lang='en_CA'>K-Mart</name>
     <Aliases>
-        <alias lang='en_CA'>placeholder alias</alias>
+        <alias lang='en_CA'>K-Mart Plaza</alias>
     </Aliases>
     <nowKnownAsName />
     <description lang='en_CA'>placeholder description</description>
@@ -2008,8 +2031,8 @@
   </Landmark>
   <Landmark>
     <id>1106</id>
-    <latitude>46.263384</latitude>
-    <longitude>-63.162611</longitude>
+    <latitude>46.263231</latitude>
+    <longitude>-63.162013</longitude>
     <name lang='en_CA'>Wandalyn</name>
     <Aliases>
         <alias lang='en_CA'>placeholder alias</alias>
@@ -2032,6 +2055,293 @@
         <description lang='en_CA'>Holiday Inn Express</description>
         <URL>http://www.ihg.com/holidayinnexpress/hotels/us/en/charlottetown/yygca/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-CAN-_-YYGCA</URL>
       </Link>
+    </NowKnownAsLinks>
+  </Landmark>
+  <Landmark>
+    <id>1107</id>
+    <latitude>46.263933</latitude>
+    <longitude>-63.146096</longitude>
+    <name lang='en_CA'>Towers Restaurant</name>
+    <Aliases>
+        <alias lang='en_CA'>Dixie Lee</alias>
+    </Aliases>
+    <nowKnownAsName lang='en_CA'>China King Restaurant</nowKnownAsName>
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate>1940</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=5470</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>China King Restaurant</description>
+        <URL>http://www.chinakingbuffetpei.com/</URL>
+      </Link>
+    </NowKnownAsLinks>
+  </Landmark>
+  <Landmark>
+    <id>1108</id>
+    <latitude>46.247959</latitude>
+    <longitude>-63.125075</longitude>
+    <name lang='en_CA'>Action Corner</name>
+    <Aliases />
+    <nowKnownAsName /> 
+    <description lang='en_CA'>placeholder description</description>
+    <exists>Y</exists>
+    <type>001_R</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks />
+    <AliasLinks/>
+    <NowKnownAsLinks />
+  </Landmark>
+  <Landmark>
+    <id>1109</id>
+    <latitude>46.235135</latitude>
+    <longitude>-63.124665</longitude>
+    <name lang='en_CA'>Basilica Rec Centre</name>
+    <Aliases>
+        <alias lang='en_CA'>Basilica Recreation Centre</alias>
+    </Aliases>
+    <nowKnownAsName lang='en_CA'>Murphy's Community Centre</nowKnownAsName>
+    <description lang='en_CA'>placeholder description</description>
+    <exists>Y</exists>
+    <type>001_S</type>
+    <startDate>1963</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=1542</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>Murphy's Community Centre</description>
+        <URL>http://www.murphyscommunitycentre.com/</URL>
+      </Link>
+    </NowKnownAsLinks>
+  </Landmark>
+  <!--
+  <Landmark>
+    <id>1110</id>
+    <latitude>46.235135</latitude>
+    <longitude>-63.124665</longitude>
+    <name lang='en_CA'>Basilica Rec Centre</name>
+    <Aliases>
+        <alias lang='en_CA'>Basilica Recreation Centre</alias>
+    </Aliases>
+    <nowKnownAsName lang='en_CA'>Murphy's Community Centre</nowKnownAsName>
+    <description lang='en_CA'>placeholder description</description>
+    <exists>Y</exists>
+    <type>001_S</type>
+    <startDate>1963</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=1542</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>Murphy's Community Centre</description>
+        <URL>http://www.murphyscommunitycentre.com/</URL>
+      </Link>
+    </NowKnownAsLinks>
+  </Landmark>
+  -->
+  <Landmark>
+    <id>1111</id>
+    <latitude>46.236931</latitude>
+    <longitude>-63.126752</longitude>
+    <name lang='en_CA'>Eaton's</name>
+    <Aliases>
+        <alias lang='en_CA'>Eatons Building</alias>
+    </Aliases>
+    <nowKnownAsName lang='en_CA'>Fitzroy Parkade</nowKnownAsName>
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate>1950</startDate>
+    <endDate>2001</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=2016</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>Fitzroy Parkade</description>
+        <URL>http://cadcpei.com/parking/fitzroy-parkade/</URL>
+      </Link>
+    </NowKnownAsLinks>
+  </Landmark>
+  <Landmark>
+    <id>1112</id>
+    <latitude>46.236213</latitude>
+    <longitude>-63.140914</longitude>
+    <name lang='en_CA'>Old Ghiz House</name>
+    <Aliases>
+    </Aliases>
+    <nowKnownAsName />
+    <description lang='en_CA'>placeholder description</description>
+    <exists>Y</exists>
+    <type>001_S</type>
+    <startDate>1891</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=3197</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks />
+  </Landmark>
+  <Landmark>
+    <id>1113</id>
+    <latitude>46.234699</latitude>
+    <longitude>-63.127881</longitude>
+    <name lang='en_CA'>Henderson &amp; Cudmore</name>
+    <Aliases>
+        <alias lang='en_CA'>Heckbert's Studio</alias>
+    </Aliases>
+    <nowKnownAsName lang='en_CA'>Subway / Robins Donuts</nowKnownAsName>
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate>1969</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=2124</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>Subway</description>
+        <URL>https://eatspei.com/pei-restaurants/subway-grafton/</URL>
+      </Link>
+    </NowKnownAsLinks>
+  </Landmark>
+  <Landmark>
+    <id>1114</id>
+    <latitude>46.236125</latitude>
+    <longitude>-63.130408</longitude>
+    <name lang='en_CA'>Tweel's Groceteria</name>
+    <Aliases>
+    </Aliases>
+    <nowKnownAsName lang='en_CA'>BGHJ Architects, City of Ch'town Planning and Heritage Dept</nowKnownAsName>
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate>1931</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=1852</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+      <Link>
+        <description lang='en_CA'>BGHJ Architects</description>
+        <URL>http://www.bghj.com/</URL>
+      </Link>
+      <Link>
+        <description lang='en_CA'>City of Charlottetown Planning and Heritage Department</description>
+        <URL>http://www.city.charlottetown.pe.ca/planningandheritage.php</URL>
+      </Link>
+    </NowKnownAsLinks>
+  </Landmark>
+  <Landmark>
+    <id>1115</id>
+    <latitude>46.236380</latitude>
+    <longitude>-63.127713</longitude>
+    <name lang='en_CA'>Tweel's Gift Shop</name>
+    <Aliases>
+    </Aliases>
+    <nowKnownAsName />
+    <description lang='en_CA'>placeholder description</description>
+    <exists>N</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=2019</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+    </NowKnownAsLinks>
+  </Landmark>
+  <Landmark>
+    <id>1116</id>
+    <latitude>46.236380</latitude>
+    <longitude>-63.127713</longitude>
+    <name lang='en_CA'>Royalty Mall</name>
+    <Aliases>
+        <alias lang='en_CA'>Oak Tree Mall</alias>
+        <alias lang='en_CA'>Spring Park Plaza</alias>
+        <alias lang='en_CA'>Stedman's</alias>
+    </Aliases>
+    <nowKnownAsName />
+    <description lang='en_CA'>placeholder description</description>
+    <exists>Y</exists>
+    <type>001_S</type>
+    <startDate>1965</startDate>
+    <endDate>MAX</endDate>
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=2862</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
+    </NowKnownAsLinks>
+  </Landmark>
+  <Landmark>
+    <id>1117</id>
+    <latitude>46.242838</latitude>
+    <longitude>-63.134252</longitude>
+    <name lang='en_CA'>Oak Tree Liquor Store</name>
+    <Aliases>
+    </Aliases>
+    <nowKnownAsName />
+    <description lang='en_CA'>placeholder description</description>
+    <exists>Y</exists>
+    <type>001_B</type>
+    <startDate />
+    <endDate />
+    <ExternalLinks>
+      <Link>
+        <description lang='en_CA'>Oak Streer Liquor Store</description>
+        <URL>http://www.peilcc.ca/index.php3?number=1022610&amp;lang=E</URL>
+      </Link>
+      <Link>
+        <description lang='en_CA'>Charlottetown Heritage</description>
+        <URL>http://www.city.charlottetown.pe.ca/searchaproperty.php?propid=2863</URL>
+      </Link>
+    </ExternalLinks>
+    <AliasLinks/>
+    <NowKnownAsLinks>
     </NowKnownAsLinks>
   </Landmark>
 </Landmarks>

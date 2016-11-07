@@ -1,0 +1,27 @@
+
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+mainClassName = "org.peidevs.watermeter.Generator"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.5'
+}
+
+run {
+    args project.configFile
+    args project.destFile
+}
+
+installDist.doFirst {
+    ant.delete(dir: project.stagingDir)
+}
+
+installDist {
+    into project.stagingDir
+}
+

@@ -3,6 +3,86 @@ Let's treat this file as a changelog of sorts, and just place new stuff
 at the top of the file, and keep old stuff.
 -->
 
+#### September 2016
+
+###### Topics
+* Paul Alan from Elections PEI on the upcoming Electoral Reform plebiscite
+
+###### Announcements
+* Open Access Week at UPEI, late October
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* community partner, Startup Zone PEI
+* venue sponsor, Binary Star
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+
+#### August 2016
+
+###### Topics
+* summer social
+
+###### Announcements
+* TBA
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+
+#### July 2016
+
+###### Topics
+* summer social
+
+###### Announcements
+* TBA
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* snacks sponsored by [Binary Star](http://www.binarystar.biz/)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+
+#### June 2016
+
+###### Topics
+* Carol Mayne, Director of Business Application Development with Government of Prince Edward Island on initial open [data sets](http://bit.ly/1UhNHuN) and the [Open Government License of Prince Edward Island](https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island)
+
+###### Announcements
+* TBA
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* venue provided by [StartupZone](http://twitter.com/StartupZonePEI)
+* video equipment loaned by [ScreenScape](http://www.screenscape.com)
+* snacks sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+
+#### May 2016
+
+###### Topics
+* Review of CODS 16
+
+###### Announcements
+* TBA
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* venue sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* video equipment loaned by [ScreenScape](http://www.screenscape.com)
+* door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+
 #### March 2016
 
 ###### Topics
@@ -17,8 +97,8 @@ at the top of the file, and keep old stuff.
 ###### Sponsors
 * venue sponsored by [Michael Easter](http://twitter.com/30_for_60)
 * video equipment loaned by [ScreenScape](http://www.screenscape.com)
-* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 * door prize sponsored by [Michael Easter](http://twitter.com/30_for_60)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 
 -----
 
@@ -39,8 +119,8 @@ at the top of the file, and keep old stuff.
 ###### Sponsors
 * venue & food sponsored by [Michael Easter](http://twitter.com/30_for_60)
 * video equipment loaned by [ScreenScape](http://www.screenscape.com)
-* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 * door prize sponsored by [ScreenScape](http://www.screenscape.com)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
 
 -----
 

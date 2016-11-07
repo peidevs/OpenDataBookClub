@@ -1,6 +1,8 @@
 
 import groovy.xml.*
 
+def names = new HashSet()
+
 class CsvInfo {
     def lat
     def lon
@@ -84,6 +86,13 @@ def buildCsvInfo = { def landmark ->
     csvInfo.startDate = landmark.startDate.text()
     csvInfo.endDate = landmark.endDate.text()
     csvInfo.infoWindowContent = buildInfoWindowContent(landmark)
+
+    if (names.contains(csvInfo.name)) {
+        println "TRACER DUPE : " + csvInfo.name
+        // throw new IllegalStateException("duplicate name: " + csvInfo.name)
+    } else {
+        names << csvInfo.name
+    }
 
     return csvInfo
 }

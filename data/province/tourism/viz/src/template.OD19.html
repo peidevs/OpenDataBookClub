@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>  
+    <title># Visitors to Historic Sites</title>
+    <script type="text/javascript">
+    window.onload = function () {
+        var chart = new CanvasJS.Chart("chartContainer",
+        {
+            zoomEnabled: true,
+            animationEnabled: true,
+            title:{
+                text: "# Visitors to Historic Sites"
+            },
+            axisY2:{
+                maximum: 9000,
+                interval: 500,
+                interlacedColor: "#F5F5F5",
+                gridColor: "#D7D7D7",      
+                tickColor: "#D7D7D7"                                
+            },
+            theme: "theme2",
+            toolTip:{
+                    shared: true
+            },
+            legend:{
+                verticalAlign: "bottom",
+                horizontalAlign: "center",
+                fontSize: 15,
+                fontFamily: "Lucida Sans Unicode"
+
+            },
+            data: [
+            {        
+                type: "line",
+                lineThickness:2,
+                axisYType:"secondary",
+                showInLegend: true,           
+                name: "Acadian", 
+                dataPoints: [
+                DATA_ACADIAN
+                ]
+            },
+            {        
+                type: "line",
+                lineThickness:2,
+                showInLegend: true,           
+                name: "Basin Head",
+                axisYType:"secondary",
+                dataPoints: [
+                DATA_BASIN_HEAD
+                ]
+            },
+            {        
+                type: "line",
+                lineThickness:2,
+                showInLegend: true,           
+                name: "Beaconsfield",        
+                axisYType:"secondary",
+                dataPoints: [
+                DATA_BEACONSFIELD
+                ]
+            },
+            {        
+                type: "line",
+                lineThickness:2,
+                showInLegend: true,           
+                name: "Elmira",        
+                axisYType:"secondary",
+                dataPoints: [
+                DATA_ELMIRA
+                ]
+            },
+            {        
+                type: "line",
+                lineThickness:2,
+                showInLegend: true,           
+                name: "Eptek",        
+                axisYType:"secondary",
+                dataPoints: [
+                DATA_EPTEK
+                ]
+            },
+            {        
+                type: "line",
+                lineThickness:2,
+                showInLegend: true,           
+                name: "Green Park",        
+                axisYType:"secondary",
+                dataPoints: [
+                DATA_GREEN_PARK
+                ]
+            },
+            {        
+                type: "line",
+                lineThickness:2,
+                showInLegend: true,           
+                name: "Orwell",        
+                axisYType:"secondary",
+                dataPoints: [
+                DATA_ORWELL
+                ]
+            }
+
+            ],
+          legend: {
+            cursor:"pointer",
+            itemclick : function(e) {
+              if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+              e.dataSeries.visible = false;
+              }
+              else {
+                e.dataSeries.visible = true;
+              }
+              chart.render();
+            }
+          }
+        });
+
+chart.render();
+}
+</script>
+  <script type="text/javascript" src="js/canvasjs.min.js"></script>
+</head>
+<body>
+    <div align="center" style="font-size: large;">A visualization of <a href="https://www.princeedwardisland.ca/en/service/historic-site-visits-open-data">this data set<a>, licensed under the <a href="https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island">Open Government License - Prince Edward Island</a></div>
+    <br/>
+    <div align="center" style="font-size: medium;">Hover over graph, or select a segment to zoom in.</div>
+    <br/>
+    <div align="right" style="font-size: medium;"><a href="https://github.com/peidevs/OpenDataBookClub/tree/master/data/province/tourism/viz">source here</a></div>
+    <hr/>
+    <div id="chartContainer" style="height: 90%; width: 100%;">
+    </div>
+</body>
+</html>

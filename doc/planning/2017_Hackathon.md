@@ -26,6 +26,7 @@ Startup Zone
     * Refine [PDF Thresher](https://github.com/peidevs/OpenDataBookClub/tree/master/tools/PDF_Thresher) so that journalists/others can use it as a standalone binary/website. This would be a tremendous service to the community.
     * Target a suite of PDF files and liberate the data.
 * Sports Data [Link](https://www.mysportsfeeds.com/) Provided courtesy of [Brad Barkhouse](https://twitter.com/mysportsfeeds) of Binary Star
+* Note that some ODBC members want to participate (in general) but are not coders. A nice-to-have for this specific event is to find a way to include them.
 
 ###Checklist
 - [x] Venue

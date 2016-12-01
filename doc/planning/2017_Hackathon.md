@@ -13,6 +13,13 @@ Saturday March 4th, 2017
 ###Location
 Startup Zone
 
+###Who
+We want everyone to attend. Not just tech focus. We want to include librarians, Business, designers, people new to software, students.
+As much as we want to build software and play with tech we also want to focus on the discussion of open data.
+
+###Theme
+In coordination with the international Open Data Day. The hackathon will be exploring open data in PEI.
+
 ###Ideas and Resources
 * Discover your family history ([Family Search](https://familysearch.org/indexing/)) ([World Record Recap](https://familysearch.org/blog/en/worldsrecordsrecap/))
 * PEI Open Data Portal [Link](https://www.princeedwardisland.ca/en/search/site/?f%5B0%5D=type%3Aservice&f%5B1%5D=field_service_topics%3A2237)

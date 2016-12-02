@@ -3,6 +3,33 @@ Let's treat this file as a changelog of sorts, and just place new stuff
 at the top of the file, and keep old stuff.
 -->
 
+#### November 2016
+
+###### Topics
+* [Bob Shand](http://twitter.com/feralbob) on [Civic Address Data](https://www.princeedwardisland.ca/en/service/gis-civic-address-data-open-data)
+* Special thanks to Terry Scott and Steve Dickie (from Government of PEI) for attending 
+
+###### Cat Herder (organizer) for this month
+* [Michael Easter](http://twitter.com/30_for_60) 
+
+###### Sponsors
+* venue, door-prize sponsor [Michael Easter](http://twitter.com/30_for_60)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+
+#### October 2016
+
+###### Topics
+* We partner with Robertson Library, University of Prince Edward Island as part of [International Open Access Week](http://www.openaccessweek.org/)
+* "The Value of Open Data in Climate Research" - Dr. Adam Fenech
+* "Health Data in an Open Data World" - Mary-Ann MacSwain
+
+###### Cat Herder (organizer) for this month
+* [Donald Moses](http://twitter.com/dmoses) 
+
+###### Sponsors
+* venue sponsor: [Robertson Library](http://twitter.com/UPEILibrary)
+* ongoing MeetUp subscription by [Michael Easter](http://twitter.com/30_for_60)
+
 #### September 2016
 
 ###### Topics

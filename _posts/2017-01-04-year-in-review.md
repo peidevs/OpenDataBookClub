@@ -38,7 +38,7 @@ Happy New Year! Here are some links to various meetups, talks, and other online 
 
 ### October
 
-* The October [meetup](https://www.meetup.com/Open-Data-PEI/events/234804726/) was hosted by Robertson Library at the University of Prince Edward Island, as part of International Open Access Week. The evening featured two presentations: _The Value of Open Data in Climate Research" by Dr. Adam Fenech and _Health Data in an Open Data World_ by Mary-Ann MacSwain.
+* The October [meetup](https://www.meetup.com/Open-Data-PEI/events/234804726/) was hosted by Robertson Library at the University of Prince Edward Island, as part of International Open Access Week. The evening featured two presentations: _The Value of Open Data in Climate Research by Dr. Adam Fenech and _Health Data in an Open Data World_ by Mary-Ann MacSwain.
 
 ### November
 

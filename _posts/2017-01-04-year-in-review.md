@@ -8,7 +8,7 @@ Happy New Year! Here are some links to various meetups, talks, and other online 
 ### January
 
 * At the January [meetup](https://www.meetup.com/Open-Data-PEI/events/227801712/), Michael Easter spoke on [PDF Box](https://pdfbox.apache.org/).
-* Also in January, [CBC Maritime Noon](http://www.cbc.ca/maritimenoon/2016/01/13/a-parking-warning-your-immigration-feedback-maritime-directions/) interviewed ODBC on [PEI Landmarks](http://peidevs.github.io/OpenDataBookClub/landmarks/landmarks.html). (This is a light-hearted interview about landmarks, not Open Data per se.)
+* Also in January, [CBC Maritime Noon](http://www.cbc.ca/maritimenoon/2016/01/13/a-parking-warning-your-immigration-feedback-maritime-directions/) interviewed ODBC on the PEI Landmarks project. (This is a light-hearted interview about landmarks, not Open Data per se.)
 
 ### February
 

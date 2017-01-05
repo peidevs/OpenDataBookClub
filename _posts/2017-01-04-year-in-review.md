@@ -46,6 +46,8 @@ Happy New Year! Here are some links to various meetups, talks, and other online 
 
 ### Recap
 
-A busy year, for sure! Many thanks to the ODBC members for their support, whether it is via attending meetups/hackathons, contributing to GitHub or Slack, or even RTs on social media. You have made a difference.
+A busy year, for sure! This recap does not cover various evangelical efforts in the form of informal meetings/lunches, planning, and so on to try and explain the _Open Data_ concept to various people & agencies across PEI. 
+
+Many thanks to the ODBC members for their support, whether it is via attending meetups/hackathons, contributing to GitHub or Slack, or even RTs on social media. You have made a difference.
 
 The schedule for early 2017 is unclear, with a major exception: PEI Devs and ODBC are planning another hackathon for Open Data Day on March 4, 2017. Save the date!

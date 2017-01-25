@@ -18,7 +18,7 @@ We want everyone to attend. Not just tech focus. We want to include librarians, 
 As much as we want to build software and play with tech we also want to focus on the discussion of open data.
 
 ###Theme
-In coordination with the international Open Data Day. The hackathon will be exploring open data in PEI.
+In coordination with the international Open Data Day. The hackathon will be exploring open data in PEI. But not limited to open data
 
 ###Ideas and Resources
 * Discover your family history ([Family Search](https://familysearch.org/indexing/)) ([World Record Recap](https://familysearch.org/blog/en/worldsrecordsrecap/))
@@ -38,19 +38,41 @@ In coordination with the international Open Data Day. The hackathon will be expl
 
 ###Checklist
 - [x] Venue
-- [ ] Meetup Event
+- [ ] Meetup Event/Eventbrite (Sean)
 - [ ] Food
-- [ ] Dongles
+- [ ] Dongles (Evan)
 - [ ] Promotion
    - [ ] Poster(s)
    - [ ] Slack
    - [ ] Twitter
-   - [ ] Innovatin PEI
+   - [ ] Innovation PEI
    - [ ] UPEI
    - [ ] Holland Collage
-   - [ ] Meetup Email
+   - [ ] Meetup Email (PEIDevs and ODBC)
+   - [ ] IT Garage
+   - [ ] UI/UX
 - [x] Theme
 - [x] Date and Time
 - [ ] Sponsors
    - [x] Venue - Binary Star
-   - [ ] Food
+   - [ ] Food (Lunch Pizza $200+, Supper sandwich/meat/cheese plates $200+) (Breakfast - coffee/tea, cookies, muffins)
+   
+ ### Day Schedule
+ - 8am Meet and Greet Introduction, sponsors
+ - 8:30 Pitch Ideas - Form Groups
+ - 9-930am Deadline to start
+ - Teams Build Projects
+ - 6:30pm Wrap Up (Put together your presentation)
+ - 7pm Presentations (Q&A)
+ - 8pm Out the Door
+
+### Other Considerations
+- How do we get other involved from town. Those doing data viz?
+   - Approach government
+   - PEI Librarians (UPEI as well)
+   - CBC/Kerry, Guardian/Theresa
+- Ask more on Social media for data sets
+- Name Game
+   - Open Data Hackathon
+   - Hackathon in coordination with Open Data Data
+   - Open Data ?Jam?/Hackathon

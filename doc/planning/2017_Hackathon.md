@@ -46,7 +46,7 @@ In coordination with the international Open Data Day. The hackathon will be expl
    - [ ] Slack
    - [ ] Twitter
    - [ ] Innovation PEI
-   - [ ] UPEI
+   - [ ] UPEI - Dr. Gordon MacDonald (gmacdonald@upei.ca), Associate Dean of the School of Mathematical and Computational Sciences
    - [ ] Holland Collage
    - [ ] Meetup Email (PEIDevs and ODBC)
    - [ ] IT Garage

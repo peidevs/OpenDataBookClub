@@ -38,13 +38,13 @@ In coordination with the international Open Data Day. The hackathon will be expl
 
 ###Checklist
 - [x] Venue
-- [ ] Meetup Event/Eventbrite (Sean)
+- [x] Meetup Event/Eventbrite (Sean)
 - [ ] Food
 - [ ] Dongles (Evan)
 - [ ] Promotion
    - [ ] Poster(s)
-   - [ ] Slack
-   - [ ] Twitter
+   - [x] Slack
+   - [x] Twitter
    - [ ] Innovation PEI
    - [ ] UPEI
    - [ ] Holland Collage

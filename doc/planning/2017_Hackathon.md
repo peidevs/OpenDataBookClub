@@ -40,11 +40,13 @@ In coordination with the international Open Data Day. The hackathon will be expl
 - [x] Venue
 - [x] Meetup Event/Eventbrite (Sean)
 - [ ] Food
+   - [ ] Pizza (Lunch)
+   - [ ] Subway (Dinner)
 - [ ] Dongles (Evan)
 - [ ] Promotion
    - [ ] Poster(s)
    - [x] Slack
-   - [x] Twitter
+   - [x] Twitter - scheduled until day before event
    - [ ] Innovation PEI
    - [ ] UPEI
    - [ ] Holland Collage
@@ -55,7 +57,9 @@ In coordination with the international Open Data Day. The hackathon will be expl
 - [x] Date and Time
 - [ ] Sponsors
    - [x] Venue - Binary Star
-   - [ ] Food (Lunch Pizza $200+, Supper sandwich/meat/cheese plates $200+) (Breakfast - coffee/tea, cookies, muffins)
+   - [ ] Lunch $300+ - Server Sitters 
+   - [ ] Supper $300+ - ?? 
+   - [x] Breakfast - coffee/tea, cookies, muffins (home baked)
    
  ### Day Schedule
  - 8am Meet and Greet Introduction, sponsors
@@ -74,5 +78,5 @@ In coordination with the international Open Data Day. The hackathon will be expl
 - Ask more on Social media for data sets
 - Name Game
    - Open Data Hackathon
-   - Hackathon in coordination with Open Data Data
+   - Hackathon in coordination with Open Data Day
    - Open Data ?Jam?/Hackathon

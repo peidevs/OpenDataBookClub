@@ -51,7 +51,7 @@ In coordination with the international Open Data Day. The hackathon will be expl
    - [ ] UPEI
    - [ ] Holland Collage
    - [ ] Meetup Email (PEIDevs and ODBC)
-   - [ ] IT Garage
+   - [X] IT Garage
    - [ ] UI/UX
 - [x] Theme
 - [x] Date and Time

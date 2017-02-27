@@ -41,24 +41,28 @@ In coordination with the international Open Data Day. The hackathon will be expl
 - [x] Meetup Event/Eventbrite (Sean)
 - [ ] Food
    - [ ] Pizza (Lunch)
-   - [ ] Subway (Dinner)
+   - [x] Subway (Dinner)
+      - Grafton Street Subway
+      - 3 Trays (30 people)
+      - $139.90
+      - Under Evan's name and Phone number
 - [ ] Dongles (Evan)
 - [ ] Promotion
-   - [ ] Poster(s)
+   - [x] Poster(s)
    - [x] Slack
    - [x] Twitter - scheduled until day before event
    - [ ] Innovation PEI
-   - [ ] UPEI
-   - [ ] Holland Collage
-   - [ ] Meetup Email (PEIDevs and ODBC)
+   - [x] UPEI
+   - [x] Holland Collage
+   - [x] Meetup Email (PEIDevs and ODBC)
    - [X] IT Garage
-   - [ ] UI/UX
+   - [x] UI/UX
 - [x] Theme
 - [x] Date and Time
 - [ ] Sponsors
    - [x] Venue - Binary Star
    - [ ] Lunch $300+ - Server Sitters 
-   - [ ] Supper $300+ - ?? 
+   - [ ] Supper $300+ - Silver Orange 
    - [x] Breakfast - coffee/tea, cookies, muffins (home baked)
    
  ### Day Schedule

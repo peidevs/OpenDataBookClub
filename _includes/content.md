@@ -1,6 +1,6 @@
 ## Quick News
 
-Click [here](http://peidevs.github.io/OpenDataBookClub/2016/10/12/OCT-meetup.html) for details on our October Meetup, Thursday, Oct 27 at Robertson Library on UPEI campus.
+Alas, no _quick news_ this month!
 
 ## What is this about?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.
@@ -14,7 +14,7 @@ As with PEI Developers, this is a volunteer, non-partisan initiative. We're open
 
 ## When
 
-We meet on the 4th week of the month (usually Tuesday). Our next meeting will be on Sept 27, 2016. RSVP at our [MeetUp page](http://bit.ly/2cBvhp5)
+We usually meet on the 4th Tuesday of the month; as of 2017, we are meeting less frequently. Our next meeting is TBA.
 
 {% comment %} 
 Everyone welcome: the audience is *not* just software developers!  

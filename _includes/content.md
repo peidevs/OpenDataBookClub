@@ -1,6 +1,6 @@
 ## Quick News
 
-March 4, 2017, is [International Open Data Day](http://opendataday.org/). [Check out](http://codeacross.ca/) the activities across Canada, including right here on PEI.
+March 4, 2017, is [International Open Data Day](http://opendataday.org/). Check out the activities [across Canada](http://codeacross.ca/), including right here on PEI.
 
 ## What is this about?
 A regular meetup for civic-minded individuals to present / discuss open data. We won't be studying books: we'll study data sets. Check out [this site](http://opendatabook.club) for more information.

@@ -22,7 +22,9 @@ Thanks very much for your support!
 
 #### Organizers
 
+<div class='pull-left' markdown="1">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/32450006413/in/album-72157677640509213/" title="Organizers"><img src="https://c1.staticflickr.com/4/3927/32450006413_a7a7a9e04a_n.jpg" width="240" height="320" alt="Organizers"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
 
 Organizers included: team lead [Sean Whalley](https://twitter.com/seanwhalley21), [Evan Porter](https://twitter.com/evanepio), and [Josh Biggley](https://twitter.com/jbiggley). Thanks for making the day happen! Thanks too to the super-helpful staff at the [Startup Zone](http://startupzone.ca).
 
@@ -37,7 +39,7 @@ Organizers included: team lead [Sean Whalley](https://twitter.com/seanwhalley21)
 
 Below is a recap of efforts by the various teams.
 
-#### Federal Data Explorers [test 5]
+#### Federal Data Explorers [test 6]
 
 <!--
 ![Team Fed Data Explorers](https://c1.staticflickr.com/1/598/33222873816_e2937d0b41_n.jpg "Taken near 10 am in the day. This team of intrepid data explorers searched through the federal Open Data portal, finding narratives pertaining to heritage, electoral results, motor vehicles, and immigration."){: .postImage }

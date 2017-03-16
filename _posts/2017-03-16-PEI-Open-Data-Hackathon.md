@@ -55,9 +55,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Space Battle
 
-![Team Space Battle](url ""){: .postImage } 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33136147531/in/album-72157677640509213/" title="Game Team"><img src="https://c1.staticflickr.com/4/3897/33136147531_a556dbb6c4_n.jpg" width="320" height="320" alt="Game Team"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!--
+![Team Space Battle](url "Team Space Battle demo their game, which involved both coding and art design."){: .postImage } 
+-->
+
+[Lorem ipsum](https://www.flickr.com/photos/100794919@N05/33136147531/in/album-72157677640509213/) dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 **Team Resources**
 

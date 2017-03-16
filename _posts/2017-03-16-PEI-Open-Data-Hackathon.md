@@ -38,7 +38,7 @@ Below is a recap of efforts by the various teams.
 
 ### Federal Data Explorers 
 
-This team of intrepid data explorers searched through the federal Open Data portal, finding narratives pertaining to [museum/heritageinventory](https://twitter.com/roflcopter1101/status/838048748651544576), electoral results, [motor vehicles](https://twitter.com/Jodilynne3/status/838142725769805824), [DUI stats](https://twitter.com/Jodilynne3/status/838136877437894656) and immigration.
+This team of intrepid data explorers searched through the federal Open Data portal, finding narratives pertaining to [museum/heritage inventory](https://twitter.com/roflcopter1101/status/838048748651544576), electoral results, [motor vehicles](https://twitter.com/Jodilynne3/status/838142725769805824), [DUI stats](https://twitter.com/Jodilynne3/status/838136877437894656) and immigration.
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33222873816/in/album-72157677640509213/" title="Welcome!"><img src="https://c1.staticflickr.com/1/598/33222873816_e2937d0b41_z.jpg" width="480" height="640" alt="Welcome!"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 

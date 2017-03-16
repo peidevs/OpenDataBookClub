@@ -30,7 +30,7 @@ Organizers included: team lead [Sean Whalley](https://twitter.com/seanwhalley21)
 
 ## Attendees and Visitors
 
-[Here is a full album](https://www.flickr.com/photos/100794919@N05/sets/72157677640509213) of pics from the day. We had three teams and, thanks to the easy access of the Startup Zone, an impromptu open-house with [visitors](https://www.flickr.com/photos/100794919@N05/33222872166/in/album-72157677640509213/) from [government](https://www.flickr.com/photos/100794919@N05/32450009183/in/album-72157677640509213/) and the [tech community](https://www.flickr.com/photos/100794919@N05/33222874786/in/album-72157677640509213/). 
+[Here is a full album](https://www.flickr.com/photos/100794919@N05/sets/72157677640509213) of photos from the day. We had three teams and, thanks to the easy access of the Startup Zone, an impromptu open-house with [visitors](https://www.flickr.com/photos/100794919@N05/33222872166/in/album-72157677640509213/) from [government](https://www.flickr.com/photos/100794919@N05/32450009183/in/album-72157677640509213/) and the [tech community](https://www.flickr.com/photos/100794919@N05/33222874786/in/album-72157677640509213/). 
 
 ## Team Presentations
 

@@ -22,32 +22,26 @@ Thanks very much for your support!
 
 #### Organizers
 
-<div class='pull-right' markdown="1">
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/32450006413/in/album-72157677640509213/" title="Organizers"><img src="https://c1.staticflickr.com/4/3927/32450006413_a7a7a9e04a_n.jpg" width="240" height="320" alt="Organizers"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-
 Organizers included: team lead [Sean Whalley](https://twitter.com/seanwhalley21), [Evan Porter](https://twitter.com/evanepio), and [Josh Biggley](https://twitter.com/jbiggley). Thanks for making the day happen! Thanks too to the super-helpful staff at the [Startup Zone](http://startupzone.ca).
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/32450006413/in/album-72157677640509213/" title="Organizers"><img src="https://c1.staticflickr.com/4/3927/32450006413_a7a7a9e04a_n.jpg" width="240" height="320" alt="Organizers"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 #### Attendees and Visitors
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/32421162964/in/album-72157677640509213/" title="Startup Zone"><img src="https://c1.staticflickr.com/4/3933/32421162964_cf02936cc8_n.jpg" width="320" height="98" alt="Startup Zone"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 [Here is a full album](https://www.flickr.com/photos/100794919@N05/sets/72157677640509213/with/32450009183/) of pics from the day. We had three teams and, thanks to the easy access of the Startup Zone, an impromptu open-house with [visitors](https://www.flickr.com/photos/100794919@N05/33222872166/in/album-72157677640509213/) from [government](https://www.flickr.com/photos/100794919@N05/32450009183/in/album-72157677640509213/) and the [tech community](https://www.flickr.com/photos/100794919@N05/33222874786/in/album-72157677640509213/). 
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/32421162964/in/album-72157677640509213/" title="Startup Zone"><img src="https://c1.staticflickr.com/4/3933/32421162964_cf02936cc8_z.jpg" width="640" height="196" alt="Startup Zone"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 ## Team Presentations
 
 Below is a recap of efforts by the various teams.
 
-#### Federal Data Explorers [test 6]
-
-<!--
-![Team Fed Data Explorers](https://c1.staticflickr.com/1/598/33222873816_e2937d0b41_n.jpg "Taken near 10 am in the day. This team of intrepid data explorers searched through the federal Open Data portal, finding narratives pertaining to heritage, electoral results, motor vehicles, and immigration."){: .postImage }
--->
+#### Federal Data Explorers [test 8]
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33222873816/in/album-72157677640509213/" title="Welcome!"><img src="https://c1.staticflickr.com/1/598/33222873816_e2937d0b41_q.jpg" width="150" height="150" alt="Welcome!"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33222873816/in/album-72157677640509213/" title="Welcome!"><img src="https://c1.staticflickr.com/1/598/33222873816_e2937d0b41_z.jpg" width="480" height="640" alt="Welcome!"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 **Data Explorers: Resources**
 
@@ -56,6 +50,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### Emergency Room Scheduler
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/32883579940/in/album-72157677640509213/" title="Even More Visitors"><img src="https://c1.staticflickr.com/4/3922/32883579940_2f38d83d7c_z.jpg" width="640" height="498" alt="Even More Visitors"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 **ER Scheduler: Resources**
 
@@ -66,7 +62,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 [Lorem ipsum](https://www.flickr.com/photos/100794919@N05/33136147531/in/album-72157677640509213/) dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<a class="postImage" data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33136147531/in/album-72157677640509213/" title="Game Team"><img src="https://c1.staticflickr.com/4/3897/33136147531_a556dbb6c4_n.jpg" width="320" height="320" alt="Game Team"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33136147531/in/album-72157677640509213/" title="Game Team"><img src="https://c1.staticflickr.com/4/3897/33136147531_a556dbb6c4_z.jpg" width="640" height="640" alt="Game Team"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 **Space Battle: Resources**
 

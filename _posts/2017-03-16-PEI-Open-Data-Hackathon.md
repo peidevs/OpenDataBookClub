@@ -28,6 +28,10 @@ Organizers included: team lead [Sean Whalley](https://twitter.com/seanwhalley21)
 
 [Here is a full album](https://www.flickr.com/photos/100794919@N05/sets/72157677640509213/with/32450009183/) of pics from the day. We had three teams and, thanks to the easy access of the Startup Zone, an impromptu open-house with [visitors](https://www.flickr.com/photos/100794919@N05/33222872166/in/album-72157677640509213/) from [government](https://www.flickr.com/photos/100794919@N05/32450009183/in/album-72157677640509213/) and the [tech community](https://www.flickr.com/photos/100794919@N05/33222874786/in/album-72157677640509213/). 
 
+<br />
+
+<a data-flickr-embed="true" data-header="true"  href="https://www.flickr.com/photos/100794919@N05/32421162964/in/album-72157677640509213/" title="Startup Zone"><img src="https://c1.staticflickr.com/4/3933/32421162964_cf02936cc8.jpg" width="500" height="153" alt="Startup Zone"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 ## Team Presentations
 
 Below is a recap of efforts by the various teams.
@@ -44,26 +48,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Emergency Room Scheduler
 
-![Team ER Scheduler](https://farm2.staticflickr.com/1489/24938363134_e142478510_n.jpg "Mark Wright presenting Address Liberation project"){: .postImage } 
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-**Team Resources**
+**ER Scheduler: Resources**
 
 * [ER Wait Times](http://www.healthpei.ca/erWaitTimes/), Health PEI
 * source-code for project (link is pending)
 
 #### Space Battle
 
-<a class="postImage" data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33136147531/in/album-72157677640509213/" title="Game Team"><img src="https://c1.staticflickr.com/4/3897/33136147531_a556dbb6c4_n.jpg" width="320" height="320" alt="Game Team"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<!--
-![Team Space Battle](url "Team Space Battle demo their game, which involved both coding and art design."){: .postImage } 
--->
-
 [Lorem ipsum](https://www.flickr.com/photos/100794919@N05/33136147531/in/album-72157677640509213/) dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-**Team Resources**
+<a class="postImage" data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33136147531/in/album-72157677640509213/" title="Game Team"><img src="https://c1.staticflickr.com/4/3897/33136147531_a556dbb6c4_n.jpg" width="320" height="320" alt="Game Team"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+**Space Battle: Resources**
 
 * [source-code](https://github.com/pparke/space-battle-client) for project
 

@@ -7,7 +7,7 @@ title: PEI Open Data Hackathon 2017
 
 ## Introduction
 
-March 4, 2017, was [International Open Data Day](https://en.wikipedia.org/wiki/International_Open_Data_Day), a day intended to promote Open Data around both [Canada](http://codeacross.ca/) and [the globe](http://opendataday.org) through various hackathons, seminars, and presentations.
+March 4, 2017, was [International Open Data Day](https://en.wikipedia.org/wiki/International_Open_Data_Day), a day intended to promote Open Data [across Canada](http://codeacross.ca/) and [around the globe](http://opendataday.org) through various hackathons, seminars, and presentations.
 
 On PEI, organizers from [PEI Devs](http://www.meetup.com/PEI-Developers/) and the [Open Data Book Club](http://www.meetup.com/Open-Data-PEI) teamed up to hold the [PEI Open Data Hackathon](https://www.eventbrite.ca/e/march-4th-2017-hackathon-and-open-data-workshop-tickets-31777310792#) at the [Startup Zone](https://startupzone.ca/) in Charlottetown.
 

@@ -32,7 +32,7 @@ Organizers included: team lead [Sean Whalley](https://twitter.com/seanwhalley21)
 
 Below is a recap of efforts by the various teams.
 
-#### Federal Data Explorers [test 3]
+#### Federal Data Explorers [test 4]
 
 ![Team Fed Data Explorers](https://c1.staticflickr.com/1/598/33222873816_e2937d0b41_n.jpg "Taken near 10 am in the day. This team of intrepid data explorers searched through the federal Open Data portal, finding narratives pertaining to heritage, electoral results, motor vehicles, and immigration."){: .postImage }
 
@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Space Battle
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33136147531/in/album-72157677640509213/" title="Game Team"><img src="https://c1.staticflickr.com/4/3897/33136147531_a556dbb6c4_n.jpg" width="320" height="320" alt="Game Team"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a class="postImage" data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33136147531/in/album-72157677640509213/" title="Game Team"><img src="https://c1.staticflickr.com/4/3897/33136147531_a556dbb6c4_n.jpg" width="320" height="320" alt="Game Team"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 <!--
 ![Team Space Battle](url "Team Space Battle demo their game, which involved both coding and art design."){: .postImage } 

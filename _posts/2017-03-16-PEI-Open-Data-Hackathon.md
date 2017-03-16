@@ -22,7 +22,7 @@ Thanks very much for your support!
 
 #### Organizers
 
-<div class='pull-left' markdown="1">
+<div class='pull-right' markdown="1">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/32450006413/in/album-72157677640509213/" title="Organizers"><img src="https://c1.staticflickr.com/4/3927/32450006413_a7a7a9e04a_n.jpg" width="240" height="320" alt="Organizers"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 

@@ -7,7 +7,7 @@ title: PEI Open Data Hackathon 2017
 
 March 4, 2017, was [International Open Data Day](https://en.wikipedia.org/wiki/International_Open_Data_Day), a day intended to promote Open Data around both [Canada](http://codeacross.ca/) and [the globe](http://opendataday.org) through various hackathons, seminars, and presentations.
 
-On PEI, organizers from [PEI Devs](http://www.meetup.com/PEI-Developers/) and the [Open Data Book Club](http://www.meetup.com/Open-Data-PEI) teamed up to hold the [PEI Open Data Hackathon](https://www.eventbrite.ca/e/march-4th-2017-hackathon-and-open-data-workshop-tickets-31777310792#) at the [Startup Zone](https://startupzone.ca/).
+On PEI, organizers from [PEI Devs](http://www.meetup.com/PEI-Developers/) and the [Open Data Book Club](http://www.meetup.com/Open-Data-PEI) teamed up to hold the [PEI Open Data Hackathon](https://www.eventbrite.ca/e/march-4th-2017-hackathon-and-open-data-workshop-tickets-31777310792#) at the [Startup Zone](https://startupzone.ca/) in Charlottetown.
 
 #### Sponsors
 
@@ -16,13 +16,13 @@ The event was sponsored by:
 * [Binary Star](http://binarystar.ca)
 * [Server Sitters](https://serversitters.com/)
 * [Silver Orange](https://www.silverorange.com/)
-* [Ballistiq],(http://www.ballistiq.com/)
+* [Ballistiq](http://www.ballistiq.com/)
 
 Thanks very much for your support!
 
 #### Organizers
 
-Organizers include Team Lead [Sean Whalley](https://twitter.com/seanwhalley21), [Evan Porter](https://twitter.com/evanepio), and [Josh Biggley](https://twitter.com/jbiggley). Thanks for making the day happen! Thanks too to the super-helpful staff at the [Startup Zone](http://startupzone.ca).
+Organizers included: team lead [Sean Whalley](https://twitter.com/seanwhalley21), [Evan Porter](https://twitter.com/evanepio), and [Josh Biggley](https://twitter.com/jbiggley). Thanks for making the day happen! Thanks too to the super-helpful staff at the [Startup Zone](http://startupzone.ca).
 
 #### Attendees and Visitors
 

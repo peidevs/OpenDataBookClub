@@ -32,9 +32,9 @@ Organizers included: team lead [Sean Whalley](https://twitter.com/seanwhalley21)
 
 Below is a recap of efforts by the various teams.
 
-#### Federal Data Explorers
+#### Federal Data Explorers [test 1]
 
-![Team Fed Data Explorers](https://www.flickr.com/photos/100794919@N05/33222873816/in/album-72157677640509213/ "Taken near 10 am in the day. This team of intrepid data explorers searched through the federal Open Data portal, finding narratives pertaining to heritage, electoral results, motor vehicles, and immigration."){: .postImage }
+![Team Fed Data Explorers](https://flic.kr/p/SBMUVf "Taken near 10 am in the day. This team of intrepid data explorers searched through the federal Open Data portal, finding narratives pertaining to heritage, electoral results, motor vehicles, and immigration."){: .postImage }
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

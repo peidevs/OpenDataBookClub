@@ -69,7 +69,8 @@ Our event was not restricted to _Open Data_ projects: folks were invited to simp
 
 **Space Battle: Resources**
 
-* [source-code](https://github.com/pparke/space-battle-client) for project
+* [client source-code](https://github.com/pparke/space-battle-client) 
+* [server source-code](https://github.com/pparke/space-battle-server)
 
 ## Closing Remarks
 Thanks again to the sponsors, organizers, visitors, and especially attendees! With your efforts, we continue to raise the visibility of the Open Data movement here on Prince Edward Island.

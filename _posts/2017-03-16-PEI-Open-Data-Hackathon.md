@@ -3,6 +3,8 @@ layout: post
 title: PEI Open Data Hackathon 2017
 ---
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33136144311/in/dateposted-public/" title="5:30 pm"><img src="https://c1.staticflickr.com/1/744/33136144311_c2a4183805_c.jpg" width="800" height="251" alt="5:30 pm"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 ## Introduction
 
 March 4, 2017, was [International Open Data Day](https://en.wikipedia.org/wiki/International_Open_Data_Day), a day intended to promote Open Data around both [Canada](http://codeacross.ca/) and [the globe](http://opendataday.org) through various hackathons, seminars, and presentations.
@@ -29,8 +31,6 @@ Organizers included: team lead [Sean Whalley](https://twitter.com/seanwhalley21)
 ## Attendees and Visitors
 
 [Here is a full album](https://www.flickr.com/photos/100794919@N05/sets/72157677640509213) of pics from the day. We had three teams and, thanks to the easy access of the Startup Zone, an impromptu open-house with [visitors](https://www.flickr.com/photos/100794919@N05/33222872166/in/album-72157677640509213/) from [government](https://www.flickr.com/photos/100794919@N05/32450009183/in/album-72157677640509213/) and the [tech community](https://www.flickr.com/photos/100794919@N05/33222874786/in/album-72157677640509213/). 
-
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/100794919@N05/33136144311/in/dateposted-public/" title="5:30 pm"><img src="https://c1.staticflickr.com/1/744/33136144311_c2a4183805_c.jpg" width="800" height="251" alt="5:30 pm"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 ## Team Presentations
 

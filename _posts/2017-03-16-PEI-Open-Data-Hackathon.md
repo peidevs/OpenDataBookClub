@@ -50,7 +50,7 @@ The end-result was an increased awareness of data-sets and interaction on [socia
 
 ### Emergency Room Scheduler
 
-This team's pitch is: imagine an app that compares distance and current wait-times of PEI Emergency Rooms, so that the user can make an informed decision about which one to choose.  
+The pitch: imagine an app that compares distance and current wait-times of PEI Emergency Rooms, so that the user can make an informed decision about which one to choose.  
 
 The team wrote a prototype web application that scraped data from a gov't web page (below), and provides [comparison graphs](https://www.flickr.com/photos/100794919@N05/33136149251/in/dateposted/) to the user.
 

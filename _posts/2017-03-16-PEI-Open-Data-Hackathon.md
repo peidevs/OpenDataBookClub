@@ -59,7 +59,7 @@ The team wrote a prototype web application that scraped data from a gov't web pa
 **ER Scheduler: Resources**
 
 * [ER Wait Times](http://www.healthpei.ca/erWaitTimes/), Health PEI
-* source-code for project (link is pending)
+* [source](https://github.com/mcwright/heartattack_scheduler) for project
 
 ### Space Battle
 

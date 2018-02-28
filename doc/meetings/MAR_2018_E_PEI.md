@@ -7,6 +7,9 @@
     * They are spooling up in the Open Data spirit.
     * They are working on a new website and investigating an Open Data license.
     * Regarding data sets, they would like to priortize their efforts and are asking the public (us!) for input.
+
+### Identifying Data Sets Of Interest
+
 * To the end of identifying data sets of interest, there are links below:
     * existing PDF data on Elections PEI
     * examples of Open Data in other provinces

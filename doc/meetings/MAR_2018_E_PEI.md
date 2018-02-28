@@ -44,4 +44,5 @@
 * PEI Plebiscites [here](http://www.electionspei.ca/index.php?number=1055650&lang=E)
 * PEI Historical School Trustee election results [here](http://www.electionspei.ca/index.php?number=1051341&lang=E)
 * Elections PEI's own expenses ?
+* Elections Nova Scotia. Various financials [here](https://electionsnovascotia.ca/Electoral-Finance-Reports). Note: not Open Data.
 

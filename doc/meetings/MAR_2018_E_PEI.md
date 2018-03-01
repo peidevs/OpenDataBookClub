@@ -25,6 +25,14 @@
     * financial data (e.g. political contributions)
     * mapping data
 
+### Identifying Narratives/Stories
+
+* An alternative to requesting a specific data set is to consider a broad topic of concern:
+    * [Gerrymandering](https://en.wikipedia.org/wiki/Gerrymandering)
+    * voting trends
+    * political history
+    * financial transparency
+
 ### Elections PEI
 
 * Election Financing [here](http://www.electionspei.ca/index.php?number=1046806&lang=E)

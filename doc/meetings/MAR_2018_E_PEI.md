@@ -12,6 +12,17 @@
 
 * To the end of identifying data sets of interest, there are links below:
     * existing PDF data on Elections PEI
+    * existing XML data on Elections PEI
+        * Peter Rukavina coded this API as a proof of concept for Elections PEI in 2001, and [lightly documented it here in a 2011 blog post](https://ruk.ca/content/elections-pei-api-0)
+            * [List of Electoral Districts](http://www.electionspei.ca/xml/provincial/districts)
+            * Metadata for each Electoral District, for example:
+                * [District 12](http://www.electionspei.ca/provincial/details/index.php?format=xml&district=12)
+            * Metadata for each Polling Division, for example:
+                * [District 12, Poll 5](http://www.electionspei.ca/provincial/details/index.php?format=xml&district=12&poll=5)
+            * KML Files of Boundaries, for example:
+                * [District 12](http://www.electionspei.ca/provincial/details/gis/kml/district12.kml)
+                * [District 12, Poll 5](http://www.electionspei.ca/provincial/details/gis/kml/polls/district12_poll5.kml)
+        * There was a [similar API for municipal election data](https://ruk.ca/content/elections-pei-api), but this appears to have been since-deprecated by Elections PEI.
     * examples of Open Data in other provinces
     * Elections BC is an excellent [example](http://elections.bc.ca/resources/statistics/):
         * data is freely available

@@ -43,6 +43,8 @@ This is a list of useful resources regarding Open Data, for both interested citi
 * [Halifax](http://www.halifax.ca/opendata)
 * [Lethbridge](http://opendata.lethbridge.ca/)
 * [London](http://www.london.ca/city-hall/open-data/pages/open-data-data-catalogue.aspx)
+* [Maple Ridge, BC](http://opengov.mapleridge.ca/)
+    * won 2018 CAMA Willis Award for Innovation
 * [Moncton](https://www.moncton.ca/Government/Terms_of_use/Open_Data_Purpose.htm)
 * [Montréal](http://donnees.ville.montreal.qc.ca)
 * [Niagara Region](https://niagaraopendata.ca/)

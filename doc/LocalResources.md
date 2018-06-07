@@ -5,7 +5,12 @@ This is a simple consolidation of various online resources regarding Open Data o
 
 ### Data Visualizations 
 
-* **Note**: any editorials do not reflect the views of the Open Data Book Club, though we celebrate discussion in general
+* **Note**: any editorials do not reflect the views of PEI Developers, though we celebrate discussion in general
+
+#### Elections PEI
+
+* [all 2017 contributions in excess of $250](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/table.html) by [Michael Easter](https://twitter.com/30_for_60)
+* [2017 contributions in excess of $250, contributions to multiple parties](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/crossref.html) by [Michael Easter](https://twitter.com/30_for_60)
 
 #### Province, Education
 

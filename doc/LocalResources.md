@@ -9,8 +9,9 @@ This is a simple consolidation of various online resources regarding Open Data o
 
 #### Elections PEI
 
-* [all 2017 contributions in excess of $250](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/table.html) by [Michael Easter](https://twitter.com/30_for_60)
-* [2017 contributions in excess of $250, contributions to multiple parties](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/crossref.html) by [Michael Easter](https://twitter.com/30_for_60)
+* [2017 contributions in excess of $250: all](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/table.html) by [Michael Easter](https://twitter.com/30_for_60)
+* [2017 contributions in excess of $250: contributions to multiple parties](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/crossref.html) by [Michael Easter](https://twitter.com/30_for_60)
+* [2017 contributions in excess of $250: per-city breakdown](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/bycity.html) by [Michael Easter](https://twitter.com/30_for_60)
 
 #### Province, Education
 

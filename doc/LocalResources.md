@@ -11,7 +11,8 @@ This is a simple consolidation of various online resources regarding Open Data o
 
 * [2017 contributions in excess of $250: all](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/table.html) by [Michael Easter](https://twitter.com/30_for_60)
 * [2017 contributions in excess of $250: contributions to multiple parties](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/crossref.html) by [Michael Easter](https://twitter.com/30_for_60)
-* [2017 contributions in excess of $250: per-city breakdown](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/bycity.html) by [Michael Easter](https://twitter.com/30_for_60)
+* [2017 contributions in excess of $250: per-city breakdown](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/bycity.html), cities/towns sorted alphabetically. By [Michael Easter](https://twitter.com/30_for_60)
+* [2017 contributions in excess of $250: per-city breakdown](https://peidevs.github.io/OpenData/data/Elections_PEI/contributions/2017/viz/bycity_westeast.html), cities/towns sorted geographically from west to east. By [Michael Easter](https://twitter.com/30_for_60)
 
 #### Province, Education
 
